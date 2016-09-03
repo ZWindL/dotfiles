@@ -1,0 +1,9 @@
+[user]
+	name = zwindl
+	email = zwindl@protonmail.com
+[core]
+	editor = vim
+[merge]
+	tool = vimdiff
+[gui]
+	recentrepo = /home/zwindl/projects/cpp

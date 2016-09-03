@@ -1,0 +1,164 @@
+(supertux-savegame
+  (version 1)
+  (title "额外II岛 (2/28)")
+  (tux
+    (bonus "none")
+    (fireflowers 0)
+    (iceflowers 0)
+    (airflowers 0)
+    (earthflowers 0)
+    (coins 186)
+  )
+  (state
+    ("worlds"
+      ("levels/bonus2/worldmap.stwm"
+        ("levels"
+          ("level10.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("level28.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("level8.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("level9.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("level6.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("level2.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("level17.stl"
+            (perfect #f)
+            ("statistics"
+              (coins-collected 46)
+              (secrets-found 0)
+              (coins-collected-total 94)
+              (secrets-found-total 0)
+              (time-needed 134.59375)
+              (badguys-killed 20)
+              (badguys-killed-total 55)
+            )
+            (solved #t)
+          )
+          ("level27.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("level26.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("level14.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("level5.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("level25.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("level22.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("level21.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("level7.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("level19.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("level23.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("level11.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("level20.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("level24.stl"
+            (perfect #f)
+            ("statistics"
+              (coins-collected 9)
+              (secrets-found 0)
+              (coins-collected-total 9)
+              (secrets-found-total 0)
+              (time-needed 80.53125)
+              (badguys-killed 12)
+              (badguys-killed-total 28)
+            )
+            (solved #t)
+          )
+          ("level12.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("level4.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("level13.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("level18.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("level1.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("level3.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("level16.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("level15.stl"
+            (perfect #f)
+            (solved #f)
+          )
+        )
+        ("tux"
+          (y 24)
+          (x 34)
+          (back "west")
+        )
+        ("statistics"
+          (coins-collected 55)
+          (secrets-found 0)
+          (coins-collected-total 103)
+          (secrets-found-total 0)
+          (time-needed 215.125)
+          (badguys-killed 32)
+          (badguys-killed-total 83)
+        )
+      )
+    )
+  )
+)

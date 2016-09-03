@@ -1,0 +1,107 @@
+(supertux-savegame
+  (version 1)
+  (title "Halloween 2014 (5/7)")
+  (tux
+    (bonus "none")
+    (fireflowers 0)
+    (iceflowers 0)
+    (airflowers 0)
+    (earthflowers 0)
+    (coins 977)
+  )
+  (state
+    ("worlds"
+      ("levels/halloween2014/worldmap.stwm"
+        ("levels"
+          ("mound.stl"
+            (perfect #f)
+            ("statistics"
+              (coins-collected 69)
+              (secrets-found 0)
+              (coins-collected-total 120)
+              (secrets-found-total 2)
+              (time-needed 114.953125)
+              (badguys-killed 11)
+              (badguys-killed-total 25)
+            )
+            (solved #t)
+          )
+          ("halloween3.stl"
+            (perfect #f)
+            ("statistics"
+              (coins-collected 129)
+              (secrets-found 0)
+              (coins-collected-total 211)
+              (secrets-found-total 1)
+              (time-needed 164.953125)
+              (badguys-killed 38)
+              (badguys-killed-total 50)
+            )
+            (solved #t)
+          )
+          ("halloween1.stl"
+            (perfect #f)
+            ("statistics"
+              (coins-collected 151)
+              (secrets-found 0)
+              (coins-collected-total 215)
+              (secrets-found-total 2)
+              (time-needed 221.1875)
+              (badguys-killed 46)
+              (badguys-killed-total 51)
+            )
+            (solved #t)
+          )
+          ("pools.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("halloween2.stl"
+            (perfect #f)
+            ("statistics"
+              (coins-collected 121)
+              (secrets-found 2)
+              (coins-collected-total 129)
+              (secrets-found-total 2)
+              (time-needed 307.625)
+              (badguys-killed 44)
+              (badguys-killed-total 50)
+            )
+            (solved #t)
+          )
+          ("outro.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("intro.stl"
+            (perfect #t)
+            ("statistics"
+              (coins-collected 0)
+              (secrets-found 0)
+              (coins-collected-total 0)
+              (secrets-found-total 0)
+              (time-needed 0.046875)
+              (badguys-killed 0)
+              (badguys-killed-total 0)
+            )
+            (solved #t)
+          )
+        )
+        ("tux"
+          (y 13)
+          (x 28)
+          (back "west")
+        )
+        ("statistics"
+          (coins-collected 470)
+          (secrets-found 2)
+          (coins-collected-total 675)
+          (secrets-found-total 7)
+          (time-needed 808.765625)
+          (badguys-killed 139)
+          (badguys-killed-total 176)
+        )
+      )
+    )
+  )
+)

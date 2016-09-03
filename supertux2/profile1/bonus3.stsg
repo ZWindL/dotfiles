@@ -1,0 +1,232 @@
+(supertux-savegame
+  (version 1)
+  (title "Bonus Island III (2/44)")
+  (tux
+    (bonus "none")
+    (fireflowers 0)
+    (iceflowers 0)
+    (airflowers 0)
+    (earthflowers 0)
+    (coins 499)
+  )
+  (state
+    ("worlds"
+      ("levels/bonus3/worldmap.stwm"
+        ("levels"
+          ("flowers.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("light_in_the_darkness.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("entering_castle.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("pinksnow.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("crystal_cataclysm.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("niv-1.1.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("-89-2_degrees.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("but_no_one_can_stop_it.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("deepest.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("crystal_beauty.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("cant_climb_higher_clouds.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("deep_deeper.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("niv-2.1.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("under ice.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("crystal sunset.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("dark_castle.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("abandoned_castle.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("dark_castle-v2.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("in_the_spring.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("castle_light+darkness-v3.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("dungeon_island/dungeon1.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("antarctic_rain.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("three_frosty_icebergs.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("hilly_landscape.stl"
+            (perfect #f)
+            ("statistics"
+              (coins-collected 41)
+              (secrets-found 0)
+              (coins-collected-total 74)
+              (secrets-found-total 1)
+              (time-needed 103.65625)
+              (badguys-killed 17)
+              (badguys-killed-total 31)
+            )
+            (solved #t)
+          )
+          ("glaciers.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("its_getting_unfinishable.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("another_cold_day.stl"
+            (perfect #f)
+            ("statistics"
+              (coins-collected 90)
+              (secrets-found 1)
+              (coins-collected-total 90)
+              (secrets-found-total 1)
+              (time-needed 175.65625)
+              (badguys-killed 38)
+              (badguys-killed-total 40)
+            )
+            (solved #t)
+          )
+          ("crystalfields.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("dungeon_island/dungeon2.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("Global_Warming.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("shakespeare-rain.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("shakespeare-rain_antarctic.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("dungeon_island/going_down.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("cave_run.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("coconut_fortress.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("snowy_hill.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("over_the_ocean.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("cavern_v2.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("hanging roof.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("One Night in the Sky.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("red_alert_forest.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("sever_escape.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("niv-3.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("crystal.stl"
+            (perfect #f)
+            (solved #f)
+          )
+        )
+        ("tux"
+          (y 24)
+          (x 21)
+          (back "east")
+        )
+        ("statistics"
+          (coins-collected 131)
+          (secrets-found 1)
+          (coins-collected-total 164)
+          (secrets-found-total 2)
+          (time-needed 279.3125)
+          (badguys-killed 55)
+          (badguys-killed-total 71)
+        )
+      )
+    )
+    ("keys"
+      (darkness #f)
+      (unlicensed #f)
+    )
+  )
+)

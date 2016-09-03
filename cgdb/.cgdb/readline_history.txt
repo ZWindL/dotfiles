@@ -1,0 +1,203 @@
+quit
+:q
+quit
+run
+p v4
+run
+n
+next
+exit
+quit
+start
+bt
+s
+i locals 
+quit
+y
+start
+display sum
+quit
+y
+start
+watch sum
+unwatch
+help watch
+start
+n
+n
+display sum
+display 11
+finish 
+continue 
+12313
+312312
+quit
+quit
+quit
+jj
+exit
+quit
+y
+start 
+watch sum
+display sum
+n
+2134
+f
+3
+d
+n
+12323
+start
+y
+n
+23122
+next
+n
+l
+exi
+quit
+quit
+y
+start
+break 8
+break
+breakpoints
+break 5
+i breakpoints 
+delete breakpoints 3 4
+display sum
+c
+1234
+1234
+start
+y
+display 
+start
+y
+continue 
+c
+32323
+next
+quit
+y
+start
+s
+bt
+i frame 0
+print prime_arr
+print *prime_arr
+s
+print tmp
+pint prime_arr
+print prime_arr
+print prime_arr[0]
+print prime_arr[1]
+print prime_arr[100]
+print *(prime_arr + 1)
+print *(prime_arr + 2)
+print *(prime_arr + 4)
+print *(prime_arr + 0)
+s
+p i
+s
+p prime_arr[0]
+p prime_arr[1]
+s
+p prime_arr
+p prime_arr[3]
+p prime_arr[4]
+s
+bt
+info locals
+info vector
+clear
+s
+100
+quit
+quit
+quit
+q
+n
+start
+y
+run
+y
+100
+quit
+y
+start
+n
+p a
+p b
+bt
+frame 0
+info symbol 
+info registers 
+s
+s
+s
+quit
+y
+start
+n
+s
+frame 
+bt
+f 0
+i locals 
+bt 1
+i locals 
+l
+list main
+print a
+bt
+frame 1
+i locals 
+frame 0
+i locals 
+s
+i locals 
+bt
+s
+i locals 
+p r
+p r.x
+p r.y
+s
+bt
+s
+i locals 
+s
+p r
+s
+r
+n
+finish 
+quit
+n
+n
+n
+n
+n
+n
+quit
+n
+n
+n
+quit
+start
+run
+y
+print str
+s
+jdlksjfsdf
+n
+stop
+ru
+y
+jdkfjsdf
+exit
+exit
+quit
+y
