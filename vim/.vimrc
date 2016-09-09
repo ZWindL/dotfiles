@@ -109,6 +109,7 @@ let g:ycm_filetype_blacklist = {
 " ^ Ignore filetypes
 
 "set error or warning signs
+
 let g:ycm_error_symbol = '✗'
 let g:ycm_warning_symbol = '⚠'
 
