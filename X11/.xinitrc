@@ -1,3 +1,5 @@
+#交换Capslock和Ctrl
+setxkbmap -option ctrl:swapcaps
 export LANG=zh_CN.UTF-8
 export GTK_IM_MODULE=fcitx
 export QT_IM_MODULE=fcitx
