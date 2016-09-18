@@ -109,8 +109,8 @@ output * bg /usr/share/sway/Sway_Wallpaper_Blue_1366x768.png fill
     # You can "split" the current object of your focus with
     # $mod+h or $mod+v, for horizontal and vertical splits
     # respectively.
-    bindsym $mod+s+h splith
-    bindsym $mod+s+v splitv
+    bindsym Mod1+h splith
+    bindsym Mod1+v splitv
 
     # Switch the current container between different layout styles
     bindsym $mod+s layout stacking
@@ -125,8 +125,7 @@ output * bg /usr/share/sway/Sway_Wallpaper_Blue_1366x768.png fill
 
     # Swap focus between the tiling area and the floating area
     bindsym $mod+t+space focus mode_toggle
-
-    # move focus to the parent container
+# move focus to the parent container
     bindsym $mod+a focus parent
 #
 # Scratchpad:

@@ -3,6 +3,7 @@ export GTK_IM_MODULE=fcitx
 export QT_IM_MODULE=fcitx
 export XMODIFIERS="@im=fcitx"
 exec fcitx&
+
 #交换Capslock和Ctrl
 exec setxkbmap -option ctrl:swapcaps&
 
