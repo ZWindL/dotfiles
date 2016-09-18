@@ -74,6 +74,10 @@ call vundle#begin()
 	Bundle 'tpope/vim-surround'
 	" 显示 Mark 标记
 	Bundle 'kshenoy/vim-signature'
+	" Vim 8.0+ 异步执行 command
+	Bundle 'skywind3000/asyncrun.vim'
+	" 自动添加 licenses 信息到当前文件
+	Bundle 'antoyo/vim-licenses'
 	
 "" all of your plugins must be added before the following line
 call vundle#end()            " required
@@ -338,7 +342,7 @@ endif "has("autocmd")
 "endif
 
 "" 兼容 GBK 编码
-"set fileencodings=utf-8,gbk
+set fileencodings=utf-8,gbk
 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -401,7 +405,7 @@ let g:NERDTreeIndicatorMapCustom = {
 
 " 代码块可视化
 " 利用 vim tab 可视化
-set encoding=utf-8
+"set encoding=utf-8
 "set listchars=tab:┊\ 
 "set list
 "set listchars=tab:»-,trail:·,eol:¶,extends:>,precedes:<
@@ -424,6 +428,14 @@ func! OpenMiniMap()
 endfunc
 "nnoremap <leader>mm :Minimap<CR>
 "nnoremap <leader>mc :MinimapClose<CR>
+
+"++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+""vim-licenses 插件 自动添加 licenses 信息到当前文件
+"++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+"let g:licenses_copyright_holders_name = 'Laser Phone(zwindl) <zwindl@protonmail.com>'
+let g:licenses_authors_name = 'Laser Phone(zwindl) <zwindl@protonmail.com>'
+"let g:licenses_default_commands = ['gpl', 'mit', 'foobar']
+"++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
 
 " PowerLine
 "let g:powerline_pycmd="py3"
