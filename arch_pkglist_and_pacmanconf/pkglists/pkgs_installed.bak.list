@@ -6,7 +6,6 @@ adobe-source-han-sans-kr-fonts
 adobe-source-han-sans-otc-fonts
 adobe-source-han-sans-tw-fonts
 akregator
-aliedit
 alsa-firmware
 alsa-plugins
 alsa-tools
@@ -27,7 +26,6 @@ automake
 awesome
 axel
 bash
-bash-git-prompt
 bbswitch
 bind-tools
 binutils
@@ -40,7 +38,6 @@ breeze-gtk
 breeze-kde4
 bumblebee
 bzip2
-cairo
 caja-gtk3
 caja-open-terminal-gtk3
 cargo
@@ -49,12 +46,10 @@ ccrypt
 celt
 cgdb
 chromium
-chromium-pepper-flash
 clamz
 clang-tools-extra
 cmake
 cmatrix
-compiz
 composer
 connman
 coreutils
@@ -82,8 +77,6 @@ electron
 enlightenment
 eom-gtk3
 epplet-base
-espeak-gui
-espeak-pulse
 espeakup
 etckeeper
 extra-cmake-modules
@@ -115,7 +108,6 @@ flex
 fluidsynth
 fontconfig-infinality-ultimate
 fortune-mod
-fortune-zh
 gawk
 gcc
 gcc-libs
@@ -126,7 +118,6 @@ gimp-help-zh_cn
 git-annex
 glhack
 glibc
-gnome-breeze-git
 gnome-themes-standard
 gnuchess
 go
@@ -159,7 +150,6 @@ java-rhino
 jdk
 jemalloc
 jfsutils
-jp2a
 jre8-openjdk-headless-infinality
 jre8-openjdk-infinality
 kaddressbook
@@ -181,7 +171,6 @@ kdegraphics-mobipocket
 kdegraphics-okular
 kdegraphics-thumbnailers
 kdemultimedia-audiocd-kio
-kdemultimedia-mplayerthumbs
 kdenetwork-filesharing
 kdenetwork-kget
 kdeplasma-addons
@@ -212,7 +201,6 @@ kwin
 kwrite
 kwrited
 less
-lib32-zlib
 libavc1394
 libc++
 libdbusmenu-gtk3
@@ -260,9 +248,7 @@ mate-sensors-applet-gtk3
 mate-session-manager-gtk3
 mate-settings-daemon-gtk3
 mate-themes
-mate-user-guide
 mdadm
-meek
 mesa
 milou
 mobile-broadband-provider-info
@@ -287,7 +273,6 @@ okteta
 oxygen
 p7zip
 pacman
-pandoc-bin
 parted
 patch
 pciutils
@@ -300,12 +285,10 @@ php-fpm
 php-gd
 php-mcrypt
 phpmyadmin
-phpstorm
 pinfo
 pkg-config
 plasma-desktop
 plasma-mediacenter
-plasma-next-icons-git
 plasma-nm
 plasma-pa
 plasma-sdk
@@ -316,7 +299,6 @@ poppler-data
 poppler-glib
 powerdevil
 powerline
-powerline-fonts-git
 powerpill
 pptpclient
 primus
@@ -376,7 +358,6 @@ smplayer-themes
 spectacle
 sshfs
 sshuttle
-stockfish
 stow
 strace
 subversion
@@ -392,7 +373,6 @@ taglib-extras
 tar
 task
 teeworlds
-telegram-desktop-bin
 terminator
 tesseract-data-eus
 testdisk
@@ -401,14 +381,11 @@ texlive-formatsextra
 texlive-langchinese
 texlive-langcjk
 texlive-latexextra
-thinkgui
 tk
 tree
 tsocks
 ttf-dejavu
 ttf-dejavusans-yuanti-basic-ibx
-ttf-emojione-color
-ttf-fantasque-sans
 ttf-hanazono
 ttf-liberation-ib
 ttf-monaco
@@ -442,8 +419,6 @@ wget
 which
 whois
 wireshark-qt
-wiringpi-git
-wiringpi-gpio-halt
 wiznote
 wpa_supplicant
 xapian-core
@@ -497,7 +472,6 @@ xorg-xwud
 xscreensaver-arch-logo
 xsp
 yaourt
-ycm-generator-git
 ydcv
 zip
 zsh

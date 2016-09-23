@@ -18,7 +18,6 @@ akonadi-mime
 akonadi-notes
 akonadi-search
 akregator
-aliedit
 alsa-firmware
 alsa-lib
 alsa-plugins
@@ -58,7 +57,6 @@ babl
 baloo
 baloo-widgets
 bash
-bash-git-prompt
 bbswitch
 bc
 bind-tools
@@ -87,7 +85,6 @@ ca-certificates
 ca-certificates-cacert
 ca-certificates-mozilla
 ca-certificates-utils
-cairo
 cairomm
 caja-extensions-common
 caja-gtk3
@@ -102,7 +99,6 @@ celt
 cgdb
 chmlib
 chromium
-chromium-pepper-flash
 cifs-utils
 clamz
 clang
@@ -112,7 +108,6 @@ clucene
 cmake
 cmatrix
 colord
-compiz
 composer
 compositeproto
 confuse
@@ -167,8 +162,6 @@ enchant
 enlightenment
 eom-gtk3
 epplet-base
-espeak-gui
-espeak-pulse
 espeakup
 etckeeper
 eventviews
@@ -212,7 +205,6 @@ fluidsynth
 fontconfig-infinality-ultimate
 fontsproto
 fortune-mod
-fortune-zh
 frameworkintegration
 freetype2-infinality-ultimate
 fribidi
@@ -249,7 +241,6 @@ glibmm
 glproto
 glu
 gmp
-gnome-breeze-git
 gnome-mime-data
 gnome-themes-standard
 gnome-vfs
@@ -340,7 +331,6 @@ java-runtime-common
 jdk
 jemalloc
 jfsutils
-jp2a
 jre8-openjdk-headless-infinality
 jre8-openjdk-infinality
 js17
@@ -397,7 +387,6 @@ kdegraphics-thumbnailers
 kdelibs
 kdelibs4support
 kdemultimedia-audiocd-kio
-kdemultimedia-mplayerthumbs
 kdenetwork-filesharing
 kdenetwork-kget
 kdepim-apps-libs
@@ -492,8 +481,6 @@ ldns
 leptonica
 less
 leveldb
-lib32-glibc
-lib32-zlib
 libabw
 libaccounts-glib
 libaccounts-qt
@@ -819,11 +806,9 @@ mate-sensors-applet-gtk3
 mate-session-manager-gtk3
 mate-settings-daemon-gtk3
 mate-themes
-mate-user-guide
 mcpp
 mdadm
 media-player-info
-meek
 mercurial
 mesa
 mesa-libgl
@@ -899,7 +884,6 @@ pacman
 pacman-mirrorlist
 pam
 pambase
-pandoc-bin
 pango
 pangomm
 parted
@@ -938,7 +922,6 @@ php-fpm
 php-gd
 php-mcrypt
 phpmyadmin
-phpstorm
 physfs
 pimcommon
 pinentry
@@ -949,7 +932,6 @@ plasma-desktop
 plasma-framework
 plasma-integration
 plasma-mediacenter
-plasma-next-icons-git
 plasma-nm
 plasma-pa
 plasma-sdk
@@ -973,7 +955,6 @@ potrace
 powerdevil
 powerline
 powerline-common
-powerline-fonts-git
 powerpill
 ppp
 pptpclient
@@ -1055,7 +1036,6 @@ python2-configparser
 python2-crypto
 python2-dbus
 python2-enum34
-python2-espeak
 python2-future
 python2-futures
 python2-gconf
@@ -1190,7 +1170,6 @@ sqlite
 sshfs
 sshuttle
 startup-notification
-stockfish
 stow
 strace
 subversion
@@ -1214,7 +1193,6 @@ task
 tcl
 tdb
 teeworlds
-telegram-desktop-bin
 telepathy-glib
 terminator
 tesseract
@@ -1231,17 +1209,15 @@ texlive-langjapanese
 texlive-langkorean
 texlive-latexextra
 thin-provisioning-tools
-thinkgui
 threadweaver
 tk
 toxcore
 tree
 tslib
 tsocks
+ttf-bitstream-vera
 ttf-dejavu
 ttf-dejavusans-yuanti-basic-ibx
-ttf-emojione-color
-ttf-fantasque-sans
 ttf-hanazono
 ttf-liberation-ib
 ttf-monaco
@@ -1297,8 +1273,6 @@ wireless_tools
 wireshark-cli
 wireshark-common
 wireshark-qt
-wiringpi-git
-wiringpi-gpio-halt
 wiznote
 wlc
 wpa_supplicant
@@ -1386,10 +1360,7 @@ xz
 yajl
 yaml-cpp
 yaourt
-ycm-generator-git
 ydcv
-yelp
-yelp-xsl
 zbar
 zeitgeist
 zenity
