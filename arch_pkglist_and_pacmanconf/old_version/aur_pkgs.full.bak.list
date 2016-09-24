@@ -1,5 +1,6 @@
 aliedit
 bash-git-prompt
+cairo-infinality-ultimate-with-colored-emoji
 chromium-pepper-flash
 compiz
 espeak-gui
@@ -8,12 +9,14 @@ fortune-zh
 gnome-breeze-git
 jp2a
 kdemultimedia-mplayerthumbs
+lib32-glibc
 lib32-zlib
 meek
 pandoc-bin
 phpstorm
 plasma-next-icons-git
 powerline-fonts-git
+python2-espeak
 stockfish
 telegram-desktop-bin
 thinkgui

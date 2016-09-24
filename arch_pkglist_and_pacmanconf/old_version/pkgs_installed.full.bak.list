@@ -85,7 +85,6 @@ ca-certificates
 ca-certificates-cacert
 ca-certificates-mozilla
 ca-certificates-utils
-cairo-infinality-ultimate
 cairomm
 caja-extensions-common
 caja-gtk3
@@ -876,7 +875,6 @@ openssl
 opus
 orbit2
 orc
-otf-noto-fonts-cjk-ib
 oxygen
 oxygen-icons
 p11-kit
@@ -1223,6 +1221,7 @@ ttf-dejavusans-yuanti-basic-ibx
 ttf-hanazono
 ttf-liberation-ib
 ttf-monaco
+ttf-noto-fonts-cjk-ib
 ttf-noto-fonts-ib
 ttf-noto-fonts-nonlatin-ib
 ttf-oxygen-ibx

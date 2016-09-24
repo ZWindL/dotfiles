@@ -38,7 +38,6 @@ breeze-gtk
 breeze-kde4
 bumblebee
 bzip2
-cairo-infinality-ultimate
 caja-gtk3
 caja-open-terminal-gtk3
 cargo
@@ -271,7 +270,6 @@ ntfs-3g
 nvidia
 nvidia-settings
 okteta
-otf-noto-fonts-cjk-ib
 oxygen
 p7zip
 pacman
@@ -392,6 +390,7 @@ ttf-dejavusans-yuanti-basic-ibx
 ttf-hanazono
 ttf-liberation-ib
 ttf-monaco
+ttf-noto-fonts-cjk-ib
 ttf-noto-fonts-ib
 ttf-noto-fonts-nonlatin-ib
 ttf-oxygen-ibx
