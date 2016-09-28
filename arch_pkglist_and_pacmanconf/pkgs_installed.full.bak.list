@@ -85,7 +85,6 @@ ca-certificates
 ca-certificates-cacert
 ca-certificates-mozilla
 ca-certificates-utils
-cairo-infinality-ultimate
 cairomm
 caja-extensions-common
 caja-gtk3
@@ -275,6 +274,7 @@ gst-plugins-ugly
 gstreamer
 gstreamer0.10
 gstreamer0.10-base
+gtk-doc
 gtk-engine-murrine
 gtk-engines
 gtk-update-icon-cache
@@ -323,6 +323,7 @@ iptables
 iputils
 irssi
 iso-codes
+itstool
 jack
 jansson
 jasper
@@ -355,6 +356,7 @@ kbproto
 kcalc
 kcalcore
 kcalutils
+kcharselect
 kchmviewer
 kcm-fcitx
 kcmutils
@@ -612,6 +614,7 @@ libmateweather-gtk3
 libmatroska
 libmbim
 libmcrypt
+libmikmod
 libmm-glib
 libmms
 libmng
@@ -798,13 +801,13 @@ mate-control-center-gtk3
 mate-desktop-gtk3
 mate-icon-theme
 mate-menus
-mate-notification-daemon-gtk3
+mate-notification-daemon
 mate-panel-gtk3
-mate-polkit-gtk3
+mate-polkit
 mate-power-manager-gtk3
 mate-screensaver-hacks
 mate-sensors-applet-gtk3
-mate-session-manager-gtk3
+mate-session-manager
 mate-settings-daemon-gtk3
 mate-themes
 mcpp
@@ -836,7 +839,9 @@ mtools
 mtr
 namcap
 nano
+ncdu
 ncurses
+ncurses5-compat-libs
 neon
 neovim
 net-snmp
@@ -1117,6 +1122,7 @@ reiserfsprogs
 renderproto
 resourceproto
 rest
+ripgrep
 rlwrap
 rp-pppoe
 rsync
@@ -1162,6 +1168,7 @@ socat
 solid
 sonnet
 sound-theme-freedesktop
+source-highlight
 speakup-utils
 spectacle
 speech-dispatcher
@@ -1179,7 +1186,6 @@ sudo
 sunpinyin
 sunpinyin-data
 supertux
-supertuxkart
 sway
 synapse
 sysfsutils
@@ -1195,6 +1201,7 @@ task
 tcl
 tdb
 teeworlds
+telegram-desktop
 telepathy-glib
 terminator
 tesseract
@@ -1362,6 +1369,8 @@ yajl
 yaml-cpp
 yaourt
 ydcv
+yelp-tools
+yelp-xsl
 zbar
 zeitgeist
 zenity

@@ -156,6 +156,7 @@ kaddressbook
 kamera
 kate
 kcalc
+kcharselect
 kchmviewer
 kcm-fcitx
 kcolorchooser
@@ -239,13 +240,13 @@ mate-control-center-gtk3
 mate-desktop-gtk3
 mate-icon-theme
 mate-menus
-mate-notification-daemon-gtk3
+mate-notification-daemon
 mate-panel-gtk3
-mate-polkit-gtk3
+mate-polkit
 mate-power-manager-gtk3
 mate-screensaver-hacks
 mate-sensors-applet-gtk3
-mate-session-manager-gtk3
+mate-session-manager
 mate-settings-daemon-gtk3
 mate-themes
 mdadm
@@ -270,6 +271,7 @@ ntfs-3g
 nvidia
 nvidia-settings
 okteta
+otf-noto-fonts-cjk-ib
 oxygen
 p7zip
 pacman
@@ -364,7 +366,6 @@ strace
 subversion
 sudo
 supertux
-supertuxkart
 sway
 synapse
 sysfsutils
@@ -390,7 +391,6 @@ ttf-dejavusans-yuanti-basic-ibx
 ttf-hanazono
 ttf-liberation-ib
 ttf-monaco
-ttf-noto-fonts-cjk-ib
 ttf-noto-fonts-ib
 ttf-noto-fonts-nonlatin-ib
 ttf-oxygen-ibx

@@ -354,6 +354,7 @@ kbproto
 kcalc
 kcalcore
 kcalutils
+kcharselect
 kchmviewer
 kcm-fcitx
 kcmutils
@@ -797,13 +798,13 @@ mate-control-center-gtk3
 mate-desktop-gtk3
 mate-icon-theme
 mate-menus
-mate-notification-daemon-gtk3
+mate-notification-daemon
 mate-panel-gtk3
-mate-polkit-gtk3
+mate-polkit
 mate-power-manager-gtk3
 mate-screensaver-hacks
 mate-sensors-applet-gtk3
-mate-session-manager-gtk3
+mate-session-manager
 mate-settings-daemon-gtk3
 mate-themes
 mcpp
@@ -875,6 +876,7 @@ openssl
 opus
 orbit2
 orc
+otf-noto-fonts-cjk-ib
 oxygen
 oxygen-icons
 p11-kit
@@ -1177,7 +1179,6 @@ sudo
 sunpinyin
 sunpinyin-data
 supertux
-supertuxkart
 sway
 synapse
 sysfsutils
@@ -1221,7 +1222,6 @@ ttf-dejavusans-yuanti-basic-ibx
 ttf-hanazono
 ttf-liberation-ib
 ttf-monaco
-ttf-noto-fonts-cjk-ib
 ttf-noto-fonts-ib
 ttf-noto-fonts-nonlatin-ib
 ttf-oxygen-ibx

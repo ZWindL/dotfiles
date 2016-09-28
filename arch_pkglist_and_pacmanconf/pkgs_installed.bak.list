@@ -38,7 +38,6 @@ breeze-gtk
 breeze-kde4
 bumblebee
 bzip2
-cairo-infinality-ultimate
 caja-gtk3
 caja-open-terminal-gtk3
 cargo
@@ -157,6 +156,7 @@ kaddressbook
 kamera
 kate
 kcalc
+kcharselect
 kchmviewer
 kcm-fcitx
 kcolorchooser
@@ -240,13 +240,13 @@ mate-control-center-gtk3
 mate-desktop-gtk3
 mate-icon-theme
 mate-menus
-mate-notification-daemon-gtk3
+mate-notification-daemon
 mate-panel-gtk3
-mate-polkit-gtk3
+mate-polkit
 mate-power-manager-gtk3
 mate-screensaver-hacks
 mate-sensors-applet-gtk3
-mate-session-manager-gtk3
+mate-session-manager
 mate-settings-daemon-gtk3
 mate-themes
 mdadm
@@ -259,6 +259,8 @@ mtools
 mtr
 namcap
 nano
+ncdu
+ncurses5-compat-libs
 neovim
 netctl
 netease-cloud-music
@@ -339,6 +341,7 @@ quota-tools
 redshift
 refind-efi
 reiserfsprogs
+ripgrep
 rlwrap
 rp-pppoe
 rsync
@@ -366,7 +369,6 @@ strace
 subversion
 sudo
 supertux
-supertuxkart
 sway
 synapse
 sysfsutils
@@ -376,6 +378,7 @@ taglib-extras
 tar
 task
 teeworlds
+telegram-desktop
 terminator
 tesseract-data-eus
 testdisk
