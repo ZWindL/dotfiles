@@ -234,6 +234,8 @@ set ai
 "set guifont=Monaco\ 10
 set guifont=Fantasque\ Sans\ Mono\ Book\ 11
 "set guifont=monofur\ for\ PowerLine\ 11
+""隐藏工具栏
+set guioptions-=T
 "" 高亮当前行
 if has("gui_running")
 	set cul

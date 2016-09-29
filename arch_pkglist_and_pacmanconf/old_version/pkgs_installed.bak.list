@@ -108,6 +108,7 @@ flex
 fluidsynth
 fontconfig-infinality-ultimate
 fortune-mod
+freetype2-infinality-ultimate
 gawk
 gcc
 gcc-libs
@@ -259,6 +260,8 @@ mtools
 mtr
 namcap
 nano
+ncdu
+ncurses5-compat-libs
 neovim
 netctl
 netease-cloud-music
@@ -339,6 +342,7 @@ quota-tools
 redshift
 refind-efi
 reiserfsprogs
+ripgrep
 rlwrap
 rp-pppoe
 rsync
@@ -375,6 +379,7 @@ taglib-extras
 tar
 task
 teeworlds
+telegram-desktop
 terminator
 tesseract-data-eus
 testdisk

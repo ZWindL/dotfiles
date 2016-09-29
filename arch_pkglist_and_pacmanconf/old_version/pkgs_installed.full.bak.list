@@ -274,6 +274,7 @@ gst-plugins-ugly
 gstreamer
 gstreamer0.10
 gstreamer0.10-base
+gtk-doc
 gtk-engine-murrine
 gtk-engines
 gtk-update-icon-cache
@@ -322,6 +323,7 @@ iptables
 iputils
 irssi
 iso-codes
+itstool
 jack
 jansson
 jasper
@@ -612,6 +614,7 @@ libmateweather-gtk3
 libmatroska
 libmbim
 libmcrypt
+libmikmod
 libmm-glib
 libmms
 libmng
@@ -836,7 +839,9 @@ mtools
 mtr
 namcap
 nano
+ncdu
 ncurses
+ncurses5-compat-libs
 neon
 neovim
 net-snmp
@@ -1117,6 +1122,7 @@ reiserfsprogs
 renderproto
 resourceproto
 rest
+ripgrep
 rlwrap
 rp-pppoe
 rsync
@@ -1162,6 +1168,7 @@ socat
 solid
 sonnet
 sound-theme-freedesktop
+source-highlight
 speakup-utils
 spectacle
 speech-dispatcher
@@ -1194,6 +1201,7 @@ task
 tcl
 tdb
 teeworlds
+telegram-desktop
 telepathy-glib
 terminator
 tesseract
@@ -1361,6 +1369,8 @@ yajl
 yaml-cpp
 yaourt
 ydcv
+yelp-tools
+yelp-xsl
 zbar
 zeitgeist
 zenity
