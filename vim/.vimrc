@@ -132,8 +132,8 @@ let g:ycm_warning_symbol = '⚠'
 "let g:ycm_server_keep_logfiles = 1
 "let g:ycm_server_log_level = 'debug'
 
-let g:ycm_global_ycm_extra_conf = '~/.vim/ycm_extra_conf.py'
-"let g:ycm_global_ycm_extra_conf = '~/.vim/ycm_extra_conf_c.py'
+"let g:ycm_global_ycm_extra_conf = '~/.vim/ycm_extra_conf.py'
+let g:ycm_global_ycm_extra_conf = '~/.vim/ycm_extra_conf_c.py'
 "编写 C 语言文件时切换配置文件
 let g:ycm_collect_identifiers_from_tags_files = 1
 set completeopt=longest,menu	"让Vim的补全菜单行为与一般IDE一致(参考VimTip1228)
@@ -159,7 +159,7 @@ let g:ycm_collect_identifiers_from_comments_and_strings = 0
 
 	""使用 python2/3 作为解释器
 	""FIXME:使用 python3 作为解释器，tern 工作异常
-	let g:ycm_path_to_python_interpreter = '/usr/bin/python3'
+	"let g:ycm_path_to_python_interpreter = '/usr/bin/python3'
 	
 	"" 这个选项对于有重载的函数非常有用
 	let g:ycm_add_preview_to_completeopt = 1
