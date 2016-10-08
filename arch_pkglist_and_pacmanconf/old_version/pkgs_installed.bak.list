@@ -108,6 +108,7 @@ flex
 fluidsynth
 fontconfig-infinality-ultimate
 fortune-mod
+fqterm-git
 freetype2-infinality-ultimate
 gawk
 gcc
@@ -178,6 +179,7 @@ kdenetwork-kget
 kdeplasma-addons
 kdesdk-dev-utils
 kdevelop
+keybase
 kgamma5
 khelpcenter
 kholidays
@@ -290,6 +292,8 @@ php-fpm
 php-gd
 php-mcrypt
 phpmyadmin
+pidgin
+pidgin-xmpp-receipts
 pinfo
 pkg-config
 plasma-desktop
@@ -300,6 +304,7 @@ plasma-sdk
 plasma-wayland-session
 plasma-workspace
 plasma-workspace-wallpapers
+plasma5-applets-weather-widget
 poppler-data
 poppler-glib
 powerdevil
@@ -363,6 +368,7 @@ smplayer
 smplayer-skins
 smplayer-themes
 spectacle
+srain-git
 sshfs
 sshuttle
 stow
@@ -373,6 +379,7 @@ supertux
 sway
 synapse
 sysfsutils
+syslinux
 systemd-sysvcompat
 systemsettings
 taglib-extras
@@ -389,6 +396,7 @@ texlive-langchinese
 texlive-langcjk
 texlive-latexextra
 tk
+tmux
 tree
 tsocks
 ttf-dejavu

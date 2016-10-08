@@ -430,6 +430,7 @@ kinfocenter
 kinit
 kio
 kio-extras
+kirigami
 kitemmodels
 kitemviews
 kjobwidgets
@@ -449,7 +450,6 @@ konsole
 konsolekalendar
 kontactinterface
 konversation
-korganizer
 kpackage
 kparts
 kpeople
@@ -981,6 +981,7 @@ primus
 printproto
 prison
 procps-ng
+progress
 progsreiserfs
 protobuf
 protobuf-c
@@ -988,6 +989,7 @@ proxychains-ng
 psmisc
 pulseaudio
 pulseaudio-alsa
+pulseaudio-gconf
 purpose
 putty
 pv
@@ -1241,6 +1243,7 @@ tsocks
 ttf-bitstream-vera
 ttf-dejavu
 ttf-dejavusans-yuanti-basic-ibx
+ttf-hack
 ttf-hanazono
 ttf-liberation-ib
 ttf-monaco

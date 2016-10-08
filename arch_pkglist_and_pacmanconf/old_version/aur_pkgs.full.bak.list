@@ -11,6 +11,7 @@ jp2a
 kdemultimedia-mplayerthumbs
 lib32-glibc
 lib32-zlib
+libappindicator-activate-gtk2
 meek
 pandoc-bin
 phpstorm

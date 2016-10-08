@@ -173,6 +173,7 @@ extundelete
 faac
 faad2
 fakeroot
+farstream
 fbv
 fcitx
 fcitx-cloudpinyin
@@ -205,6 +206,7 @@ fluidsynth
 fontconfig-infinality-ultimate
 fontsproto
 fortune-mod
+fqterm-git
 frameworkintegration
 freetype2-infinality-ultimate
 fribidi
@@ -310,6 +312,7 @@ iana-etc
 icoutils
 icu
 idnkit
+ijs
 ilmbase
 imagemagick
 imlib2
@@ -330,6 +333,7 @@ jasper
 java-environment-common
 java-rhino
 java-runtime-common
+jbig2dec
 jdk
 jemalloc
 jfsutils
@@ -405,6 +409,7 @@ kdgantt2
 kdnssd
 kdoctools
 kemoticons
+keybase
 keyutils
 kfilemetadata
 kgamma5
@@ -490,7 +495,6 @@ libaccounts-qt
 libaio
 libakonadi-qt4
 libao
-libappindicator-activate-gtk2
 libarchive
 libass
 libassuan
@@ -549,6 +553,7 @@ libffi
 libfilezilla
 libfontenc
 libftdi
+libgadu
 libgcrypt
 libgdiplus
 libgee
@@ -576,6 +581,7 @@ libieee1284
 libimobiledevice
 libindicator-gtk2
 libinput
+libircclient
 libixion
 libjpeg-turbo
 libkactivities4
@@ -634,6 +640,7 @@ libnetfilter_conntrack
 libnewt
 libnfnetlink
 libnftnl
+libnice
 libnl
 libnm-glib
 libnotify
@@ -653,6 +660,7 @@ libpng
 libpng12
 libproxy
 libpulse
+libpurple
 libpwquality
 libqalculate
 libqmi
@@ -930,6 +938,8 @@ php-gd
 php-mcrypt
 phpmyadmin
 physfs
+pidgin
+pidgin-xmpp-receipts
 pimcommon
 pinentry
 pinfo
@@ -945,6 +955,7 @@ plasma-sdk
 plasma-wayland-session
 plasma-workspace
 plasma-workspace-wallpapers
+plasma5-applets-weather-widget
 pm2ml
 polkit
 polkit-kde-agent
@@ -972,6 +983,7 @@ prison
 procps-ng
 progsreiserfs
 protobuf
+protobuf-c
 proxychains-ng
 psmisc
 pulseaudio
@@ -1101,7 +1113,6 @@ qt5-webengine
 qt5-webkit
 qt5-x11extras
 qt5-xmlpatterns
-qtchooser
 qtcreator
 qtox-git
 qtscriptgenerator
@@ -1176,6 +1187,7 @@ speex
 speexdsp
 sqlcipher
 sqlite
+srain-git
 sshfs
 sshuttle
 startup-notification
@@ -1189,6 +1201,7 @@ supertux
 sway
 synapse
 sysfsutils
+syslinux
 systemd
 systemd-sysvcompat
 systemsettings
@@ -1220,6 +1233,7 @@ texlive-latexextra
 thin-provisioning-tools
 threadweaver
 tk
+tmux
 toxcore
 tree
 tslib

@@ -225,6 +225,9 @@ set nu
 set rnu
 set nuw=5
 
+""折行缩进
+set breakindent
+
 " 虚拟行也能使用 jk 来上下移动
 noremap <silent> <expr> j (v:count == 0 ? 'gj' : 'j')
 noremap <silent> <expr> k (v:count == 0 ? 'gk' : 'k')

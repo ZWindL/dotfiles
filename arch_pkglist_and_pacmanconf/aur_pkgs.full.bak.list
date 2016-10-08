@@ -12,11 +12,11 @@ kdemultimedia-mplayerthumbs
 lib32-glibc
 lib32-zlib
 libappindicator-activate-gtk2
+lua-cjson
 meek
 pandoc-bin
 phpstorm
 plasma-next-icons-git
-powerline-fonts-git
 python2-espeak
 stockfish
 thinkgui
