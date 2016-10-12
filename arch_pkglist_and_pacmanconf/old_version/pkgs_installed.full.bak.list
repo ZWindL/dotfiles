@@ -203,12 +203,12 @@ flake8
 flashplugin
 flex
 fluidsynth
-fontconfig-infinality-ultimate
+fontconfig
 fontsproto
 fortune-mod
 fqterm-git
 frameworkintegration
-freetype2-infinality-ultimate
+freetype2
 fribidi
 fuse
 gawk
@@ -276,7 +276,6 @@ gst-plugins-ugly
 gstreamer
 gstreamer0.10
 gstreamer0.10-base
-gtk-doc
 gtk-engine-murrine
 gtk-engines
 gtk-update-icon-cache
@@ -326,7 +325,6 @@ iptables
 iputils
 irssi
 iso-codes
-itstool
 jack
 jansson
 jasper
@@ -337,13 +335,14 @@ jbig2dec
 jdk
 jemalloc
 jfsutils
-jre8-openjdk-headless-infinality
-jre8-openjdk-infinality
+jre8-openjdk
+jre8-openjdk-headless
 js17
 json-c
 json-glib
 jsoncpp
 kaccounts-integration
+kaccounts-providers
 kactivities
 kactivities-stats
 kactivitymanagerd
@@ -395,7 +394,6 @@ kdelibs
 kdelibs4support
 kdemultimedia-audiocd-kio
 kdenetwork-filesharing
-kdenetwork-kget
 kdepim-apps-libs
 kdepim-common
 kdepim-runtime
@@ -430,6 +428,7 @@ kinfocenter
 kinit
 kio
 kio-extras
+kirigami
 kitemmodels
 kitemviews
 kjobwidgets
@@ -449,7 +448,6 @@ konsole
 konsolekalendar
 kontactinterface
 konversation
-korganizer
 kpackage
 kparts
 kpeople
@@ -462,7 +460,6 @@ kscreen
 kscreenlocker
 kservice
 ksshaskpass
-ksuperkey
 ksysguard
 ktexteditor
 ktextwidgets
@@ -477,8 +474,6 @@ kwayland-integration
 kwidgetsaddons
 kwin
 kwindowsystem
-kwrite
-kwrited
 kxmlgui
 kxmlrpcclient
 lame
@@ -622,7 +617,6 @@ libmbim
 libmcrypt
 libmikmod
 libmm-glib
-libmms
 libmng
 libmnl
 libmodplug
@@ -704,6 +698,7 @@ libtiger
 libtinfo
 libtirpc
 libtool
+libtorrent-rasterbar
 libtxc_dxtn
 libunique3
 libunistring
@@ -865,12 +860,15 @@ networkmanager
 networkmanager-qt
 nm-connection-editor
 nodejs
+noto-fonts
+noto-fonts-cjk
 noto-fonts-emoji
 npm
 npth
 nspr
 nss
 ntfs-3g
+nutstore
 nvidia
 nvidia-settings
 nvidia-utils
@@ -889,7 +887,6 @@ openssl
 opus
 orbit2
 orc
-otf-noto-fonts-cjk-ib
 oxygen
 oxygen-icons
 p11-kit
@@ -906,6 +903,7 @@ patch
 pciutils
 pcmciautils
 pcre
+pcre2
 perl
 perl-encode-locale
 perl-error
@@ -981,6 +979,7 @@ primus
 printproto
 prison
 procps-ng
+progress
 progsreiserfs
 protobuf
 protobuf-c
@@ -988,6 +987,7 @@ proxychains-ng
 psmisc
 pulseaudio
 pulseaudio-alsa
+pulseaudio-gconf
 purpose
 putty
 pv
@@ -1087,6 +1087,7 @@ python3-aur
 python3-memoizedb
 python3-xcgf
 python3-xcpf
+qbittorrent
 qca-qt4
 qca-qt5
 qimageblitz
@@ -1179,7 +1180,6 @@ socat
 solid
 sonnet
 sound-theme-freedesktop
-source-highlight
 speakup-utils
 spectacle
 speech-dispatcher
@@ -1189,7 +1189,6 @@ sqlcipher
 sqlite
 srain-git
 sshfs
-sshuttle
 startup-notification
 stow
 strace
@@ -1240,17 +1239,12 @@ tslib
 tsocks
 ttf-bitstream-vera
 ttf-dejavu
-ttf-dejavusans-yuanti-basic-ibx
+ttf-hack
 ttf-hanazono
-ttf-liberation-ib
+ttf-liberation
 ttf-monaco
-ttf-noto-fonts-ib
-ttf-noto-fonts-nonlatin-ib
-ttf-oxygen-ibx
-ttf-symbola-ib
-ttf-ubuntu-font-family-ib
-ttf-wqy-microhei-ibx
-ttf-wqy-zenhei-ibx
+ttf-symbola
+ttf-ubuntu-font-family
 tuntox
 tzdata
 udisks2
@@ -1298,6 +1292,9 @@ wireshark-qt
 wiznote
 wlc
 wpa_supplicant
+wqy-microhei
+wqy-microhei-lite
+wqy-zenhei
 wxgtk
 x265
 xapian-core
@@ -1308,7 +1305,6 @@ xcb-util-image
 xcb-util-keysyms
 xcb-util-renderutil
 xcb-util-wm
-xchat
 xdebug
 xdg-utils
 xdotool
@@ -1383,8 +1379,6 @@ yajl
 yaml-cpp
 yaourt
 ydcv
-yelp-tools
-yelp-xsl
 zbar
 zeitgeist
 zenity
