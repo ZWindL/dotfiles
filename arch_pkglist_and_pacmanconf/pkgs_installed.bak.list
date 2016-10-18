@@ -222,6 +222,7 @@ licenses
 linux
 llvm
 logrotate
+lostfiles
 loudmouth
 lsof
 lvm2

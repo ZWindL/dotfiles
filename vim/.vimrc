@@ -235,8 +235,8 @@ noremap <silent> <expr> k (v:count == 0 ? 'gk' : 'k')
 set ci
 set ai
 "set guifont=Monaco\ 10
-set guifont=Fantasque\ Sans\ Mono\ Book\ 11
-"set guifont=monofur\ for\ PowerLine\ 11
+set guifont=Fantasque\ Sans\ Mono\ Book\ 10
+"set guifont=monofur\ for\ PowerLine\ 10
 ""隐藏工具栏
 set guioptions-=T
 "" 高亮当前行

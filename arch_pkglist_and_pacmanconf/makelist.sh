@@ -26,7 +26,7 @@ list_all_pkgs_installed_explicitely_except_aur_pkgs(){
 	list_all_pkgs_installed_explicitely | grep -v "$(list_aur_pkgs)"
 }
 
-BAK_PATH='./'
+BAK_PATH='.'
 if [[ -n $2 ]] && [[ -d $2 ]]; then
 	BAK_PATH=$2
 fi
@@ -51,19 +51,53 @@ backup(){
 	echo -e "\033[32m Done...\033[0m"
 }
 
+# reinstall pkgs
+install(){
+	if [[ ! -f $1 ]]; then
+		echo -e "\033[31mERR! File $1 doesn't exsist!\033[0m"
+		exit 2
+	else
+		pacman -S - < $1
+	fi
+}
+reinstall(){
+	BAK_PATH='.'
+	if [[ -n $2 ]] && [[ -d $2 ]]; then
+		BAK_PATH=$2
+	fi
+
+	LIST_FILE=$BAK_PATH/$DEFAULT_NAME
+	case $1 in
+		"explicit" )
+			install $LIST_FILE
+			;;
+		"full" )
+			LIST_FILE=$BAK_PATH/$DEFAULT_NAME_FULL
+			install $LIST_FILE
+			;;
+		"AUR" )
+			echo -e "\033[32mComming soon...\033[0m"
+			;;
+		"*" )
+			install $LIST_FILE
+			;;
+	esac
+}
+
 case $1 in
 	"-b" )
 		backup_old_lists
 		backup
 		;;
 	"-r" )
-		echo -e "\033[32m Comming soon... \033[0m"
+		reinstall $2 $3
 		;;
 	* )
 		cat <<USAGE
-Usage: $0 -b | -r [backup_files_path]
+Usage: $0 -b | -r [reinstall type] [backup_files_path]
 	-b : backup your package list in text files
 	-r : reinstall all package from backup files
+			choose one from [explicit, full, AUR]
 
 	You can specify the backup path to store your backup files
 USAGE

@@ -439,6 +439,7 @@ xf86-input-libinput
 xf86-input-mouse
 xf86-video-intel
 xfsprogs
+xloadimage
 xorg-bdftopcf
 xorg-iceauth
 xorg-luit

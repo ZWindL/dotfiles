@@ -775,6 +775,7 @@ llvm-libs
 lm_sensors
 lmdb
 logrotate
+lostfiles
 loudmouth
 lpsolve
 lsof

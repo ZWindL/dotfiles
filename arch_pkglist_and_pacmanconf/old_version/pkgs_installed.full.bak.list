@@ -107,7 +107,6 @@ cln
 clucene
 cmake
 cmatrix
-colord
 composer
 compositeproto
 confuse
@@ -565,7 +564,6 @@ libgphoto2
 libgravatar
 libgtop
 libgudev
-libgusb
 libical
 libice
 libid3tag
@@ -1319,6 +1317,7 @@ xf86vidmodeproto
 xfsprogs
 xineramaproto
 xkeyboard-config
+xloadimage
 xorg-appres
 xorg-bdftopcf
 xorg-font-util
