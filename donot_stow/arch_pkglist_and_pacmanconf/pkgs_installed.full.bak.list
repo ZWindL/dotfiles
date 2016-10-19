@@ -89,14 +89,17 @@ cairomm
 caja-extensions-common
 caja-gtk3
 caja-open-terminal-gtk3
+calcurse
 calendarsupport
 cantarell-fonts
 cargo
 ccal
 ccrypt
 cdparanoia
+cdrtools
 celt
 cgdb
+check
 chmlib
 chromium
 cifs-utils
@@ -148,6 +151,7 @@ dragon
 dri2proto
 dri3proto
 drkonqi
+dvdauthor
 dzen2
 e2fsprogs
 ebook-tools
@@ -207,6 +211,7 @@ fontsproto
 fortune-mod
 fqterm-git
 frameworkintegration
+freealut
 freetype2
 fribidi
 fuse
@@ -370,6 +375,7 @@ kconfigwidgets
 kcontacts
 kcoreaddons
 kcrash
+kdbg
 kdbusaddons
 kde-cli-tools
 kde-gtk-config
@@ -393,6 +399,7 @@ kdelibs
 kdelibs4support
 kdemultimedia-audiocd-kio
 kdenetwork-filesharing
+kdenlive
 kdepim-apps-libs
 kdepim-common
 kdepim-runtime
@@ -463,6 +470,7 @@ ksysguard
 ktexteditor
 ktextwidgets
 ktimer
+ktorrent
 kuiserver
 kunitconversion
 kwallet
@@ -499,6 +507,7 @@ libavc1394
 libbluray
 libbonobo
 libbsd
+libburn
 libc++
 libc++abi
 libcaca
@@ -600,7 +609,7 @@ libkscreen
 libkscreen4
 libksysguard
 libktnef
-libktorrent4
+libktorrent
 liblangtag
 liblastfm
 libldap
@@ -775,6 +784,7 @@ llvm-libs
 lm_sensors
 lmdb
 logrotate
+lostfiles
 loudmouth
 lpsolve
 lsof
@@ -800,6 +810,7 @@ mate-applets-gtk3
 mate-backgrounds
 mate-control-center-gtk3
 mate-desktop-gtk3
+mate-desktop-schemas
 mate-icon-theme
 mate-menus
 mate-notification-daemon
@@ -824,6 +835,7 @@ mime-types
 minizip
 mkinitcpio
 mkinitcpio-busybox
+mlt
 mobile-broadband-provider-info
 modemmanager
 modemmanager-qt
@@ -1008,6 +1020,7 @@ python-docutils
 python-greenlet
 python-imagesize
 python-isort
+python-jieba
 python-jinja
 python-lazy-object-proxy
 python-lxml
@@ -1062,6 +1075,7 @@ python2-greenlet
 python2-gtkspell
 python2-hglib
 python2-isort
+python2-jedi
 python2-keybinder2
 python2-lazy-object-proxy
 python2-mccabe
@@ -1113,7 +1127,6 @@ qt5-webkit
 qt5-x11extras
 qt5-xmlpatterns
 qtcreator
-qtox-git
 qtscriptgenerator
 qtwebkit
 quota-tools
@@ -1214,6 +1227,8 @@ teeworlds
 telegram-desktop
 telepathy-glib
 terminator
+termite
+termite-terminfo
 tesseract
 tesseract-data-eus
 testdisk
@@ -1229,9 +1244,10 @@ texlive-langkorean
 texlive-latexextra
 thin-provisioning-tools
 threadweaver
+thunderbird
+thunderbird-i18n-zh-cn
 tk
 tmux
-toxcore
 tree
 tslib
 tsocks
@@ -1243,7 +1259,6 @@ ttf-liberation
 ttf-monaco
 ttf-symbola
 ttf-ubuntu-font-family
-tuntox
 tzdata
 udisks2
 unibilium
@@ -1371,6 +1386,7 @@ xorg-xwininfo
 xorg-xwud
 xproto
 xscreensaver-arch-logo
+xsel
 xsp
 xvidcore
 xz
