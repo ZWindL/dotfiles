@@ -78,6 +78,8 @@ call vundle#begin()
 	Bundle 'skywind3000/asyncrun.vim'
 	" 自动添加 licenses 信息到当前文件
 	Bundle 'antoyo/vim-licenses'
+	" 撤销操作树 Undotree
+	Bundle 'simnalamburt/vim-mundo'
 	
 "" all of your plugins must be added before the following line
 call vundle#end()            " required
@@ -440,6 +442,13 @@ endfunc
 "let g:licenses_copyright_holders_name = 'Laser Phone(zwindl) <zwindl@protonmail.com>'
 let g:licenses_authors_name = 'Laser Phone(zwindl) <zwindl@protonmail.com>'
 "let g:licenses_default_commands = ['gpl', 'mit', 'foobar']
+"++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+
+
+"++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+""vim-undotree 插件
+"++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+nnoremap <leader>un :MundoToggle<CR>
 "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
 
 " PowerLine

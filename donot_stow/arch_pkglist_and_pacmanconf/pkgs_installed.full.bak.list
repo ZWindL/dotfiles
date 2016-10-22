@@ -99,7 +99,6 @@ cdparanoia
 cdrtools
 celt
 cgdb
-check
 chmlib
 chromium
 cifs-utils
@@ -119,7 +118,6 @@ coreutils
 cowsay
 cpupower
 cracklib
-crypto++
 cryptsetup
 ctags
 curl
@@ -327,7 +325,6 @@ intel-ucode
 iproute2
 iptables
 iputils
-irssi
 iso-codes
 jack
 jansson
@@ -407,6 +404,7 @@ kdepimlibs4
 kdeplasma-addons
 kdesdk-dev-utils
 kdesu
+kdeutils-kgpg
 kdevelop
 kdevplatform
 kdgantt2
@@ -981,6 +979,7 @@ potrace
 powerdevil
 powerline
 powerline-common
+powerline-fonts
 powerpill
 ppp
 pptpclient
@@ -1001,6 +1000,7 @@ pulseaudio-gconf
 purpose
 putty
 pv
+pwgen
 pyalpm
 pydb
 pygobject-devel
@@ -1124,6 +1124,7 @@ qt5-wayland
 qt5-webchannel
 qt5-webengine
 qt5-webkit
+qt5-websockets
 qt5-x11extras
 qt5-xmlpatterns
 qtcreator
@@ -1196,7 +1197,6 @@ spectacle
 speech-dispatcher
 speex
 speexdsp
-sqlcipher
 sqlite
 srain-git
 sshfs
@@ -1251,8 +1251,11 @@ tmux
 tree
 tslib
 tsocks
+ttf-arphic-ukai
+ttf-arphic-uming
 ttf-bitstream-vera
 ttf-dejavu
+ttf-freefont
 ttf-hack
 ttf-hanazono
 ttf-liberation

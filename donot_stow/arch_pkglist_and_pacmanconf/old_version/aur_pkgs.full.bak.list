@@ -1,10 +1,12 @@
 aliedit
 bash-git-prompt
 cairo-coloredemoji
+cdw
 chromium-pepper-flash
 compiz
 espeak-gui
 espeak-pulse
+fontconfig-enhanced-defaults
 fortune-zh
 gnome-breeze-git
 insomnia
@@ -21,6 +23,8 @@ plasma-next-icons-git
 python2-espeak
 stockfish
 thinkgui
+toxcore-newgc-git
+toxic-newgc-git
 ttf-fantasque-sans
 vte3-ng-fullwidth-emoji
 wiringpi-git

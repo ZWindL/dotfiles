@@ -14,11 +14,13 @@ jp2a
 kdemultimedia-mplayerthumbs
 lib32-zlib
 lua-cjson
+mdp-git
 meek
 pandoc-bin
 phpstorm
 plasma-next-icons-git
 stockfish
+tensor-git
 thinkgui
 toxcore-newgc-git
 toxic-newgc-git

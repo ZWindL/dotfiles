@@ -16,12 +16,14 @@ lib32-glibc
 lib32-zlib
 libappindicator-activate-gtk2
 lua-cjson
+mdp-git
 meek
 pandoc-bin
 phpstorm
 plasma-next-icons-git
 python2-espeak
 stockfish
+tensor-git
 thinkgui
 toxcore-newgc-git
 toxic-newgc-git

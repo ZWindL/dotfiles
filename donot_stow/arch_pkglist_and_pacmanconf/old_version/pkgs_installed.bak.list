@@ -40,6 +40,7 @@ bumblebee
 bzip2
 caja-gtk3
 caja-open-terminal-gtk3
+calcurse
 cargo
 ccal
 ccrypt
@@ -70,6 +71,7 @@ dolphin-plugins
 dosfstools
 dragon
 drkonqi
+dvdauthor
 dzen2
 e2fsprogs
 efibootmgr
@@ -106,10 +108,8 @@ flake8
 flashplugin
 flex
 fluidsynth
-fontconfig
 fortune-mod
 fqterm-git
-freetype2
 gawk
 gcc
 gcc-libs
@@ -163,6 +163,7 @@ kcharselect
 kchmviewer
 kcm-fcitx
 kcolorchooser
+kdbg
 kde-gtk-config
 kde-l10n-zh_cn
 kdebase-kdepasswd
@@ -176,6 +177,7 @@ kdegraphics-okular
 kdegraphics-thumbnailers
 kdemultimedia-audiocd-kio
 kdenetwork-filesharing
+kdenlive
 kdeplasma-addons
 kdesdk-dev-utils
 kdevelop
@@ -196,6 +198,7 @@ kscreenlocker
 ksshaskpass
 ksysguard
 ktimer
+ktorrent
 kwallet-pam
 kwalletmanager
 kwayland-integration
@@ -207,7 +210,6 @@ libdbusmenu-gtk3
 libgme
 libgnome
 libkolabxml
-libktorrent4
 liblastfm
 libmariadbclient
 libmygpo-qt
@@ -321,6 +323,7 @@ putty
 pv
 pydb
 python-dbus
+python-jieba
 python-lxml
 python-markdown
 python-neovim
@@ -332,6 +335,7 @@ python-pystemmer
 python-sphinx
 python-unidecode
 python2-hglib
+python2-jedi
 python2-neovim
 python2-pip
 python2-pylint
@@ -342,7 +346,6 @@ qbittorrent
 qt5-3d
 qt5-imageformats
 qtcreator
-qtox-git
 qtscriptgenerator
 quota-tools
 redshift
@@ -388,6 +391,7 @@ task
 teeworlds
 telegram-desktop
 terminator
+termite
 tesseract-data-eus
 testdisk
 texinfo
@@ -395,6 +399,8 @@ texlive-formatsextra
 texlive-langchinese
 texlive-langcjk
 texlive-latexextra
+thunderbird
+thunderbird-i18n-zh-cn
 tk
 tmux
 tree
@@ -405,7 +411,6 @@ ttf-liberation
 ttf-monaco
 ttf-symbola
 ttf-ubuntu-font-family
-tuntox
 unrar
 unzip
 usbutils
@@ -481,6 +486,7 @@ xorg-xwd
 xorg-xwininfo
 xorg-xwud
 xscreensaver-arch-logo
+xsel
 xsp
 yaourt
 ydcv
