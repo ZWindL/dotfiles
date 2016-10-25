@@ -16,7 +16,7 @@ apache
 archlinux-wallpaper
 archlinuxcn-keyring
 argyllcms
-aria2
+aria2-fast
 ark
 arm-none-eabi-gcc
 atom
@@ -26,6 +26,7 @@ automake
 awesome
 axel
 bash
+bash-completion
 bbswitch
 bind-tools
 binutils

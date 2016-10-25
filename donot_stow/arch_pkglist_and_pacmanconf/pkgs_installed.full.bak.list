@@ -33,7 +33,7 @@ archlinux-keyring
 archlinux-wallpaper
 archlinuxcn-keyring
 argyllcms
-aria2
+aria2-fast
 ark
 arm-none-eabi-binutils
 arm-none-eabi-gcc
@@ -57,6 +57,7 @@ babl
 baloo
 baloo-widgets
 bash
+bash-completion
 bbswitch
 bc
 bind-tools
@@ -144,7 +145,6 @@ docbook-xsl
 dolphin
 dolphin-plugins
 dosfstools
-dotconf
 dragon
 dri2proto
 dri3proto
@@ -1194,7 +1194,6 @@ sonnet
 sound-theme-freedesktop
 speakup-utils
 spectacle
-speech-dispatcher
 speex
 speexdsp
 sqlite

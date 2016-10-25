@@ -156,7 +156,7 @@ let g:ycm_collect_identifiers_from_comments_and_strings = 0
 
 "" 自己开启的部分选项
 	"" rust 支持
-	let g:ycm_rust_src_path = '/usr/local/src/rust/rustc-1.9.0/src'
+	let g:ycm_rust_src_path = '/usr/local/src/rust/rustc-1.12.1/src'
 	let g:ycm_always_populate_location_list = 1
 
 	""使用 python2/3 作为解释器

@@ -18,6 +18,7 @@ libappindicator-activate-gtk2
 lua-cjson
 mdp-git
 meek
+neovim-qt-git
 pandoc-bin
 phpstorm
 plasma-next-icons-git

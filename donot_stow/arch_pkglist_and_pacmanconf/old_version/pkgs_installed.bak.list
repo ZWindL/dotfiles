@@ -147,7 +147,6 @@ inkscape
 intel-ucode
 iproute2
 iputils
-irssi
 java-rhino
 jdk
 jemalloc
@@ -180,6 +179,7 @@ kdenetwork-filesharing
 kdenlive
 kdeplasma-addons
 kdesdk-dev-utils
+kdeutils-kgpg
 kdevelop
 keybase
 kgamma5
@@ -310,6 +310,7 @@ poppler-data
 poppler-glib
 powerdevil
 powerline
+powerline-fonts
 powerpill
 pptpclient
 primus
@@ -321,6 +322,7 @@ pulseaudio
 pulseaudio-alsa
 putty
 pv
+pwgen
 pydb
 python-dbus
 python-jieba
@@ -405,7 +407,10 @@ tk
 tmux
 tree
 tsocks
+ttf-arphic-ukai
+ttf-arphic-uming
 ttf-dejavu
+ttf-freefont
 ttf-hanazono
 ttf-liberation
 ttf-monaco
