@@ -56,7 +56,7 @@ let g:ycm_collect_identifiers_from_comments_and_strings = 0
 	"" 这个选项对于有重载的函数非常有用
 	let g:ycm_add_preview_to_completeopt = 1
 	"" Python3 的补全支持
-"	let g:ycm_python_binary_path='/usr/bin/python3'
+	let g:ycm_python_binary_path='/usr/bin/python3'
 "" End "
 
 "" 关于 UltiSnip 的选项

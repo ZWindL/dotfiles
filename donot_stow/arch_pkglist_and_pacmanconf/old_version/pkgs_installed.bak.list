@@ -16,9 +16,10 @@ apache
 archlinux-wallpaper
 archlinuxcn-keyring
 argyllcms
-aria2
+aria2-fast
 ark
 arm-none-eabi-gcc
+aspell-en
 atom
 aurvote
 autoconf
@@ -26,6 +27,7 @@ automake
 awesome
 axel
 bash
+bash-completion
 bbswitch
 bind-tools
 binutils
@@ -126,6 +128,7 @@ go
 goldendict
 gpart
 grantlee
+graphviz
 grep
 groff
 gst-libav
@@ -179,6 +182,7 @@ kdenetwork-filesharing
 kdenlive
 kdeplasma-addons
 kdesdk-dev-utils
+kdesdk-kcachegrind
 kdeutils-kgpg
 kdevelop
 keybase
@@ -222,6 +226,8 @@ libunrar
 libzdb
 licenses
 linux
+linux-ck-haswell
+linux-ck-haswell-headers
 llvm
 logrotate
 lostfiles
@@ -276,6 +282,7 @@ noto-fonts-emoji
 ntfs-3g
 nutstore
 nvidia
+nvidia-ck-haswell
 nvidia-settings
 okteta
 oxygen
@@ -297,6 +304,7 @@ pidgin
 pidgin-xmpp-receipts
 pinfo
 pkg-config
+pkgfile
 plasma-desktop
 plasma-mediacenter
 plasma-nm
@@ -384,7 +392,6 @@ supertux
 sway
 synapse
 sysfsutils
-syslinux
 systemd-sysvcompat
 systemsettings
 taglib-extras
@@ -416,6 +423,7 @@ ttf-liberation
 ttf-monaco
 ttf-symbola
 ttf-ubuntu-font-family
+typescript
 unrar
 unzip
 usbutils
@@ -426,6 +434,7 @@ vi
 vicious
 vim-fcitx
 virtualbox
+virtualbox-ck-host-modules-haswell
 visual-studio-code
 vulkan-intel
 warzone2100

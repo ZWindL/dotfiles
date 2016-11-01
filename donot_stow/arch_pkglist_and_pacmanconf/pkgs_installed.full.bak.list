@@ -38,6 +38,7 @@ ark
 arm-none-eabi-binutils
 arm-none-eabi-gcc
 aspell
+aspell-en
 assimp
 at-spi2-atk
 at-spi2-core
@@ -213,6 +214,7 @@ freealut
 freetype2
 fribidi
 fuse
+fzf
 gawk
 gc
 gcc
@@ -256,6 +258,7 @@ gobject-introspection-runtime
 goldendict
 google-glog
 gpart
+gperf
 gperftools
 gpgme
 gpgmepp
@@ -263,6 +266,7 @@ gpm
 grantlee
 grantleetheme
 graphite
+graphviz
 grep
 groff
 gsasl
@@ -287,6 +291,7 @@ gtkmm
 gtksourceview2
 gtksourceview3
 gtkspell
+gts
 gtypist
 gucharmap
 guile
@@ -403,6 +408,7 @@ kdepim-runtime
 kdepimlibs4
 kdeplasma-addons
 kdesdk-dev-utils
+kdesdk-kcachegrind
 kdesu
 kdeutils-kgpg
 kdevelop
@@ -775,6 +781,8 @@ libzip
 licenses
 linux
 linux-api-headers
+linux-ck-haswell
+linux-ck-haswell-headers
 linux-firmware
 lirc
 llvm
@@ -878,6 +886,7 @@ nss
 ntfs-3g
 nutstore
 nvidia
+nvidia-ck-haswell
 nvidia-settings
 nvidia-utils
 ocl-icd
@@ -902,6 +911,7 @@ p7zip
 package-query
 pacman
 pacman-mirrorlist
+pacvis-git
 pam
 pambase
 pango
@@ -951,6 +961,7 @@ pinentry
 pinfo
 pixman
 pkg-config
+pkgfile
 plasma-desktop
 plasma-framework
 plasma-integration
@@ -1050,6 +1061,7 @@ python-snowballstemmer
 python-sphinx
 python-sphinx-alabaster-theme
 python-sphinx_rtd_theme
+python-tornado
 python-unidecode
 python-wrapt
 python-xdg
@@ -1210,7 +1222,6 @@ supertux
 sway
 synapse
 sysfsutils
-syslinux
 systemd
 systemd-sysvcompat
 systemsettings
@@ -1261,6 +1272,7 @@ ttf-liberation
 ttf-monaco
 ttf-symbola
 ttf-ubuntu-font-family
+typescript
 tzdata
 udisks2
 unibilium
@@ -1280,12 +1292,14 @@ videoproto
 vim-fcitx
 vim-runtime
 virtualbox
+virtualbox-ck-host-modules-haswell
 virtualbox-host-modules-arch
 virtualgl
 visual-studio-code
 vlc
 vte
 vte-common
+vte3-ng
 vulkan-icd-loader
 vulkan-intel
 warzone2100

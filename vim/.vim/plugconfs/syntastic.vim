@@ -1,6 +1,6 @@
 """"""""""syntastic""""""""""""
 "让 syntastic忽略 python 文件
-let g:syntastic_ignore_files=[".*\.py$"]
+"let g:syntastic_ignore_files=[".*\.py$"]
 "let g:syntastic_check_on_open = 1
 "let g:syntastic_cpp_include_dirs = ['/usr/include/']
 "let g:syntastic_cpp_remove_include_errors = 1

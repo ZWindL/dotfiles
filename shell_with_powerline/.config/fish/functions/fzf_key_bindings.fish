@@ -1,1 +1,0 @@
-/home/zwindl/.fzf/shell/key-bindings.fish

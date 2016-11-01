@@ -15,14 +15,12 @@ call plug#begin()
 	function! BuildColorCoded(info)
 		if a:info.status == 'installed' || a:info.force || a:info.updated
 			!mkdir build
-			!cd build
-			!cmake ..
-			!make && make install
+			!cd build && cmake .. && make && make install
 		endif
 	endfunction
 
 	" run PlugUpgrade to update vim-plug itself
-	Plug 'scrooloose/syntastic'
+ 
 	"" Rust
 	Plug 'rust-lang/rust.vim'
 
@@ -36,7 +34,14 @@ call plug#begin()
 	Plug 'Valloric/YouCompleteMe', { 'do': function('BuildYCM') }
 		Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
 	Plug 'jeaye/color_coded', { 'do': function('BuildColorCoded') }
-	Plug 'rdnetto/YCM-Generator'
+	"Plug 'rdnetto/YCM-Generator'
+	
+	""lint tool
+	""Plug 'scrooloose/syntastic'
+	Plug 'w0rp/ale'
+
+	""Assembly Hilight
+	Plug 'Shirk/vim-gas'
 
 	"" NerdTree And NerdTree enhance
 	Plug 'scrooloose/nerdtree'
@@ -112,6 +117,9 @@ source ~/.vim/plugconfs/indentline.vim
 source ~/.vim/plugconfs/minimap.vim
 source ~/.vim/plugconfs/licenses.vim
 source ~/.vim/plugconfs/undotree.vim
+source ~/.vim/plugconfs/vim_gas.vim
+source ~/.vim/plugconfs/typescript_vim.vim
+source ~/.vim/plugconfs/ale.vim
 
 """"""""""""""""""""""""""""""""""""""""""""""""""
 "My Own options
@@ -143,7 +151,7 @@ set nocompatible
 " 显示相对行号的同时显示当前行号
 set nu
 set rnu
-set nuw=5
+"set nuw=5
 
 ""折行缩进
 set breakindent

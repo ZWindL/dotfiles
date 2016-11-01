@@ -414,4 +414,6 @@ hex() {
 ## END OF FILE #################################################################
 #
 
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+#[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+. /usr/share/fzf/key-bindings.zsh
+. /usr/share/fzf/completion.zsh
