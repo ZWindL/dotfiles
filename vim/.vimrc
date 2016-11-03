@@ -38,7 +38,7 @@ call plug#begin()
 	
 	""lint tool
 	""Plug 'scrooloose/syntastic'
-	Plug 'w0rp/ale'
+	"Plug 'w0rp/ale'
 
 	""Assembly Hilight
 	Plug 'Shirk/vim-gas'
@@ -119,7 +119,7 @@ source ~/.vim/plugconfs/licenses.vim
 source ~/.vim/plugconfs/undotree.vim
 source ~/.vim/plugconfs/vim_gas.vim
 source ~/.vim/plugconfs/typescript_vim.vim
-source ~/.vim/plugconfs/ale.vim
+"source ~/.vim/plugconfs/ale.vim
 
 """"""""""""""""""""""""""""""""""""""""""""""""""
 "My Own options
@@ -142,6 +142,8 @@ set grepprg=grep\ -nH\ $*
 set grepprg=grep\ -nh\ $*
 let g:tex_flavor = "latex"
 "for latex
+
+set so=5
 
 "定义快捷键的前缀，即<Leader>
 "NOTE:当前 leader 距离 Enter 太近
