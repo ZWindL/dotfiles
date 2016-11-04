@@ -92,6 +92,7 @@ alias stop='sudo systemctl stop'
 alias restart='sudo systemctl restart'
 alias status='sudo systemctl status'
 alias tree='tree -C'
+alias ls='exa'
 # For PowerLine
 	# 太特么卡了
 	. /usr/lib/python3.5/site-packages/powerline/bindings/zsh/powerline.zsh
@@ -417,3 +418,6 @@ hex() {
 #[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 . /usr/share/fzf/key-bindings.zsh
 . /usr/share/fzf/completion.zsh
+
+#for glances
+#alias glances='LANG=en_US.UTF-8 && glances --tree -w'

@@ -64,6 +64,7 @@ bc
 bind-tools
 binutils
 bison
+blas
 bleachbit
 bluedevil
 bluez
@@ -95,6 +96,7 @@ calcurse
 calendarsupport
 cantarell-fonts
 cargo
+cblas
 ccal
 ccrypt
 cdparanoia
@@ -167,6 +169,7 @@ epplet-base
 espeakup
 etckeeper
 eventviews
+exa-git
 exempi
 exiv2
 expat
@@ -210,7 +213,6 @@ fontsproto
 fortune-mod
 fqterm-git
 frameworkintegration
-freealut
 freetype2
 fribidi
 fuse
@@ -238,6 +240,7 @@ gimp
 gimp-help-zh_cn
 git
 git-annex
+glances
 glew
 glhack
 glib-networking
@@ -445,6 +448,7 @@ kjobwidgets
 kjs
 kjsembed
 kldap
+kleopatra
 kmailtransport
 kmbox
 kmenuedit
@@ -488,6 +492,7 @@ kwindowsystem
 kxmlgui
 kxmlrpcclient
 lame
+lapack
 lcms
 lcms2
 ldb
@@ -563,7 +568,6 @@ libftdi
 libgadu
 libgcrypt
 libgdiplus
-libgee
 libgit2
 libglade
 libglvnd
@@ -600,7 +604,6 @@ libkdepim
 libkexiv2
 libkexiv2_4
 libkeybinder2
-libkeybinder3
 libkgapi
 libkipi
 libkleo
@@ -856,6 +859,7 @@ msgpack-c
 mtdev
 mtools
 mtr
+mutt
 namcap
 nano
 ncdu
@@ -1018,13 +1022,17 @@ pygobject-devel
 pygobject2-devel
 pygtk
 pygtksourceview2
+pyqt5-common
 pyrex
 python
 python-appdirs
 python-astroid
 python-babel
+python-bottle
 python-cffi
 python-click
+python-cycler
+python-dateutil
 python-dbus
 python-dbus-common
 python-docutils
@@ -1037,9 +1045,12 @@ python-lazy-object-proxy
 python-lxml
 python-markdown
 python-markupsafe
+python-matplotlib
 python-mccabe
 python-msgpack
 python-neovim
+python-netifaces
+python-numpy
 python-packaging
 python-pip
 python-ply
@@ -1053,9 +1064,11 @@ python-pygit2
 python-pygments
 python-pylint
 python-pyparsing
+python-pyqt5
 python-pystemmer
 python-pytz
 python-setuptools
+python-sip
 python-six
 python-snowballstemmer
 python-sphinx
@@ -1140,6 +1153,7 @@ qt5-websockets
 qt5-x11extras
 qt5-xmlpatterns
 qtcreator
+qtox-git
 qtscriptgenerator
 qtwebkit
 quota-tools
@@ -1157,7 +1171,6 @@ reflector
 reiserfsprogs
 renderproto
 resourceproto
-rest
 ripgrep
 rlwrap
 rp-pppoe
@@ -1193,6 +1206,7 @@ signon-plugin-oauth2
 signon-ui
 signond
 simplescreenrecorder
+sip
 sl
 slang
 smbclient
@@ -1208,6 +1222,7 @@ speakup-utils
 spectacle
 speex
 speexdsp
+sqlcipher
 sqlite
 srain-git
 sshfs
@@ -1220,7 +1235,6 @@ sunpinyin
 sunpinyin-data
 supertux
 sway
-synapse
 sysfsutils
 systemd
 systemd-sysvcompat
@@ -1235,7 +1249,6 @@ tcl
 tdb
 teeworlds
 telegram-desktop
-telepathy-glib
 terminator
 termite
 termite-terminfo
@@ -1258,6 +1271,7 @@ thunderbird
 thunderbird-i18n-zh-cn
 tk
 tmux
+toxcore
 tree
 tslib
 tsocks
@@ -1411,7 +1425,6 @@ yaml-cpp
 yaourt
 ydcv
 zbar
-zeitgeist
 zenity
 zeromq
 zh-autoconvert

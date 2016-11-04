@@ -99,6 +99,8 @@ call plug#begin()
 	Plug 'antoyo/vim-licenses'
 	" 撤销操作树 Undotree
 	Plug 'simnalamburt/vim-mundo'
+	"中文输入法
+	Plug 'idxuanjun/bx_vimim_dict'
 	
 call plug#end()
 

@@ -112,6 +112,7 @@ flex
 fluidsynth
 fortune-mod
 fqterm-git
+fzf
 gawk
 gcc
 gcc-libs
@@ -288,6 +289,7 @@ okteta
 oxygen
 p7zip
 pacman
+pacvis-git
 parted
 patch
 pciutils

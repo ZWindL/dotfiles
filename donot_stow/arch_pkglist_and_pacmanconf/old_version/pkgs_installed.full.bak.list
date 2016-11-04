@@ -214,6 +214,7 @@ freealut
 freetype2
 fribidi
 fuse
+fzf
 gawk
 gc
 gcc
@@ -910,6 +911,7 @@ p7zip
 package-query
 pacman
 pacman-mirrorlist
+pacvis-git
 pam
 pambase
 pango
@@ -1059,6 +1061,7 @@ python-snowballstemmer
 python-sphinx
 python-sphinx-alabaster-theme
 python-sphinx_rtd_theme
+python-tornado
 python-unidecode
 python-wrapt
 python-xdg
