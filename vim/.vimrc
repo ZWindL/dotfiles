@@ -100,7 +100,11 @@ call plug#begin()
 	" 撤销操作树 Undotree
 	Plug 'simnalamburt/vim-mundo'
 	"中文输入法
-	Plug 'idxuanjun/bx_vimim_dict'
+	" 使用过程中会出现莫名奇妙的 bug 暂停使用一段时间
+	" 已经确定括号自动配对失效是因为这个插件
+	"Plug 'idxuanjun/bx_vimim_dict'
+	" 主题配色方案
+	Plug 'flazz/vim-colorschemes'
 	
 call plug#end()
 
@@ -195,7 +199,8 @@ if has("gui_running")
 	"colorscheme elflord
 	"colorscheme koehler
 	"colorscheme darkblue
-	colorscheme molokai
+	"colorscheme molokai
+	colorscheme solarized
 	"colorscheme twilighted
 endif
 
