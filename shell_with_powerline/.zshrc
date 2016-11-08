@@ -1,6 +1,6 @@
 # Path to your oh-my-zsh installation.
 #ZSH=/usr/share/oh-my-zsh/
-ZSH=${HOME}/.oh-my-zsh/
+export ZSH=$HOME/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -94,8 +94,7 @@ alias status='sudo systemctl status'
 alias tree='tree -C'
 alias ls='exa'
 # For PowerLine
-	# 太特么卡了
-	. /usr/lib/python3.5/site-packages/powerline/bindings/zsh/powerline.zsh
+. /usr/lib/python3.5/site-packages/powerline/bindings/zsh/powerline.zsh
 #zsh 高亮
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 

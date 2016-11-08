@@ -125,6 +125,7 @@ source ~/.vim/plugconfs/licenses.vim
 source ~/.vim/plugconfs/undotree.vim
 source ~/.vim/plugconfs/vim_gas.vim
 source ~/.vim/plugconfs/typescript_vim.vim
+"source ~/.vim/plugconfs/powerline.vim
 "source ~/.vim/plugconfs/ale.vim
 
 """"""""""""""""""""""""""""""""""""""""""""""""""
