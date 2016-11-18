@@ -15,6 +15,7 @@ kdemultimedia-mplayerthumbs
 lib32-glibc
 lib32-zlib
 libappindicator-activate-gtk2
+libolm
 lua-cjson
 mdp-git
 meek
@@ -25,8 +26,6 @@ plasma-next-icons-git
 python2-espeak
 stockfish
 thinkgui
-toxcore-newgc-git
-toxic-newgc-git
 ttf-fantasque-sans
 wiringpi-git
 wiringpi-gpio-halt

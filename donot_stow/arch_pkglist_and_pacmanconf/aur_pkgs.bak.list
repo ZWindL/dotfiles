@@ -12,8 +12,8 @@ gnome-breeze-git
 insomnia
 jp2a
 kdemultimedia-mplayerthumbs
+keybase-bin
 lib32-zlib
-libolm
 lua-cjson
 mdp-git
 meek
@@ -26,4 +26,3 @@ thinkgui
 ttf-fantasque-sans
 wiringpi-git
 wiringpi-gpio-halt
-zcash

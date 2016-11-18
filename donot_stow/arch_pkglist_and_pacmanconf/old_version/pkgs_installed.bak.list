@@ -83,6 +83,7 @@ eom-gtk3
 epplet-base
 espeakup
 etckeeper
+exa-git
 extra-cmake-modules
 extundelete
 fakeroot
@@ -193,6 +194,7 @@ kholidays
 kile
 kimageformats
 kinfocenter
+kleopatra
 kmenuedit
 kolourpaint
 konsole
@@ -266,6 +268,7 @@ mozo
 mpv
 mtools
 mtr
+mutt
 namcap
 nano
 ncdu
@@ -358,6 +361,7 @@ qbittorrent
 qt5-3d
 qt5-imageformats
 qtcreator
+qtox-git
 qtscriptgenerator
 quota-tools
 redshift
@@ -392,7 +396,6 @@ subversion
 sudo
 supertux
 sway
-synapse
 sysfsutils
 systemd-sysvcompat
 systemsettings

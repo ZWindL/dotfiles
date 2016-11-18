@@ -43,7 +43,7 @@ bzip2
 caja-gtk3
 caja-open-terminal-gtk3
 calcurse
-cargo
+cargo-nightly
 ccal
 ccrypt
 celt
@@ -66,6 +66,7 @@ dhclient
 dhcpcd
 dialog
 diffutils
+dkms
 dmenu
 dnsmasq
 dolphin
@@ -78,6 +79,7 @@ dzen2
 e2fsprogs
 efibootmgr
 electron
+elvish
 enlightenment
 eom-gtk3
 epplet-base
@@ -112,6 +114,7 @@ flashplugin
 flex
 fluidsynth
 fortune-mod
+fprintd
 fqterm-git
 fzf
 gawk
@@ -122,6 +125,7 @@ gettext
 gimp
 gimp-help-zh_cn
 git-annex
+glances
 glhack
 glibc
 gnome-themes-standard
@@ -187,7 +191,6 @@ kdesdk-dev-utils
 kdesdk-kcachegrind
 kdeutils-kgpg
 kdevelop
-keybase
 kgamma5
 khelpcenter
 kholidays
@@ -195,6 +198,7 @@ kile
 kimageformats
 kinfocenter
 kleopatra
+kmail
 kmenuedit
 kolourpaint
 konsole
@@ -214,6 +218,7 @@ less
 libavc1394
 libc++
 libdbusmenu-gtk3
+libfprint
 libgme
 libgnome
 libkolabxml
@@ -229,8 +234,8 @@ libunrar
 libzdb
 licenses
 linux
-linux-ck-haswell
-linux-ck-haswell-headers
+linux-zen
+linux-zen-headers
 llvm
 logrotate
 lostfiles
@@ -261,6 +266,7 @@ mate-session-manager
 mate-settings-daemon-gtk3
 mate-themes
 mdadm
+meld
 mesa
 milou
 mobile-broadband-provider-info
@@ -286,8 +292,8 @@ noto-fonts-emoji
 ntfs-3g
 nutstore
 nvidia
-nvidia-ck-haswell
 nvidia-settings
+oh-my-zsh-git
 okteta
 oxygen
 p7zip
@@ -372,6 +378,7 @@ rlwrap
 rp-pppoe
 rsync
 ruby
+rust-nightly
 s-nail
 sane
 screenfetch
@@ -438,8 +445,8 @@ valgrind
 vi
 vicious
 vim-fcitx
+vim-rust-git
 virtualbox
-virtualbox-ck-host-modules-haswell
 visual-studio-code
 vulkan-intel
 warzone2100
