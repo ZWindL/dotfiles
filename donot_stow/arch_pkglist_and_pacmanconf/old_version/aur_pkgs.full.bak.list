@@ -12,10 +12,10 @@ gnome-breeze-git
 insomnia
 jp2a
 kdemultimedia-mplayerthumbs
+keybase-bin
 lib32-glibc
 lib32-zlib
 libappindicator-activate-gtk2
-libolm
 lua-cjson
 mdp-git
 meek
@@ -29,4 +29,3 @@ thinkgui
 ttf-fantasque-sans
 wiringpi-git
 wiringpi-gpio-halt
-zcash

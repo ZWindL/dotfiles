@@ -95,7 +95,7 @@ caja-open-terminal-gtk3
 calcurse
 calendarsupport
 cantarell-fonts
-cargo
+cargo-nightly
 cblas
 ccal
 ccrypt
@@ -139,6 +139,7 @@ dhcpcd
 dialog
 diffutils
 djvulibre
+dkms
 dmenu
 dmxproto
 dnsmasq
@@ -161,6 +162,7 @@ efivar
 efl
 electron
 elfutils
+elvish
 enca
 enchant
 enlightenment
@@ -211,6 +213,7 @@ fluidsynth
 fontconfig
 fontsproto
 fortune-mod
+fprintd
 fqterm-git
 frameworkintegration
 freetype2
@@ -420,7 +423,6 @@ kdgantt2
 kdnssd
 kdoctools
 kemoticons
-keybase
 keyutils
 kfilemetadata
 kgamma5
@@ -449,6 +451,7 @@ kjs
 kjsembed
 kldap
 kleopatra
+kmail
 kmailtransport
 kmbox
 kmenuedit
@@ -564,6 +567,7 @@ libfbclient
 libffi
 libfilezilla
 libfontenc
+libfprint
 libftdi
 libgadu
 libgcrypt
@@ -596,8 +600,8 @@ libixion
 libjpeg-turbo
 libkactivities4
 libkate
-libkcddb
-libkcompactdisc
+libkcddb4
+libkcompactdisc4
 libkdcraw
 libkdegames4
 libkdepim
@@ -614,6 +618,7 @@ libksane
 libksba
 libkscreen
 libkscreen4
+libksieve
 libksysguard
 libktnef
 libktorrent
@@ -784,9 +789,9 @@ libzip
 licenses
 linux
 linux-api-headers
-linux-ck-haswell
-linux-ck-haswell-headers
 linux-firmware
+linux-zen
+linux-zen-headers
 lirc
 llvm
 llvm-libs
@@ -834,6 +839,7 @@ mate-themes
 mcpp
 mdadm
 media-player-info
+meld
 mercurial
 mesa
 mesa-libgl
@@ -890,10 +896,10 @@ nss
 ntfs-3g
 nutstore
 nvidia
-nvidia-ck-haswell
 nvidia-settings
 nvidia-utils
 ocl-icd
+oh-my-zsh-git
 okteta
 openal
 opencc
@@ -988,7 +994,6 @@ poppler-glib
 poppler-qt4
 poppler-qt5
 popt
-portaudio
 postgresql-libs
 potrace
 powerdevil
@@ -1180,7 +1185,8 @@ rtmpdump
 rubberband
 ruby
 run-parts
-rust
+rust-nightly
+rust-std-nightly-x86_64-unknown-linux-gnu
 s-nail
 sane
 sbc
@@ -1305,8 +1311,8 @@ vid.stab
 videoproto
 vim-fcitx
 vim-runtime
+vim-rust-git
 virtualbox
-virtualbox-ck-host-modules-haswell
 virtualbox-host-modules-arch
 virtualgl
 visual-studio-code
@@ -1348,6 +1354,7 @@ xcb-util-image
 xcb-util-keysyms
 xcb-util-renderutil
 xcb-util-wm
+xcb-util-xrm
 xdebug
 xdg-utils
 xdotool
