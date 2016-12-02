@@ -108,6 +108,10 @@ call plug#begin()
 
 	"交互执行命令
 	Plug 'Shougo/vimproc.vim', {'do' : 'make'}
+
+	"个人笔记管理
+	Plug 'vimwiki/vimwiki'
+	Plug 'xolox/vim-notes' | Plug 'xolox/vim-misc'
 	
 call plug#end()
 
@@ -129,6 +133,8 @@ source ~/.vim/plugconfs/undotree.vim
 source ~/.vim/plugconfs/vim_gas.vim
 source ~/.vim/plugconfs/typescript_vim.vim
 source ~/.vim/plugconfs/asyncrun.vim
+source ~/.vim/plugconfs/vimwiki.vim
+source ~/.vim/plugconfs/vimnotes.vim
 "source ~/.vim/plugconfs/powerline.vim
 "source ~/.vim/plugconfs/ale.vim
 
@@ -287,6 +293,10 @@ endif "has("autocmd")
 "" 兼容 GBK 编码
 set fileencodings=utf-8,gbk
 
+" 打开 quickfix 窗口快捷键
+nmap <F6> :cw<CR>
+nmap <F6>j :cn<CR>
+nmap <F6>k :cp<CR>
 " 代码块可视化
 " 利用 vim tab 可视化
 "set encoding=utf-8

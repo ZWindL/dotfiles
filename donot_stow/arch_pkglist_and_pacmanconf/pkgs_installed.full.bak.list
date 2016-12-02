@@ -4,6 +4,7 @@ accounts-qml-module
 accountsservice
 acl
 acpi
+acpi_call
 acpid
 adobe-source-han-sans-cn-fonts
 adobe-source-han-sans-jp-fonts
@@ -29,6 +30,7 @@ apache
 apm
 apr
 apr-util
+arch-install-scripts
 archlinux-keyring
 archlinux-wallpaper
 archlinuxcn-keyring
@@ -104,6 +106,7 @@ cdparanoia
 cdrtools
 celt
 cgdb
+check
 chmlib
 chromium
 cifs-utils
@@ -120,6 +123,7 @@ confuse
 connman
 convertlit
 coreutils
+cower
 cowsay
 cpupower
 cracklib
@@ -169,12 +173,12 @@ enchant
 enlightenment
 eom-gtk3
 epplet-base
-espeakup
 etckeeper
 eventviews
 exa-git
 exempi
 exiv2
+expac
 expat
 extra-cmake-modules
 extundelete
@@ -217,6 +221,7 @@ fortune-mod
 fprintd
 fqterm-git
 frameworkintegration
+freealut
 freetype2
 fribidi
 fuse
@@ -295,7 +300,6 @@ gtk-update-icon-cache
 gtk2
 gtk3
 gtkmm
-gtksourceview2
 gtksourceview3
 gtkspell
 gts
@@ -310,6 +314,7 @@ harfbuzz
 harfbuzz-icu
 hddtemp
 hdf5
+hdparm
 hicolor-icon-theme
 hspell
 htop
@@ -338,6 +343,7 @@ iproute2
 iptables
 iputils
 iso-codes
+iw
 jack
 jansson
 jasper
@@ -423,6 +429,7 @@ kdevplatform
 kdgantt2
 kdnssd
 kdoctools
+keepassx2
 kemoticons
 keyutils
 kfilemetadata
@@ -501,7 +508,6 @@ lcms
 lcms2
 ldb
 ldns
-leptonica
 less
 leveldb
 libabw
@@ -599,7 +605,6 @@ libinput
 libircclient
 libixion
 libjpeg-turbo
-libkactivities4
 libkate
 libkcddb4
 libkcompactdisc4
@@ -919,6 +924,7 @@ oxygen
 oxygen-icons
 p11-kit
 p7zip
+pacaur
 package-query
 pacman
 pacman-mirrorlist
@@ -933,6 +939,7 @@ pciutils
 pcmciautils
 pcre
 pcre2
+pepper-flash
 perl
 perl-encode-locale
 perl-error
@@ -1002,6 +1009,7 @@ powerline
 powerline-common
 powerline-fonts
 powerpill
+powertop
 ppp
 pptpclient
 presentproto
@@ -1027,7 +1035,6 @@ pydb
 pygobject-devel
 pygobject2-devel
 pygtk
-pygtksourceview2
 pyqt5-common
 pyrex
 python
@@ -1110,11 +1117,10 @@ python2-dbus
 python2-enum34
 python2-future
 python2-futures
-python2-gconf
+python2-gevent
 python2-gobject
 python2-gobject2
 python2-greenlet
-python2-gtkspell
 python2-hglib
 python2-isort
 python2-jedi
@@ -1136,7 +1142,6 @@ python2-trollius
 python2-unidecode
 python2-urllib3
 python2-wrapt
-python2-xdg
 python3-aur
 python3-memoizedb
 python3-xcgf
@@ -1170,7 +1175,7 @@ qt5-websockets
 qt5-x11extras
 qt5-xmlpatterns
 qtcreator
-qtox-git
+qtox
 qtscriptgenerator
 qtwebkit
 quota-tools
@@ -1188,6 +1193,7 @@ reflector
 reiserfsprogs
 renderproto
 resourceproto
+rfkill
 ripgrep
 rlwrap
 rp-pppoe
@@ -1219,6 +1225,7 @@ shadow
 shadowsocks
 shadowsocks-qt5
 shared-mime-info
+shellcheck
 signon-kwallet-extension
 signon-plugin-oauth2
 signon-ui
@@ -1236,7 +1243,6 @@ socat
 solid
 sonnet
 sound-theme-freedesktop
-speakup-utils
 spectacle
 speex
 speexdsp
@@ -1270,8 +1276,6 @@ telegram-desktop
 terminator
 termite
 termite-terminfo
-tesseract
-tesseract-data-eus
 testdisk
 tevent
 texinfo
@@ -1288,8 +1292,12 @@ threadweaver
 thunderbird
 thunderbird-i18n-zh-cn
 tk
+tlp
 tmux
+tor
+torsocks
 toxcore
+toxic
 tree
 tslib
 tsocks
@@ -1445,7 +1453,6 @@ ydcv
 zbar
 zenity
 zeromq
-zh-autoconvert
 zip
 zita-alsa-pcmi
 zita-resampler

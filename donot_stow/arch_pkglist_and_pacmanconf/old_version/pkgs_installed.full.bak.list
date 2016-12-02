@@ -32,6 +32,7 @@ apr-util
 archlinux-keyring
 archlinux-wallpaper
 archlinuxcn-keyring
+archsocks
 argyllcms
 aria2-fast
 ark
@@ -1030,16 +1031,21 @@ pygtksourceview2
 pyqt5-common
 pyrex
 python
+python-aiohttp
 python-appdirs
 python-astroid
+python-async_timeout
 python-babel
+python-beautifulsoup4
 python-bottle
 python-cffi
+python-chardet
 python-click
 python-cycler
 python-dateutil
 python-dbus
 python-dbus-common
+python-decorator
 python-docutils
 python-greenlet
 python-imagesize
@@ -1053,6 +1059,7 @@ python-markupsafe
 python-matplotlib
 python-mccabe
 python-msgpack
+python-multidict-git
 python-neovim
 python-netifaces
 python-numpy
@@ -1060,6 +1067,7 @@ python-packaging
 python-pip
 python-ply
 python-powerline
+python-praw
 python-psutil
 python-pycodestyle
 python-pycparser
@@ -1072,6 +1080,7 @@ python-pyparsing
 python-pyqt5
 python-pystemmer
 python-pytz
+python-requests
 python-setuptools
 python-sip
 python-six
@@ -1081,8 +1090,11 @@ python-sphinx-alabaster-theme
 python-sphinx_rtd_theme
 python-tornado
 python-unidecode
+python-update-checker
+python-urllib3
 python-wrapt
 python-xdg
+python-yarl
 python2
 python2-appdirs
 python2-astroid
@@ -1362,7 +1374,6 @@ xerces-c
 xextproto
 xf86-input-libinput
 xf86-input-mouse
-xf86-video-intel
 xf86dgaproto
 xf86driproto
 xf86vidmodeproto
