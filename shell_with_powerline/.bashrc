@@ -14,3 +14,8 @@ alias rm='rm -I'
 #[ -f ~/.fzf.bash ] && source ~/.fzf.bash
 . /usr/share/fzf/key-bindings.bash
 . /usr/share/fzf/completion.bash
+
+## For termite
+if [[ $TERM == xterm-termite ]]; then
+	. /etc/profile.d/vte.sh
+fi

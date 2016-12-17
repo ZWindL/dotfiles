@@ -436,3 +436,9 @@ transfer_one_time() {
 	cat $tmpfile;
 	rm -rf $tmpfile
 }
+
+## For termite
+if [[ $TERM == xter-termite ]]; then
+	. /etc/profile.d/vte.sh
+	#__vte_osc7
+fi

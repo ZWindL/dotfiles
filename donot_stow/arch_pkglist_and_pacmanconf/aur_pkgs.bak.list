@@ -3,6 +3,7 @@ bash-git-prompt
 cairo-coloredemoji
 cdw
 compiz
+fcitx-table-cangjie5-colemak
 fontconfig-enhanced-defaults
 fortune-mod-archlinux
 fortune-mod-fringe
@@ -13,13 +14,14 @@ fortune-mod-zh
 gnome-breeze-git
 insomnia
 jp2a
-keybase-bin
+kjieba
 lua-cjson
 mdp-git
 meek
 neovim-qt-git
 oneko
 phpstorm
+quaternion-git
 rtv
 stockfish
 thinkgui

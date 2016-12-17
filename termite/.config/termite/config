@@ -1,7 +1,13 @@
 [options]
 font = Fantasque Sans Mono 10
+browser = firefox 
+clickable_url = true
+fullscreen = false
+mouse_autohide = true
+scroll_on_keystroke = true
 
 [colors]
-foreground = #dcdccc
-#background = rgba(63, 63, 63, 0.8)
-background = rgba(0, 0, 0, 0.8)
+#foreground = #dcdccc
+foreground = #ededdd
+background = rgb(63, 63, 63)
+#background = rgba(0, 0, 0, 0.9)

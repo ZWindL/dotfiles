@@ -1,4 +1,5 @@
 acpi
+acpi_call
 acpid
 adobe-source-han-sans-cn-fonts
 adobe-source-han-sans-jp-fonts
@@ -13,6 +14,7 @@ alsa-utils
 alsaplayer
 amarok
 apache
+arch-install-scripts
 archlinux-wallpaper
 archlinuxcn-keyring
 archsocks
@@ -81,10 +83,10 @@ e2fsprogs
 efibootmgr
 electron
 elvish
+emacs
 enlightenment
 eom-gtk3
 epplet-base
-espeakup
 etckeeper
 exa-git
 extra-cmake-modules
@@ -157,6 +159,7 @@ inkscape
 intel-ucode
 iproute2
 iputils
+isatapd
 java-rhino
 jdk
 jemalloc
@@ -192,6 +195,7 @@ kdesdk-dev-utils
 kdesdk-kcachegrind
 kdeutils-kgpg
 kdevelop
+keepassx2
 kgamma5
 khelpcenter
 kholidays
@@ -235,6 +239,7 @@ libunrar
 libzdb
 licenses
 linux
+linux-headers
 linux-zen
 linux-zen-headers
 llvm
@@ -298,12 +303,14 @@ oh-my-zsh-git
 okteta
 oxygen
 p7zip
+pacaur
 pacman
 pacvis-git
 parted
 patch
 pciutils
 pcmciautils
+pepper-flash
 perl
 php
 php-apache
@@ -332,6 +339,7 @@ powerdevil
 powerline
 powerline-fonts
 powerpill
+powertop
 pptpclient
 primus
 procps-ng
@@ -368,7 +376,7 @@ qbittorrent
 qt5-3d
 qt5-imageformats
 qtcreator
-qtox-git
+qtox
 qtscriptgenerator
 quota-tools
 redshift
@@ -404,6 +412,7 @@ subversion
 sudo
 supertux
 sway
+sysdig
 sysfsutils
 systemd-sysvcompat
 systemsettings
@@ -414,7 +423,6 @@ teeworlds
 telegram-desktop
 terminator
 termite
-tesseract-data-eus
 testdisk
 texinfo
 texlive-formatsextra
@@ -424,7 +432,11 @@ texlive-latexextra
 thunderbird
 thunderbird-i18n-zh-cn
 tk
+tlp
 tmux
+tor
+torsocks
+toxic
 tree
 tsocks
 ttf-arphic-ukai

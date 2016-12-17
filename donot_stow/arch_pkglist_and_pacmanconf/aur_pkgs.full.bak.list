@@ -3,6 +3,7 @@ bash-git-prompt
 cairo-coloredemoji
 cdw
 compiz
+fcitx-table-cangjie5-colemak
 fontconfig-enhanced-defaults
 fortune-mod-archlinux
 fortune-mod-fringe
@@ -13,7 +14,7 @@ fortune-mod-zh
 gnome-breeze-git
 insomnia
 jp2a
-keybase-bin
+kjieba
 libappindicator-activate-gtk2
 lua-cjson
 mailcap-fix
@@ -23,11 +24,11 @@ neovim-qt-git
 oneko
 phpstorm
 python3-kitchen
+quaternion-git
 rtv
 stockfish
 thinkgui
 ttf-fantasque-sans
-wikiquote-fortune
 wiringpi-git
 wiringpi-gpio-halt
 xpenguins
