@@ -1,3 +1,5 @@
+#256 colors
+export TERM=xterm-256color
 # Path to your oh-my-zsh installation.
 #ZSH=/usr/share/oh-my-zsh/
 export ZSH=$HOME/.oh-my-zsh
@@ -93,8 +95,11 @@ alias restart='sudo systemctl restart'
 alias status='sudo systemctl status'
 alias tree='tree -C'
 alias ls='exa'
+alias pq='proxychains -q'
+alias mosh='mosh --predict=experimental'
+alias mossh='mosh --predict=experimental --ssh="ssh"'
 # For PowerLine
-. /usr/lib/python3.5/site-packages/powerline/bindings/zsh/powerline.zsh
+. /usr/lib/python3.6/site-packages/powerline/bindings/zsh/powerline.zsh
 #zsh 高亮
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
@@ -438,7 +443,4 @@ transfer_one_time() {
 }
 
 ## For termite
-if [[ $TERM == xter-termite ]]; then
-	. /etc/profile.d/vte.sh
-	#__vte_osc7
-fi
+. /etc/profile.d/vte.sh

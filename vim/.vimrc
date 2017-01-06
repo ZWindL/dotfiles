@@ -31,7 +31,8 @@ call plug#begin()
 		"Plug 'HerringtonDarkholme/yats.vim'
 
 	""C family
-	Plug 'Valloric/YouCompleteMe', { 'do': function('BuildYCM') }
+	"Plug 'Valloric/YouCompleteMe', { 'do': function('BuildYCM') }
+	Plug 'Valloric/YouCompleteMe'
 		Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
 	Plug 'jeaye/color_coded', { 'do': function('BuildColorCoded') }
 	"Plug 'rdnetto/YCM-Generator'
@@ -99,6 +100,8 @@ call plug#begin()
 	Plug 'antoyo/vim-licenses'
 	" 撤销操作树 Undotree
 	Plug 'simnalamburt/vim-mundo'
+	""快速跳转
+	Plug 'easymotion/vim-easymotion'
 	"中文输入法
 	" 使用过程中会出现莫名奇妙的 bug 暂停使用一段时间
 	" 已经确定括号自动配对失效是因为这个插件
@@ -135,6 +138,7 @@ source ~/.vim/plugconfs/typescript_vim.vim
 source ~/.vim/plugconfs/asyncrun.vim
 source ~/.vim/plugconfs/vimwiki.vim
 source ~/.vim/plugconfs/vimnotes.vim
+"source ~/.vim/plugconfs/easymotion.vim
 "source ~/.vim/plugconfs/powerline.vim
 "source ~/.vim/plugconfs/ale.vim
 

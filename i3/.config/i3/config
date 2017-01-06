@@ -10,7 +10,7 @@
 #
 #
 #### NOTE: Enable Powerline #######
-exec python /usr/lib/python3.5/site-packages/powerline/bindings/i3/powerline-i3.py -i3
+exec python /usr/lib/python3.6/site-packages/powerline/bindings/i3/powerline-i3.py -i3
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
@@ -35,7 +35,7 @@ set $left h
 set $right l
 
 set $mod Mod4
-set $term terminator
+set $term termite
 
 # use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
@@ -183,3 +183,36 @@ bar {
 # Please remove the following exec line:
 #######################################################################
 exec i3-config-wizard
+
+exec /usr/bin/compton --config /home/zwindl/.config/i3/compton.conf
+exec_always --no-startup-id feh --bg-fill /usr/share/sway/Sway_Wallpaper_Blue_1366x768.png
+#output * bg /usr/share/sway/Sway_Wallpaper_Blue_1366x768.png
+gaps inner 5
+gaps outer 5
+smart_gaps on
+smart_borders on
+
+new_window none
+#for_window [class=(?i)termite] border pixel 3
+
+for_window [window_role="pop-up"] floating enable
+for_window [window_role="bubble"] floating enable
+for_window [window_role="task_dialog"] floating enable
+for_window [window_role="Preferences"] floating enable
+
+for_window [window_type="dialog"] floating enable
+for_window [window_type="menu"] floating enable
+
+for_window [class="(?i)gsimplecal"] floating enable, move position mouse, move down $height px
+for_window [class="(?i)qemu-system"] floating enable
+for_window [class="(?i)VirtualBox" title="(?i)Manager"] floating enable
+for_window [class="(?i)VirtualBox"] floating enable
+for_window [class="(?i)blueman"] floating enable
+
+#for_window [instance="sun-awt-X11-XFramePeer"] floating enable
+for_window [instance="__scratchpad"] floating enable
+for_window [instance="__nmtui"] floating enable
+for_window [class="(?i)recordmydesktop"] floating enable
+
+for_window [class="(?i)pavucontrol"] floating enable, move position mouse
+for_window [class="(?i)pavucontrol" instance="pavucontrol-bar"] move down $height px

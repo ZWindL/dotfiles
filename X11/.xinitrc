@@ -11,7 +11,7 @@ exec fcitx&
 #交换Capslock和Ctrl
 exec setxkbmap -option ctrl:swapcaps&
 
-session=${1:-sway}
+session=${1:-i3}
 
 case $session in
 	awesome			) exec awesome;;

@@ -22,11 +22,10 @@
 [plugins]
 [profiles]
   [[default]]
-    background_darkness = 0.86
-    background_image = None
+    background_darkness = 0.9
     background_type = transparent
+    cursor_color = "#ffffff"
     font = Fantasque Sans Mono 10
-    foreground_color = "#ffffff"
+    foreground_color = "#d3d7cf"
     palette = "#000000:#aa0000:#00aa00:#aa5500:#0000aa:#aa00aa:#00aaaa:#aaaaaa:#555555:#ff5555:#55ff55:#ffff55:#5555ff:#ff55ff:#55ffff:#ffffff"
-    scroll_on_output = False
     use_system_font = False
