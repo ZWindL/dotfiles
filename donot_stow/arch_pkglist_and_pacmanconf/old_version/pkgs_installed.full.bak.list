@@ -14,7 +14,9 @@ adobe-source-han-sans-tw-fonts
 adwaita-icon-theme
 akonadi
 akonadi-calendar
+akonadi-calendar-tools
 akonadi-contacts
+akonadi-import-wizard
 akonadi-mime
 akonadi-notes
 akonadi-search
@@ -26,6 +28,7 @@ alsa-tools
 alsa-utils
 alsaplayer
 amarok
+android-sdk-platform-tools
 apache
 apm
 apr
@@ -51,6 +54,7 @@ atom
 attica-qt4
 attica-qt5
 attr
+audiocd-kio
 aurvote
 autoconf
 automake
@@ -82,6 +86,7 @@ breeze-gtk
 breeze-icons
 breeze-kde4
 brise
+brltty
 bullet
 bumblebee
 bzip2
@@ -91,6 +96,7 @@ ca-certificates
 ca-certificates-cacert
 ca-certificates-mozilla
 ca-certificates-utils
+cairo-perl
 cairomm
 caja-extensions-common
 caja-gtk3
@@ -105,8 +111,8 @@ ccrypt
 cdparanoia
 cdrtools
 celt
+celt0.5.1
 cgdb
-check
 chmlib
 chromium
 cifs-utils
@@ -130,6 +136,7 @@ cracklib
 cryptsetup
 ctags
 curl
+cython
 damageproto
 db
 dbus
@@ -154,6 +161,7 @@ docbook-xsl
 dolphin
 dolphin-plugins
 dosfstools
+doxygen
 dragon
 dri2proto
 dri3proto
@@ -168,14 +176,13 @@ efl
 electron
 elfutils
 elvish
-emacs
 enca
 enchant
 enlightenment
 eom-gtk3
 epplet-base
+espeak
 etckeeper
-eventviews
 exa-git
 exempi
 exiv2
@@ -225,7 +232,8 @@ frameworkintegration
 freealut
 freetype2
 fribidi
-fuse
+fuse-common
+fuse2
 fzf
 gawk
 gc
@@ -242,6 +250,7 @@ gegl02
 geoclue2
 geoip
 geoip-database
+geth
 gettext
 ghostscript
 giblib
@@ -250,11 +259,14 @@ gimp
 gimp-help-zh_cn
 git
 git-annex
+glade-perl
 glances
 glew
 glhack
 glib-networking
+glib-perl
 glib2
+glib2-docs
 glibc
 glibmm
 glproto
@@ -274,7 +286,6 @@ gpart
 gperf
 gperftools
 gpgme
-gpgmepp
 gpm
 grantlee
 grantleetheme
@@ -299,6 +310,7 @@ gtk-engine-murrine
 gtk-engines
 gtk-update-icon-cache
 gtk2
+gtk2-perl
 gtk3
 gtkmm
 gtksourceview3
@@ -335,7 +347,6 @@ ijs
 ilmbase
 imagemagick
 imlib2
-incidenceeditor
 inetutils
 inkscape
 inputproto
@@ -399,11 +410,6 @@ kde-cli-tools
 kde-gtk-config
 kde-l10n-zh_cn
 kde-syndication
-kdebase-kdepasswd
-kdebase-kdialog
-kdebase-keditbookmarks
-kdebase-kfind
-kdebase-lib
 kdebase-runtime
 kdeclarative
 kdeconnect
@@ -411,33 +417,32 @@ kdecoration
 kded
 kdegames-ksudoku
 kdegraphics-mobipocket
-kdegraphics-okular
 kdegraphics-thumbnailers
 kdelibs
 kdelibs4support
-kdemultimedia-audiocd-kio
 kdenetwork-filesharing
 kdenlive
 kdepim-apps-libs
-kdepim-common
 kdepim-runtime
-kdepimlibs4
 kdeplasma-addons
 kdesdk-dev-utils
 kdesdk-kcachegrind
 kdesu
-kdeutils-kgpg
 kdevelop
 kdevplatform
-kdgantt2
+kdialog
 kdnssd
 kdoctools
+keditbookmarks
 keepassx2
 kemoticons
+keybase
 keyutils
 kfilemetadata
+kfind
 kgamma5
 kglobalaccel
+kgpg
 kguiaddons
 khelpcenter
 kholidays
@@ -463,6 +468,7 @@ kjsembed
 kldap
 kleopatra
 kmail
+kmail-account-wizard
 kmailtransport
 kmbox
 kmenuedit
@@ -473,7 +479,6 @@ knotifications
 knotifyconfig
 kolourpaint
 konsole
-konsolekalendar
 kontactinterface
 konversation
 kpackage
@@ -517,7 +522,6 @@ libabw
 libaccounts-glib
 libaccounts-qt
 libaio
-libakonadi-qt4
 libao
 libarchive
 libass
@@ -533,6 +537,7 @@ libburn
 libc++
 libc++abi
 libcaca
+libcacard
 libcanberra
 libcanberra-pulse
 libcap
@@ -609,13 +614,12 @@ libircclient
 libixion
 libjpeg-turbo
 libkate
-libkcddb4
-libkcompactdisc4
+libkcddb
+libkcompactdisc
 libkdcraw
 libkdegames4
 libkdepim
 libkexiv2
-libkexiv2_4
 libkeybinder2
 libkgapi
 libkipi
@@ -626,7 +630,6 @@ libkomparediff2
 libksane
 libksba
 libkscreen
-libkscreen4
 libksieve
 libksysguard
 libktnef
@@ -661,6 +664,7 @@ libndp
 libnetfilter_conntrack
 libnewt
 libnfnetlink
+libnfs
 libnftnl
 libnice
 libnl
@@ -671,7 +675,6 @@ libofa
 libogg
 libomxil-bellagio
 liborcus
-libotf
 libpagemaker
 libpaper
 libpcap
@@ -682,6 +685,7 @@ libplist
 libpng
 libpng12
 libproxy
+libpsl
 libpulse
 libpurple
 libpwquality
@@ -820,8 +824,6 @@ luajit
 lvm2
 lz4
 lzo
-m17n-db
-m17n-lib
 m4
 mailcommon
 mailimporter
@@ -849,6 +851,7 @@ mate-sensors-applet-gtk3
 mate-session-manager
 mate-settings-daemon-gtk3
 mate-themes
+mbox-importer
 mcpp
 mdadm
 media-player-info
@@ -907,6 +910,7 @@ npth
 nspr
 nss
 ntfs-3g
+numactl
 nutstore
 nvidia
 nvidia-settings
@@ -914,6 +918,7 @@ nvidia-utils
 ocl-icd
 oh-my-zsh-git
 okteta
+okular
 oniguruma
 openal
 opencc
@@ -940,7 +945,9 @@ pacvis-git
 pam
 pambase
 pango
+pango-perl
 pangomm
+parity
 parted
 patch
 pciutils
@@ -964,6 +971,7 @@ perl-http-negotiate
 perl-io-html
 perl-ipc-system-simple
 perl-libwww
+perl-locale-gettext
 perl-lwp-mediatypes
 perl-net-http
 perl-uri
@@ -982,12 +990,13 @@ phpmyadmin
 physfs
 pidgin
 pidgin-xmpp-receipts
+pim-sieve-editor
+pim-storage-service-manager
 pimcommon
 pinentry
 pinfo
 pixman
 pkg-config
-pkgfile
 plasma-desktop
 plasma-framework
 plasma-integration
@@ -1007,9 +1016,9 @@ polkit-qt5
 poppler
 poppler-data
 poppler-glib
-poppler-qt4
 poppler-qt5
 popt
+portaudio
 postgresql-libs
 potrace
 powerdevil
@@ -1140,6 +1149,7 @@ python2-neovim
 python2-notify
 python2-packaging
 python2-pip
+python2-psutil
 python2-pylint
 python2-pyparsing
 python2-requests
@@ -1157,7 +1167,9 @@ python3-xcpf
 qbittorrent
 qca-qt4
 qca-qt5
-qimageblitz
+qemu
+qemu-launcher
+qgpgme
 qjson
 qrencode
 qt4
@@ -1226,6 +1238,7 @@ sdl
 sdl2
 sdl2_image
 sdl_image
+seabios
 sed
 semver
 serf
@@ -1233,7 +1246,6 @@ shadow
 shadowsocks
 shadowsocks-qt5
 shared-mime-info
-shellcheck
 signon-kwallet-extension
 signon-plugin-oauth2
 signon-ui
@@ -1254,6 +1266,7 @@ sound-theme-freedesktop
 spectacle
 speex
 speexdsp
+spice
 sqlcipher
 sqlite
 srain-git
@@ -1267,6 +1280,7 @@ sunpinyin
 sunpinyin-data
 supertux
 sway
+syntax-highlighting
 sysdig
 sysfsutils
 systemd
@@ -1328,12 +1342,14 @@ unibilium
 unrar
 unzip
 upower
+usbredir
 usbutils
 user-manager
 util-linux
 v4l-utils
 valgrind
 vamp-plugin-sdk
+vde2
 vi
 vicious
 vid.stab
@@ -1341,6 +1357,7 @@ videoproto
 vim-fcitx
 vim-runtime
 vim-rust-git
+virglrenderer
 virtualbox
 virtualbox-host-modules-arch
 virtualgl
@@ -1349,7 +1366,6 @@ vlc
 vte
 vte-common
 vte3-ng
-vulkan-icd-loader
 vulkan-intel
 warzone2100
 wavpack
@@ -1384,6 +1400,7 @@ xcb-util-keysyms
 xcb-util-renderutil
 xcb-util-wm
 xcb-util-xrm
+xclip
 xdebug
 xdg-utils
 xdotool

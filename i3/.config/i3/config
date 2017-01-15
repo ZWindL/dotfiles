@@ -150,14 +150,14 @@ mode "resize" {
         # Pressing up will shrink the window’s height.
         # Pressing down will grow the window’s height.
         bindsym $left       resize shrink width 10 px or 10 ppt
-        bindsym $down       resize grow height 10 px or 10 ppt
-        bindsym $up         resize shrink height 10 px or 10 ppt
+        bindsym $up       resize grow height 10 px or 10 ppt
+        bindsym $down         resize shrink height 10 px or 10 ppt
         bindsym $right      resize grow width 10 px or 10 ppt
 
         # same bindings, but for the arrow keys
         bindsym Left        resize shrink width 10 px or 10 ppt
-        bindsym Down        resize grow height 10 px or 10 ppt
-        bindsym Up          resize shrink height 10 px or 10 ppt
+        bindsym Up        resize grow height 10 px or 10 ppt
+        bindsym Down          resize shrink height 10 px or 10 ppt
         bindsym Right       resize grow width 10 px or 10 ppt
 
         # back to normal: Enter or Escape
@@ -184,7 +184,8 @@ bar {
 #######################################################################
 exec i3-config-wizard
 
-exec /usr/bin/compton --config /home/zwindl/.config/i3/compton.conf
+#exec /usr/bin/compton --config /home/zwindl/.config/i3/compton.conf
+exec compiz --replace
 exec_always --no-startup-id feh --bg-fill /usr/share/sway/Sway_Wallpaper_Blue_1366x768.png
 #output * bg /usr/share/sway/Sway_Wallpaper_Blue_1366x768.png
 gaps inner 5

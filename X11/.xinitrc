@@ -10,18 +10,19 @@ exec fcitx&
 
 #交换Capslock和Ctrl
 exec setxkbmap -option ctrl:swapcaps&
+exec i3
 
-session=${1:-i3}
+#session=${1:-awesome}
 
-case $session in
-	awesome			) exec awesome;;
-	enlightenment	) exec enlightenment_start;;
-	i3				) exec i3;;
-	sway			) exec sway;;
-	hawaii			) exec hawaii;;
-	kde				) exec startkde;;
-	mate			) exec mate-session;;
-	fluxbox			) exec startfluxbox;;
-	openbox			) exec openbox-session;;
-	*) exec $1;;
-esac
+#case $session in
+#	awesome			) exec awesome;;
+#	enlightenment	) exec enlightenment_start;;
+#	i3				) exec i3;;
+#	sway			) exec sway;;
+#	hawaii			) exec hawaii;;
+#	kde				) exec startkde;;
+#	mate			) exec mate-session;;
+#	fluxbox			) exec startfluxbox;;
+#	openbox			) exec openbox-session;;
+#	*) exec $1;;
+#esac

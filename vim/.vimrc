@@ -34,7 +34,8 @@ call plug#begin()
 	"Plug 'Valloric/YouCompleteMe', { 'do': function('BuildYCM') }
 	Plug 'Valloric/YouCompleteMe'
 		Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
-	Plug 'jeaye/color_coded', { 'do': function('BuildColorCoded') }
+	"Plug 'jeaye/color_coded', { 'do': function('BuildColorCoded') }
+	Plug 'jeaye/color_coded'
 	"Plug 'rdnetto/YCM-Generator'
 	
 	""lint tool
