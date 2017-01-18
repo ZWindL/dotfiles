@@ -7,9 +7,9 @@ mouse_autohide = true
 scroll_on_keystroke = true
 
 [colors]
-#foreground = #dcdccc
-foreground = #ededdd
-#background = rgb(63, 63, 63)
+#foreground = #ededdd
+foreground = #e0e0d7
 background = rgba(0, 0, 0, 0.9)
 
-clickable_url = true
+#foreground = #dcdccc
+#background = rgb(63, 63, 63)

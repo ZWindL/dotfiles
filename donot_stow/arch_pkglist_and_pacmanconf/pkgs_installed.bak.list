@@ -168,6 +168,7 @@ icoutils
 inetutils
 inkscape
 intel-ucode
+iperf
 iperf3
 iproute2
 iputils
@@ -291,6 +292,7 @@ network-manager-applet
 networkmanager
 networkmanager-openvpn
 nftables
+nginx
 nmap
 noto-fonts
 noto-fonts-cjk

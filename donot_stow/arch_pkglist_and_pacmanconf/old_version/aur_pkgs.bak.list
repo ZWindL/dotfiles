@@ -3,7 +3,8 @@ bash-git-prompt
 cairo-coloredemoji
 cdw
 compiz
-fcitx-table-cangjie5-colemak
+edb-debugger
+emsdk
 fontconfig-enhanced-defaults
 fortune-mod-archlinux
 fortune-mod-fringe
@@ -12,6 +13,8 @@ fortune-mod-matrix
 fortune-mod-vimtips
 fortune-mod-zh
 gnome-breeze-git
+i2p-bin
+i3-gaps-git
 insomnia
 jp2a
 kjieba
@@ -21,6 +24,7 @@ meek
 neovim-qt-git
 oneko
 phpstorm
+pidgin-znchelper
 quaternion-git
 rtv
 stockfish
@@ -29,4 +33,3 @@ ttf-fantasque-sans
 wiringpi-git
 wiringpi-gpio-halt
 xpenguins
-zeronet-git
