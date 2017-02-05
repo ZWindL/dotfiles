@@ -1,5 +1,5 @@
+abs
 acpi
-acpi_call
 acpid
 adobe-source-han-sans-cn-fonts
 adobe-source-han-sans-jp-fonts
@@ -14,6 +14,7 @@ alsa-tools
 alsa-utils
 alsaplayer
 amarok
+amule
 android-sdk-platform-tools
 apache
 arch-install-scripts
@@ -43,6 +44,7 @@ bison
 bleachbit
 bluedevil
 bluez-utils
+bmon
 breeze
 breeze-gtk
 breeze-kde4
@@ -99,9 +101,11 @@ exo
 extra-cmake-modules
 extundelete
 fakeroot
+fbterm
 fbv
 fcitx
 fcitx-cloudpinyin
+fcitx-fbterm
 fcitx-googlepinyin
 fcitx-gtk2
 fcitx-gtk3
@@ -133,7 +137,6 @@ gawk
 gcc
 gcc-libs
 gdb
-geth
 gettext
 gimp
 gimp-help-zh_cn
@@ -215,6 +218,8 @@ kimageformats
 kinfocenter
 kleopatra
 kmenuedit
+kmscon
+kodi
 kolourpaint
 konsole
 konversation
@@ -230,11 +235,9 @@ kwayland-integration
 kwin
 less
 libavc1394
-libc++
 libdbusmenu-gtk3
 libfprint
 libgme
-libgnome
 libkolabxml
 liblastfm
 libmariadbclient
@@ -269,6 +272,7 @@ mate-desktop-gtk3
 mate-power-manager-gtk3
 mate-screensaver-hacks
 mate-settings-daemon-gtk3
+maxima-ecl
 mdadm
 meld
 mesa
@@ -282,7 +286,6 @@ mutt
 namcap
 nano
 ncdu
-ncurses5-compat-libs
 neovim
 netctl
 netease-cloud-music
@@ -292,7 +295,6 @@ network-manager-applet
 networkmanager
 networkmanager-openvpn
 nftables
-nginx
 nmap
 noto-fonts
 noto-fonts-cjk
@@ -426,7 +428,7 @@ systemsettings
 taglib-extras
 tar
 task
-teeworlds
+teeworlds-ddnet
 telegram-desktop
 termite
 testdisk
@@ -439,12 +441,14 @@ thunar
 thunar-volman
 thunderbird
 thunderbird-i18n-zh-cn
+tigervnc
 tk
 tlp
 tmux
 tor
 torsocks
 toxic
+transmission-cli
 tree
 tsocks
 ttf-arphic-ukai
@@ -486,7 +490,7 @@ whois
 wireshark-qt
 wiznote
 wpa_supplicant
-wqy-microhei
+wqy-microhei-kr-patched
 wqy-microhei-lite
 wqy-zenhei
 xapian-core
@@ -497,9 +501,9 @@ xerces-c
 xf86-input-libinput
 xf86-input-mouse
 xfce4-appfinder
-xfce4-mixer
 xfce4-panel
 xfce4-power-manager
+xfce4-pulseaudio-plugin
 xfce4-session
 xfce4-settings
 xfce4-terminal

@@ -357,6 +357,7 @@ inetutils
 inkscape
 inputproto
 intel-ucode
+iperf
 iperf3
 iproute2
 iptables
@@ -897,6 +898,7 @@ networkmanager
 networkmanager-openvpn
 networkmanager-qt
 nftables
+nginx
 nm-connection-editor
 nmap
 nodejs
