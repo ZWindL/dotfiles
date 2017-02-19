@@ -27,6 +27,7 @@ call plug#begin()
 	"" 前端必备插件 
 	Plug 'mattn/emmet-vim'
 		""TypeScript
+		"hilight
 		Plug 'leafgarland/typescript-vim'
 		"Plug 'HerringtonDarkholme/yats.vim'
 

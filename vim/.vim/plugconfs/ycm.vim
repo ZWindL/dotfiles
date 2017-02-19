@@ -19,6 +19,9 @@ let g:ycm_filetype_blacklist = {
 
 let g:ycm_error_symbol = '✗'
 let g:ycm_warning_symbol = '⚠'
+" 错误样式 使用 Syntastic 插件才有用
+"highlight link SyntasticErrorLine error
+"highlight link SyntasticWarningLine todo
 
 "调试选项
 "let g:ycm_server_keep_logfiles = 1
@@ -57,6 +60,7 @@ let g:ycm_collect_identifiers_from_comments_and_strings = 0
 	let g:ycm_add_preview_to_completeopt = 1
 	"" Python3 的补全支持
 	let g:ycm_python_binary_path='/usr/bin/python3'
+
 "" End "
 
 "" 关于 UltiSnip 的选项

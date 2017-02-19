@@ -51,9 +51,9 @@ flags = [
 '-isystem',
 '/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include',
 '-isystem',
-'/usr/include/c++/v1',
+'/usr/include/c++/6.3.1',
 '-isystem',
-'/usr/lib/clang/3.8.0',
+'/usr/lib/clang/3.9.1',
 '-isystem',
 '/usr/include'
 ]

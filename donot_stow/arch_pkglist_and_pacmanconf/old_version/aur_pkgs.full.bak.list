@@ -1,3 +1,6 @@
+2048-qt
+2048a
+acpi_call-dkms
 aliedit
 bash-git-prompt
 cairo-coloredemoji
@@ -13,13 +16,15 @@ fortune-mod-matrix
 fortune-mod-vimtips
 fortune-mod-zh
 gnome-breeze-git
+googler
+hmcl
 i2p-bin
 i3-gaps-git
 insomnia
 java-service-wrapper
+jid-bin
 jp2a
 kjieba
-libappindicator-activate-gtk2
 lua-cjson
 mailcap-fix
 mdp-git
@@ -28,6 +33,7 @@ neovim-qt-git
 oneko
 phpstorm
 pidgin-znchelper
+python2-potr-git
 python3-kitchen
 quaternion-git
 rtv

@@ -1,3 +1,6 @@
 -fcolor-diagnostics
+-isystem/home/zwindl/.vim/plugged/color_coded/build/clang+llvm-3.9.0-x86_64-opensuse13.2/include
+-isystem/home/zwindl/.vim/plugged/color_coded/build/clang+llvm-3.9.0-x86_64-opensuse13.2/lib/clang/3.9.0
 -isystem/usr/include/c++/6.3.1/
 -isystem/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include
+-isystem/usr/lib/clang/3.9.1
