@@ -36,10 +36,11 @@ appstream-qt
 apr
 apr-util
 arch-install-scripts
+arch-wiki-docs
+arch-wiki-lite
 archlinux-keyring
 archlinux-wallpaper
 archlinuxcn-keyring
-archsocks
 argyllcms
 aria2-fast
 ark
@@ -183,7 +184,7 @@ efibootmgr
 efivar
 electron
 elfutils
-elvish
+emscripten
 enca
 enchant
 eom-gtk3
@@ -193,7 +194,6 @@ etckeeper
 exa-git
 exempi
 exiv2
-exo
 expac
 expat
 extra-cmake-modules
@@ -234,7 +234,6 @@ flake8
 flashplugin
 flex
 fltk
-fluidsynth
 fontconfig
 fontsproto
 fortune-mod
@@ -242,13 +241,11 @@ fprintd
 fqterm-git
 frameworkintegration
 freealut
-freeglut
 freetype2
 fribidi
 fuse-common
 fuse2
 fzf
-garcon
 gawk
 gc
 gcc
@@ -285,8 +282,6 @@ glibmm
 glproto
 glu
 gmp
-gnome-icon-theme
-gnome-icon-theme-symbolic
 gnome-themes-standard
 gnuchess
 gnupg
@@ -296,6 +291,7 @@ gobject-introspection-runtime
 goldendict
 google-glog
 gpart
+gparted
 gperf
 gperftools
 gpgme
@@ -319,7 +315,6 @@ gst-plugins-ugly
 gstreamer
 gtk-engines
 gtk-update-icon-cache
-gtk-xfce-engine
 gtk2
 gtk2-perl
 gtk3
@@ -461,6 +456,9 @@ kholidays
 khotkeys
 khtml
 ki18n
+kicad
+kicad-library
+kicad-library-3d
 kiconthemes
 kidentitymanagement
 kidletime
@@ -535,6 +533,7 @@ libaccounts-glib
 libaccounts-qt
 libaio
 libao
+libappindicator-gtk3
 libarchive
 libass
 libassuan
@@ -558,6 +557,8 @@ libcdio-paranoia
 libcdr
 libcmis
 libconfig
+libcork
+libcorkipset
 libcroco
 libcups
 libdaemon
@@ -613,8 +614,10 @@ libidn
 libiec61883
 libieee1284
 libimobiledevice
+libindicator-gtk3
 libinput
 libircclient
+libixion
 libjpeg-turbo
 libkate
 libkcddb
@@ -623,7 +626,6 @@ libkdcraw
 libkdegames4
 libkdepim
 libkexiv2
-libkeybinder3
 libkgapi
 libkipi
 libkleo
@@ -676,6 +678,7 @@ libodfgen
 libofa
 libogg
 libomxil-bellagio
+liborcus
 libotr
 libpagemaker
 libpaper
@@ -761,7 +764,6 @@ libwacom
 libwbclient
 libwebp
 libwmf
-libwnck
 libwnck3
 libwpd
 libwpg
@@ -777,8 +779,6 @@ libxdamage
 libxdg-basedir
 libxdmcp
 libxext
-libxfce4ui
-libxfce4util
 libxfixes
 libxfont
 libxfont2
@@ -857,7 +857,6 @@ media-player-info
 meld
 mercurial
 mesa
-mesa-demos
 mesa-libgl
 messagelib
 metacity
@@ -1014,7 +1013,6 @@ plasma-workspace
 plasma-workspace-wallpapers
 plasma5-applets-weather-widget
 polkit
-polkit-gnome
 polkit-kde-agent
 polkit-qt4
 polkit-qt5
@@ -1059,10 +1057,8 @@ pygtk
 pyqt5-common
 pyrex
 python
-python-aiohttp
 python-appdirs
 python-astroid
-python-async_timeout
 python-babel
 python-beautifulsoup4
 python-bottle
@@ -1090,7 +1086,6 @@ python-markupsafe
 python-matplotlib
 python-mccabe
 python-msgpack
-python-multidict-git
 python-neovim
 python-netifaces
 python-numpy
@@ -1125,7 +1120,6 @@ python-update-checker
 python-urllib3
 python-wrapt
 python-xdg
-python-yarl
 python2
 python2-appdirs
 python2-astroid
@@ -1202,7 +1196,6 @@ qt5-xmlpatterns
 qtcreator
 qtox
 qtscriptgenerator
-qtwebkit
 quota-tools
 randrproto
 raptor
@@ -1301,7 +1294,6 @@ task
 tcl
 tdb
 teeworlds-ddnet
-telegram-desktop
 termite
 termite-terminfo
 testdisk
@@ -1317,8 +1309,6 @@ texlive-langkorean
 texlive-latexextra
 thin-provisioning-tools
 threadweaver
-thunar
-thunar-volman
 thunderbird
 thunderbird-i18n-zh-cn
 tigervnc
@@ -1345,7 +1335,6 @@ ttf-liberation
 ttf-monaco
 ttf-symbola
 ttf-ubuntu-font-family
-tumbler
 tuntox
 typescript
 tzdata
@@ -1382,6 +1371,7 @@ vte-common
 vte3-ng
 vulkan-intel
 vulscan
+vuze
 warzone2100
 wavpack
 wayland
@@ -1405,7 +1395,9 @@ wqy-microhei-kr-patched
 wqy-microhei-lite
 wqy-zenhei
 wxgtk
+wxpython
 x265
+x86_energy_perf_policy
 xapian-core
 xcb-proto
 xcb-util
@@ -1426,19 +1418,7 @@ xf86-input-mouse
 xf86dgaproto
 xf86driproto
 xf86vidmodeproto
-xfce4-appfinder
-xfce4-panel
-xfce4-power-manager
-xfce4-pulseaudio-plugin
-xfce4-session
-xfce4-settings
-xfce4-terminal
-xfce4-windowck-plugin
-xfconf
-xfdesktop
 xfsprogs
-xfwm4
-xfwm4-themes
 xineramaproto
 xkeyboard-config
 xloadimage

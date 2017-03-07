@@ -1,8 +1,8 @@
 #256 colors
 export TERM=xterm-256color
 # Path to your oh-my-zsh installation.
-#ZSH=/usr/share/oh-my-zsh/
-export ZSH=$HOME/.oh-my-zsh
+export ZSH=/usr/share/oh-my-zsh/
+#export ZSH=$HOME/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -53,7 +53,7 @@ DISABLE_AUTO_UPDATE="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git colored-man-pages colorize archlinux copyfile copydir encode64 fancy-ctrl-z git-prompt nmap vi-mode)
+plugins=(adb command-not-found compleat cp emoji man git colored-man-pages colorize archlinux copyfile copydir encode64 fancy-ctrl-z git-prompt nmap vi-mode)
 
 # User configuration
 
@@ -514,3 +514,7 @@ zstyle ':completion:*:*:hp2ps:*' file-patterns '*.hp'
 zstyle ':completion:*:*:feh:*' file-patterns '*.{png,gif,jpg,svg}:images:images *(-/):directories:directories'
 zstyle ':completion:*:*:sxiv:*' file-patterns '*.{png,gif,jpg}:images:images *(-/):directories:directories'
 zstyle ':completion:*:*:timidity:*' file-patterns '*.mid'
+
+
+# 环境变量
+export RUST_SRC_PATH=/home/zwindl/.vim/srcs/rust/beta/src

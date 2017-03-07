@@ -169,8 +169,14 @@ bindsym $mod+r mode "resize"
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
+set $bg_color #00000090
 bar {
+		position top
+		colors {
+			background $bg_color
+		}
         status_command i3status
+        i3bar_command i3bar -t
 }
 
 #######################################################################
@@ -184,8 +190,8 @@ bar {
 #######################################################################
 exec i3-config-wizard
 
-#exec /usr/bin/compton --config /home/zwindl/.config/i3/compton.conf
-exec compiz --replace
+exec /usr/bin/compton --config /home/zwindl/.config/i3/compton.conf
+#exec compiz --replace
 exec_always --no-startup-id feh --bg-fill /usr/share/sway/Sway_Wallpaper_Blue_1366x768.png
 #output * bg /usr/share/sway/Sway_Wallpaper_Blue_1366x768.png
 gaps inner 5

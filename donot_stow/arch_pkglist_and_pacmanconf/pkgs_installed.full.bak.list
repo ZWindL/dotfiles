@@ -4,6 +4,7 @@ abs
 accounts-qml-module
 accountsservice
 acl
+acorn
 acpi
 acpid
 adobe-source-han-sans-cn-fonts
@@ -103,9 +104,6 @@ ca-certificates-mozilla
 ca-certificates-utils
 cairo-perl
 cairomm
-caja-extensions-common
-caja-gtk3
-caja-open-terminal-gtk3
 calcurse
 calendarsupport
 cantarell-fonts
@@ -171,7 +169,6 @@ dosfstools
 dotconf
 downgrade
 doxygen
-dragon
 dri2proto
 dri3proto
 drkonqi
@@ -185,20 +182,17 @@ efivar
 electron
 elfutils
 emscripten
-enca
 enchant
-eom-gtk3
 epplet-base
+eslint
 espeak
 etckeeper
 exa-git
-exempi
 exiv2
 expac
 expat
 extra-cmake-modules
 extundelete
-faac
 faad2
 fakeroot
 farstream
@@ -241,6 +235,7 @@ fprintd
 fqterm-git
 frameworkintegration
 freealut
+freeglut
 freetype2
 fribidi
 fuse-common
@@ -281,6 +276,7 @@ glibc
 glibmm
 glproto
 glu
+gmime
 gmp
 gnome-themes-standard
 gnuchess
@@ -296,6 +292,7 @@ gperf
 gperftools
 gpgme
 gpm
+gptfdisk
 grantlee
 grantleetheme
 graphite
@@ -592,7 +589,6 @@ libffi
 libfilezilla
 libfontenc
 libfprint
-libftdi
 libgadu
 libgcrypt
 libgdiplus
@@ -643,8 +639,6 @@ libldap
 liblqr
 libmad
 libmariadbclient
-libmatekbd-gtk3
-libmatemixer
 libmatroska
 libmbim
 libmcrypt
@@ -654,7 +648,6 @@ libmm-glib
 libmng
 libmnl
 libmodplug
-libmp4v2
 libmpc
 libmpcdec
 libmpeg2
@@ -741,7 +734,6 @@ libtool
 libtorrent-rasterbar
 libtsm
 libtxc_dxtn
-libunique3
 libunistring
 libunrar
 libunwind
@@ -788,7 +780,6 @@ libxinerama
 libxkbcommon
 libxkbcommon-x11
 libxkbfile
-libxklavier
 libxml2
 libxmu
 libxnvctrl
@@ -802,7 +793,6 @@ libxss
 libxt
 libxtst
 libxv
-libxvmc
 libxxf86dga
 libxxf86vm
 libyaml
@@ -816,7 +806,6 @@ linux-firmware
 linux-headers
 linux-zen
 linux-zen-headers
-lirc
 llvm
 llvm-libs
 lm_sensors
@@ -839,16 +828,10 @@ mailimporter
 make
 man-db
 man-pages
-marco-gtk3
 mariadb
 mariadb-clients
 marisa
 markdown
-mate-desktop-gtk3
-mate-desktop-schemas
-mate-power-manager-gtk3
-mate-screensaver-hacks
-mate-settings-daemon-gtk3
 maxima-ecl
 mbedtls
 mcpp
@@ -857,7 +840,6 @@ media-player-info
 meld
 mercurial
 mesa
-mesa-libgl
 messagelib
 metacity
 milou
@@ -874,13 +856,11 @@ mosh
 mozilla-common
 mpfr
 mpg123
-mplayer
 mpv
 msgpack-c
 mtdev
 mtools
 mtr
-mutt
 namcap
 nano
 ncdu
@@ -903,6 +883,7 @@ nftables
 nm-connection-editor
 nmap
 nodejs
+notmuch-runtime
 noto-fonts
 noto-fonts-cjk
 noto-fonts-emoji
@@ -934,7 +915,6 @@ openssh
 openssl
 openvpn
 opus
-opusfile
 orc
 oxygen
 oxygen-icons
@@ -977,6 +957,7 @@ perl-libwww
 perl-locale-gettext
 perl-lwp-mediatypes
 perl-net-http
+perl-try-tiny
 perl-uri
 perl-www-robotrules
 perl-xml-parser
@@ -1032,7 +1013,6 @@ powertop
 ppp
 pptpclient
 presentproto
-primus
 prison
 privoxy
 procps-ng
@@ -1065,7 +1045,6 @@ python-bottle
 python-cffi
 python-chardet
 python-click
-python-crypto
 python-cycler
 python-dateutil
 python-dbus
@@ -1073,10 +1052,14 @@ python-dbus-common
 python-decorator
 python-docutils
 python-editdistance
-python-future
+python-engineio
+python-eventlet
+python-flask
 python-greenlet
 python-imagesize
 python-isort
+python-itsdangerous
+python-jedi
 python-jieba
 python-jinja
 python-lazy-object-proxy
@@ -1104,6 +1087,7 @@ python-pygit2
 python-pygments
 python-pylint
 python-pyparsing
+python-pypeg2
 python-pyqt5
 python-pystemmer
 python-pytz
@@ -1112,12 +1096,14 @@ python-setuptools
 python-sip
 python-six
 python-snowballstemmer
+python-socketio
 python-sphinx
 python-sphinx-alabaster-theme
 python-sphinx_rtd_theme
 python-unidecode
 python-update-checker
 python-urllib3
+python-werkzeug
 python-wrapt
 python-xdg
 python2
@@ -1125,12 +1111,15 @@ python2-appdirs
 python2-astroid
 python2-backports
 python2-backports.functools_lru_cache
+python2-beautifulsoup4
 python2-cairo
+python2-chardet
 python2-click
 python2-configparser
 python2-crypto
 python2-editdistance
 python2-enum34
+python2-future
 python2-futures
 python2-gevent
 python2-gobject
@@ -1138,7 +1127,6 @@ python2-gobject2
 python2-greenlet
 python2-hglib
 python2-isort
-python2-jedi
 python2-lazy-object-proxy
 python2-mccabe
 python2-msgpack
@@ -1151,18 +1139,21 @@ python2-pip
 python2-pybluez
 python2-pylint
 python2-pyparsing
+python2-requests
 python2-setuptools
 python2-simplejson
 python2-singledispatch
 python2-six
 python2-trollius
 python2-unidecode
+python2-urllib3
 python2-wrapt
 python3-aur
 python3-memoizedb
 python3-xcgf
 python3-xcpf
 qbittorrent
+qbs
 qca-qt4
 qca-qt5
 qemu
@@ -1190,7 +1181,6 @@ qt5-wayland
 qt5-webchannel
 qt5-webengine
 qt5-webkit
-qt5-websockets
 qt5-x11extras
 qt5-xmlpatterns
 qtcreator
@@ -1215,7 +1205,6 @@ rlwrap
 rp-pppoe
 rsync
 rtkit
-rtmpdump
 rubberband
 ruby
 run-parts
@@ -1243,6 +1232,7 @@ shadowsocks
 shadowsocks-libev
 shadowsocks-qt5
 shared-mime-info
+shellcheck
 signon-kwallet-extension
 signon-plugin-oauth2
 signon-ui
@@ -1253,9 +1243,6 @@ sl
 slang
 smbclient
 smpeg
-smplayer
-smplayer-skins
-smplayer-themes
 snappy
 socat
 solid
@@ -1282,6 +1269,7 @@ sway
 syntax-highlighting
 sysdig
 sysfsutils
+syslinux
 systemd
 systemd-sysvcompat
 systemsettings
@@ -1293,7 +1281,7 @@ tar
 task
 tcl
 tdb
-teeworlds-ddnet
+telegram-desktop-systemqt-notoemoji
 termite
 termite-terminfo
 testdisk
@@ -1311,6 +1299,7 @@ thin-provisioning-tools
 threadweaver
 thunderbird
 thunderbird-i18n-zh-cn
+tidy
 tigervnc
 tinyxml
 tk
@@ -1341,6 +1330,7 @@ tzdata
 uchardet
 udisks2
 udns
+unetbootin
 unibilium
 unrar
 unzip
@@ -1372,7 +1362,6 @@ vte3-ng
 vulkan-intel
 vulscan
 vuze
-warzone2100
 wavpack
 wayland
 wayland-protocols
@@ -1388,7 +1377,6 @@ wireless_tools
 wireshark-cli
 wireshark-common
 wireshark-qt
-wiznote
 wlc
 wpa_supplicant
 wqy-microhei-kr-patched

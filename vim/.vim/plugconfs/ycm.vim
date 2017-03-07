@@ -27,8 +27,8 @@ let g:ycm_warning_symbol = '⚠'
 "let g:ycm_server_keep_logfiles = 1
 "let g:ycm_server_log_level = 'debug'
 
-let g:ycm_global_ycm_extra_conf = '~/.vim/ycm_extra_conf.py'
-"let g:ycm_global_ycm_extra_conf = '~/.vim/ycm_extra_conf_c.py'
+"let g:ycm_global_ycm_extra_conf = '~/.vim/ycm_extra_conf.py'
+let g:ycm_global_ycm_extra_conf = '~/.vim/ycm_extra_conf_c.py'
 "编写 C 语言文件时切换配置文件
 let g:ycm_collect_identifiers_from_tags_files = 1
 set completeopt=longest,menu	"让Vim的补全菜单行为与一般IDE一致(参考VimTip1228)
@@ -69,8 +69,6 @@ let g:ycm_collect_identifiers_from_comments_and_strings = 0
 	let g:ycm_use_ultisnips_completer = 1
 	let g:ycm_key_list_select_completion = ['<c-n>', '<Down>']
 	let g:ycm_key_list_previous_completion = ['<c-p>', '<Up>']
-	""UltiSnips
-	let g:UltiSnipsExpandTrigger="<leader><tab>"
 	"let g:UltiSnipsJumpForwardTrigger="<c-b>"
 	"let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 

@@ -5,6 +5,8 @@ clickable_url = true
 fullscreen = false
 mouse_autohide = true
 scroll_on_keystroke = true
+#geometry=130x38
+geometry=850x500
 
 [colors]
 #foreground = #ededdd

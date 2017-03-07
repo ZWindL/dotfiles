@@ -10,7 +10,7 @@ exec fcitx&
 
 #交换Capslock和Ctrl
 exec setxkbmap -option ctrl:swapcaps&
-exec awesome
+exec i3
 
 #session=${1:-awesome}
 

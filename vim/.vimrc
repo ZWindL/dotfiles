@@ -32,6 +32,7 @@ call plug#begin()
 		"Plug 'HerringtonDarkholme/yats.vim'
 
 	""C family
+	"Plug 'maralla/completor.vim'
 	"Plug 'Valloric/YouCompleteMe', { 'do': function('BuildYCM') }
 	Plug 'Valloric/YouCompleteMe'
 		Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
@@ -41,7 +42,7 @@ call plug#begin()
 	
 	""lint tool
 	""Plug 'scrooloose/syntastic'
-	"Plug 'w0rp/ale'
+	Plug 'w0rp/ale'
 
 	""Assembly Hilight
 	Plug 'Shirk/vim-gas'
@@ -124,6 +125,8 @@ call plug#end()
 " 插件的选项
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 source ~/.vim/plugconfs/ycm.vim
+"source ~/.vim/plugconfs/completor.vim
+source ~/.vim/plugconfs/ultisnips.vim
 source ~/.vim/plugconfs/syntastic.vim
 source ~/.vim/plugconfs/emmet.vim
 source ~/.vim/plugconfs/color_coded.vim
@@ -142,7 +145,7 @@ source ~/.vim/plugconfs/vimwiki.vim
 source ~/.vim/plugconfs/vimnotes.vim
 "source ~/.vim/plugconfs/easymotion.vim
 "source ~/.vim/plugconfs/powerline.vim
-"source ~/.vim/plugconfs/ale.vim
+source ~/.vim/plugconfs/ale.vim
 
 """"""""""""""""""""""""""""""""""""""""""""""""""
 "My Own options
