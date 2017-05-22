@@ -118,7 +118,9 @@ call plug#begin()
 	"个人笔记管理
 	Plug 'vimwiki/vimwiki'
 	Plug 'xolox/vim-notes' | Plug 'xolox/vim-misc'
-	
+
+	""显示复制内容
+	Plug 'machakann/vim-highlightedyank'	
 call plug#end()
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -134,7 +136,7 @@ source ~/.vim/plugconfs/ctrlp.vim
 source ~/.vim/plugconfs/airline.vim
 source ~/.vim/plugconfs/tagbar.vim
 source ~/.vim/plugconfs/nerdtree.vim
-source ~/.vim/plugconfs/indentline.vim
+"source ~/.vim/plugconfs/indentline.vim
 source ~/.vim/plugconfs/minimap.vim
 source ~/.vim/plugconfs/licenses.vim
 source ~/.vim/plugconfs/undotree.vim
@@ -143,9 +145,10 @@ source ~/.vim/plugconfs/typescript_vim.vim
 source ~/.vim/plugconfs/asyncrun.vim
 source ~/.vim/plugconfs/vimwiki.vim
 source ~/.vim/plugconfs/vimnotes.vim
-"source ~/.vim/plugconfs/easymotion.vim
+source ~/.vim/plugconfs/easymotion.vim
 "source ~/.vim/plugconfs/powerline.vim
 source ~/.vim/plugconfs/ale.vim
+source ~/.vim/plugconfs/highlightedyank.vim
 
 """"""""""""""""""""""""""""""""""""""""""""""""""
 "My Own options
@@ -210,6 +213,9 @@ set tabstop=4
 set softtabstop=4
 set shiftwidth=4
 set noexpandtab
+
+"阻止 vim 自动对带有空格分隔单词的行自动换行
+set formatoptions-=t
 
 " 设置 256 色
 set t_Co=256

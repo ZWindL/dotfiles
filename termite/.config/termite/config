@@ -1,6 +1,6 @@
 [options]
 font = Fantasque Sans Mono 10
-browser = firefox
+browser = firefox-nightly
 clickable_url = true
 fullscreen = false
 mouse_autohide = true

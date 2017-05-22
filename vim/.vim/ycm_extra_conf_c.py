@@ -53,7 +53,7 @@ flags = [
 '-isystem',
 '/usr/include/c++/6.3.1',
 '-isystem',
-'/usr/lib/clang/3.9.1',
+'/usr/lib/clang/4.0.0',
 '-isystem',
 '/usr/include'
 ]
@@ -148,7 +148,6 @@ def FlagsForFile( filename, **kwargs ):
     final_flags = MakeRelativePathsInFlagsAbsolute( flags, relative_to )
 
   return {
-    'flags': final_flags,
-    'do_cache': True
+    'flags': final_flags
   }
 

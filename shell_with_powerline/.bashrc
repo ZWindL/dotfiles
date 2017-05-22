@@ -22,3 +22,6 @@ alias rm='rm -I'
 if [[ $TERM == xterm-termite ]]; then
 	. /etc/profile.d/vte.sh
 fi
+
+#拼音补全路径
+source /usr/share/pinyin-completion/shell/pinyin-comp.bash
