@@ -19,22 +19,25 @@ call plug#begin()
 
 	"" completer
 	Plug 'autozimu/LanguageClient-neovim', { 'do': ':UpdateRemotePlugins' }
+	Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+	Plug 'roxma/nvim-completion-manager'
+
 	"" Showing function signature and inline doc.
 	Plug 'Shougo/echodoc.vim'
-	Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+
 	Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
-		""typescript
-		Plug 'mhartington/nvim-typescript'
-		""javascript
-		Plug 'carlitux/deoplete-ternjs'
-		""python
-		Plug 'zchee/deoplete-jedi'
-		""rust
-		Plug 'racer-rust/vim-racer'
-		""PHP
-		Plug 'lvht/phpcd.vim', { 'for': 'php', 'do': 'composer install' }
-		""vim
-		Plug 'Shougo/neco-vim'
+    ""typescript
+    Plug 'mhartington/nvim-typescript'
+    ""javascript
+    Plug 'carlitux/deoplete-ternjs'
+    ""python
+    Plug 'zchee/deoplete-jedi'
+    ""rust
+    "Plug 'racer-rust/vim-racer'
+    ""PHP
+    Plug 'lvht/phpcd.vim', { 'for': 'php', 'do': 'composer install' }
+    ""vim
+    Plug 'Shougo/neco-vim'
 
 	"" 前端必备插件 
 	Plug 'mattn/emmet-vim'
@@ -107,6 +110,11 @@ call plug#begin()
 	
 	""显示复制内容
 	Plug 'machakann/vim-highlightedyank'	
+
+	""toml support
+    Plug 'cespare/vim-toml'
+    ""平滑滚动
+    Plug 'yuttie/comfortable-motion.vim'
 call plug#end()
 "未来会用到的
 "https://github.com/rafaelndev/deoplete-laravel-plugin
@@ -117,7 +125,7 @@ call plug#end()
 " 插件的选项
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 source ~/.config/nvim/plugconfs/deoplete.vim
-source ~/.config/nvim/plugconfs/vim-racer.vim
+"source ~/.config/nvim/plugconfs/vim-racer.vim
 source ~/.config/nvim/plugconfs/airline.vim
 source ~/.config/nvim/plugconfs/ale.vim
 source ~/.config/nvim/plugconfs/ctrlp.vim
@@ -176,7 +184,8 @@ set incsearch		" do incremental searching
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
-set noexpandtab
+"set noexpandtab
+set expandtab
 
 ""打开 terninal vim mode 的快捷键
 tnoremap <C-A> <C-\><C-N>

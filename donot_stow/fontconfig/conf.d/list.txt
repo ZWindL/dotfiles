@@ -1,0 +1,45 @@
+09-texlive-fonts.conf
+10-autohint.conf -> ../conf.avail/10-autohint.conf
+10-hinting-slight.conf -> /etc/fonts/conf.avail/10-hinting-slight.conf
+10-powerline-symbols.conf -> ../conf.avail/10-powerline-symbols.conf
+10-scale-bitmap-fonts.conf -> /etc/fonts/conf.avail/10-scale-bitmap-fonts.conf
+10-sub-pixel-rgb.conf -> ../conf.avail/10-sub-pixel-rgb.conf
+11-lcdfilter-default.conf -> ../conf.avail/11-lcdfilter-default.conf
+20-hintfull-wqy-micro.conf
+20-unhint-small-dejavu-sans-mono.conf -> ../conf.avail/20-unhint-small-dejavu-sans-mono.conf
+20-unhint-small-dejavu-sans.conf -> ../conf.avail/20-unhint-small-dejavu-sans.conf
+20-unhint-small-dejavu-serif.conf -> ../conf.avail/20-unhint-small-dejavu-serif.conf
+20-unhint-small-vera.conf -> /etc/fonts/conf.avail/20-unhint-small-vera.conf
+30-metric-aliases.conf -> /etc/fonts/conf.avail/30-metric-aliases.conf
+30-urw-aliases.conf -> /etc/fonts/conf.avail/30-urw-aliases.conf
+31-cantarell.conf -> ../conf.avail/31-cantarell.conf
+40-nonlatin.conf -> /etc/fonts/conf.avail/40-nonlatin.conf
+44-source-han-sans-cn.conf -> ../conf.avail/44-source-han-sans-cn.conf
+44-source-han-sans-jp.conf -> ../conf.avail/44-source-han-sans-jp.conf
+44-source-han-sans-kr.conf -> ../conf.avail/44-source-han-sans-kr.conf
+44-source-han-sans-otc.conf -> ../conf.avail/44-source-han-sans-otc.conf
+44-source-han-sans-tw.conf -> ../conf.avail/44-source-han-sans-tw.conf
+44-source-han-serif-cn.conf -> ../conf.avail/44-source-han-serif-cn.conf
+44-source-han-serif-jp.conf -> ../conf.avail/44-source-han-serif-jp.conf
+44-source-han-serif-tw.conf -> ../conf.avail/44-source-han-serif-tw.conf
+44-wqy-microhei.conf -> ../conf.avail/44-wqy-microhei.conf
+45-latin.conf -> /etc/fonts/conf.avail/45-latin.conf
+49-sansserif.conf -> /etc/fonts/conf.avail/49-sansserif.conf
+50-user.conf -> /etc/fonts/conf.avail/50-user.conf
+51-local.conf -> /etc/fonts/conf.avail/51-local.conf
+51-noto-color-emoji.conf
+57-dejavu-sans-mono.conf -> ../conf.avail/57-dejavu-sans-mono.conf
+57-dejavu-sans.conf -> ../conf.avail/57-dejavu-sans.conf
+57-dejavu-serif.conf -> ../conf.avail/57-dejavu-serif.conf
+60-latin.conf -> /etc/fonts/conf.avail/60-latin.conf
+65-cn-fallback.conf
+65-fonts-persian.conf -> /etc/fonts/conf.avail/65-fonts-persian.conf
+65-nonlatin.conf -> /etc/fonts/conf.avail/65-nonlatin.conf
+65-wqy-zenhei.conf -> ../conf.avail/65-wqy-zenhei.conf
+69-language-selector-zh-cn.conf
+69-unifont.conf -> /etc/fonts/conf.avail/69-unifont.conf
+70-no-bitmaps.conf -> ../conf.avail/70-no-bitmaps.conf
+80-delicious.conf -> /etc/fonts/conf.avail/80-delicious.conf
+81-ubuntu.conf
+90-synthetic.conf -> /etc/fonts/conf.avail/90-synthetic.conf
+README

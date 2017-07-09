@@ -52,8 +52,8 @@ call plug#begin()
 	Plug 'Xuyuanp/nerdtree-git-plugin'
 	"" TagBar
 	Plug 'majutsushi/tagbar'
-	Plug 'Yggdroot/indentLine'	"代码块可视化插件	只适用于使用空格缩进的文件中
-	Plug 'nathanaelkane/vim-indent-guides'	"代码可视化插件
+	"Plug 'Yggdroot/indentLine'	"代码块可视化插件	只适用于使用空格缩进的文件中
+	"Plug 'nathanaelkane/vim-indent-guides'	"代码可视化插件
 	"补全 python 其实已经包含于 YCM 中
 	"Plug 'davidhalter/jedi'
 	"" 代码地图
@@ -121,6 +121,10 @@ call plug#begin()
 
 	""显示复制内容
 	Plug 'machakann/vim-highlightedyank'	
+	""toml support
+	Plug 'cespare/vim-toml'
+	""平滑滚动
+	Plug 'yuttie/comfortable-motion.vim'
 call plug#end()
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -212,7 +216,8 @@ set incsearch		" do incremental searching
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
-set noexpandtab
+"set noexpandtab
+set expandtab
 
 "阻止 vim 自动对带有空格分隔单词的行自动换行
 set formatoptions-=t
@@ -327,3 +332,4 @@ nmap <F6>k :cp<CR>
 
 " http://blog.jobbole.com/103343/
 "
+" 加密设置 vim -x /path/to/your/file

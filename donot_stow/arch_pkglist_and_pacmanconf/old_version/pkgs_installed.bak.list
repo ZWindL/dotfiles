@@ -51,8 +51,6 @@ breeze-gtk
 breeze-kde4
 bumblebee
 bzip2
-caja-gtk3
-caja-open-terminal-gtk3
 calcurse
 cargo
 ccal
@@ -86,7 +84,6 @@ dosbox
 dosfstools
 downgrade
 doxygen
-dragon
 drkonqi
 dvdauthor
 dzen2
@@ -94,8 +91,8 @@ e2fsprogs
 efibootmgr
 electron
 emscripten
-eom-gtk3
 epplet-base
+eslint
 etckeeper
 exa-git
 extra-cmake-modules
@@ -130,6 +127,7 @@ flex
 fortune-mod
 fprintd
 fqterm-git
+freeglut
 fzf
 gawk
 gcc
@@ -149,6 +147,7 @@ go
 goldendict
 gpart
 gparted
+gptfdisk
 grantlee
 graphviz
 grep
@@ -265,14 +264,9 @@ m4
 make
 man-db
 man-pages
-marco-gtk3
 mariadb
 mariadb-clients
 markdown
-mate-desktop-gtk3
-mate-power-manager-gtk3
-mate-screensaver-hacks
-mate-settings-daemon-gtk3
 maxima-ecl
 mdadm
 meld
@@ -283,7 +277,6 @@ mosh
 mpv
 mtools
 mtr
-mutt
 namcap
 nano
 ncdu
@@ -348,7 +341,6 @@ powerline
 powerline-fonts
 powertop
 pptpclient
-primus
 privoxy
 procps-ng
 progress
@@ -361,6 +353,7 @@ pv
 pwgen
 pydb
 python-dbus
+python-jedi
 python-jieba
 python-lxml
 python-markdown
@@ -373,7 +366,6 @@ python-pystemmer
 python-sphinx
 python-unidecode
 python2-hglib
-python2-jedi
 python2-neovim
 python2-pip
 python2-pylint
@@ -408,11 +400,9 @@ shadow
 shadowsocks
 shadowsocks-libev
 shadowsocks-qt5
+shellcheck
 simplescreenrecorder
 sl
-smplayer
-smplayer-skins
-smplayer-themes
 spectacle
 srain-git
 sshfs
@@ -429,7 +419,7 @@ systemsettings
 taglib-extras
 tar
 task
-teeworlds-ddnet
+telegram-desktop-systemqt-notoemoji
 termite
 testdisk
 texinfo
@@ -439,6 +429,7 @@ texlive-langcjk
 texlive-latexextra
 thunderbird
 thunderbird-i18n-zh-cn
+tidy
 tigervnc
 tk
 tlp
@@ -460,6 +451,7 @@ ttf-symbola
 ttf-ubuntu-font-family
 tuntox
 typescript
+unetbootin
 unrar
 unzip
 usbutils
@@ -477,7 +469,6 @@ vte3-ng
 vulkan-intel
 vulscan
 vuze
-warzone2100
 wavpack
 webkitgtk
 webkitgtk2
@@ -486,7 +477,6 @@ wget
 which
 whois
 wireshark-qt
-wiznote
 wpa_supplicant
 wqy-microhei-kr-patched
 wqy-microhei-lite
