@@ -181,7 +181,7 @@ dvdauthor
 dzen2
 e2fsprogs
 ebook-tools
-ecl
+ecl-16.1.2
 efibootmgr
 efivar
 electron
@@ -240,6 +240,7 @@ freetype2
 fribidi
 fuse-common
 fuse2
+fuse3
 fzf
 gawk
 gc
@@ -1414,9 +1415,6 @@ texlive-bin
 texlive-core
 texlive-formatsextra
 texlive-langchinese
-texlive-langcjk
-texlive-langjapanese
-texlive-langkorean
 texlive-latexextra
 thin-provisioning-tools
 threadweaver
