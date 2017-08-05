@@ -137,6 +137,7 @@ gettext
 ghc
 gimp
 gimp-help-zh_cn
+git
 glhack
 glib2-docs
 glibc
@@ -150,7 +151,6 @@ gptfdisk
 grantlee
 graphviz
 grep
-groff
 gst-libav
 gst-plugins-good
 gtypist
@@ -222,6 +222,7 @@ kolourpaint
 konsole
 konversation
 kpatience
+krita
 kscreen
 kscreenlocker
 ksshaskpass
@@ -253,6 +254,7 @@ linux
 linux-headers
 linux-zen
 linux-zen-headers
+lldb
 llvm
 logrotate
 lostfiles
@@ -260,6 +262,7 @@ loudmouth
 lsof
 lvm2
 m4
+maim
 make
 man-db
 man-pages
@@ -309,10 +312,13 @@ pandoc
 parity
 parted
 patch
+pbpst
 pciutils
 pcmciautils
 pepper-flash
 perl
+phonon-qt4-gstreamer
+phonon-qt5-gstreamer
 php
 php-apache
 php-cgi
@@ -334,6 +340,7 @@ plasma-sdk
 plasma-wayland-session
 plasma-workspace
 plasma-workspace-wallpapers
+plasma5-applets-redshift-control
 plasma5-applets-weather-widget
 ponysay
 poppler-data
@@ -396,7 +403,6 @@ sandbox
 sane
 scapy3k
 screenfetch
-scrot
 sdcv
 sddm
 sddm-kcm

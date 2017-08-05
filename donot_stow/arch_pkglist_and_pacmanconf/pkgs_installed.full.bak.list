@@ -79,7 +79,6 @@ besttrace
 bind-tools
 binutils
 bison
-blas
 bleachbit
 bluedevil
 bluez
@@ -98,7 +97,6 @@ brltty
 btrfs-progs
 bumblebee
 bzip2
-bzr
 c-ares
 ca-certificates
 ca-certificates-cacert
@@ -110,11 +108,9 @@ calcurse
 calendarsupport
 calibre
 cantarell-fonts
-cblas
 ccal
 ccrypt
 cdparanoia
-cdrtools
 celt
 celt0.5.1
 cgdb
@@ -170,12 +166,9 @@ dolphin
 dolphin-plugins
 dosbox
 dosfstools
-dotconf
 double-conversion
 downgrade
 doxygen
-dri2proto
-dri3proto
 drkonqi
 dvdauthor
 dzen2
@@ -260,7 +253,6 @@ geoip-database
 gettext
 ghc
 ghostscript
-giblib
 giflib
 gimp
 gimp-help-zh_cn
@@ -274,7 +266,6 @@ glib2
 glib2-docs
 glibc
 glibmm
-glproto
 glu
 gmp
 gnome-themes-standard
@@ -307,7 +298,6 @@ gst-plugins-base-libs
 gst-plugins-good
 gst-plugins-ugly
 gstreamer
-gtk-engines
 gtk-update-icon-cache
 gtk2
 gtk2-perl
@@ -595,6 +585,7 @@ kpeople
 kpimtextedit
 kpty
 krb5
+krita
 kross
 krunner
 kscreen
@@ -619,7 +610,6 @@ kwindowsystem
 kxmlgui
 kxmlrpcclient
 lame
-lapack
 lcms
 lcms2
 ldb
@@ -631,7 +621,6 @@ libaccounts-glib
 libaccounts-qt
 libaio
 libao
-libappindicator-gtk3
 libarchive
 libass
 libassuan
@@ -644,12 +633,10 @@ libblockdev
 libbloom
 libbluray
 libbsd
-libburn
 libbytesize
 libcaca
 libcacard
 libcanberra
-libcanberra-pulse
 libcap
 libcap-ng
 libcdaudio
@@ -663,7 +650,6 @@ libcork
 libcorkipset
 libcroco
 libcups
-libcurl-compat
 libdaemon
 libdatrie
 libdbusmenu-glib
@@ -715,7 +701,6 @@ libidn
 libiec61883
 libieee1284
 libimobiledevice
-libindicator-gtk3
 libinput
 libixion
 libjpeg-turbo
@@ -819,7 +804,6 @@ libsodium
 libsoup
 libsoxr
 libspectre
-libspeechd
 libspiro
 libsrtp
 libssh
@@ -868,7 +852,7 @@ libwpd
 libwpg
 libwps
 libx11
-libx264
+libx264-10bit
 libx264-all
 libxau
 libxaw
@@ -914,6 +898,7 @@ linux-firmware
 linux-headers
 linux-zen
 linux-zen-headers
+lldb
 llvm
 llvm-libs
 lm_sensors
@@ -931,6 +916,7 @@ lvm2
 lz4
 lzo
 m4
+maim
 make
 man-db
 man-pages
@@ -939,7 +925,6 @@ mariadb-clients
 marisa
 maxima-ecl
 mbedtls
-mcpp
 mdadm
 media-player-info
 meld
@@ -1038,6 +1023,7 @@ pangomm
 parity
 parted
 patch
+pbpst
 pciutils
 pcmciautils
 pcre
@@ -1067,7 +1053,9 @@ perl-www-robotrules
 perl-xml-parser
 phonon-qt4
 phonon-qt4-gstreamer
+phonon-qt4-vlc
 phonon-qt5
+phonon-qt5-gstreamer
 phonon-qt5-vlc
 php
 php-apache
@@ -1097,6 +1085,7 @@ plasma-sdk
 plasma-wayland-session
 plasma-workspace
 plasma-workspace-wallpapers
+plasma5-applets-redshift-control
 plasma5-applets-weather-widget
 podofo
 polkit
@@ -1119,7 +1108,6 @@ powerline-fonts
 powertop
 ppp
 pptpclient
-presentproto
 prettyping
 prison
 privoxy
@@ -1152,8 +1140,6 @@ python-cffi
 python-chardet
 python-click
 python-crypto
-python-cycler
-python-dateutil
 python-dbus
 python-dbus-common
 python-decorator
@@ -1175,12 +1161,9 @@ python-lazy-object-proxy
 python-lxml
 python-markdown
 python-markupsafe
-python-matplotlib
 python-mccabe
 python-msgpack
 python-neovim
-python-netifaces
-python-numpy
 python-packaging
 python-pip
 python-ply
@@ -1195,12 +1178,10 @@ python-pygments
 python-pylint
 python-pyparsing
 python-pypeg2
-python-pyqt5
 python-pystemmer
 python-pytz
 python-requests
 python-setuptools
-python-sip
 python-six
 python-snowballstemmer
 python-socketio
@@ -1222,6 +1203,7 @@ python2-astroid
 python2-backports
 python2-backports.functools_lru_cache
 python2-cairo
+python2-chardet
 python2-configparser
 python2-crypto
 python2-cssselect
@@ -1237,6 +1219,7 @@ python2-gobject
 python2-gobject2
 python2-greenlet
 python2-hglib
+python2-html5-parser
 python2-html5lib
 python2-isort
 python2-lazy-object-proxy
@@ -1293,7 +1276,6 @@ qt5-sensors
 qt5-speech
 qt5-svg
 qt5-tools
-qt5-translations
 qt5-wayland
 qt5-webchannel
 qt5-webengine
@@ -1315,7 +1297,6 @@ redland
 redshift
 reiserfsprogs
 renderproto
-resourceproto
 rfkill
 ripgrep
 rlwrap
@@ -1332,7 +1313,6 @@ scapy3k
 schroedinger
 screenfetch
 scrnsaverproto
-scrot
 sdcv
 sddm
 sddm-kcm
@@ -1361,6 +1341,7 @@ sip
 sl
 slack-desktop
 slang
+slop
 smbclient
 smpeg
 snappy
@@ -1369,7 +1350,6 @@ solid
 sonnet
 sound-theme-freedesktop
 spectacle
-speech-dispatcher
 speex
 speexdsp
 spice
@@ -1435,7 +1415,6 @@ tslib
 tsocks
 ttf-arphic-ukai
 ttf-arphic-uming
-ttf-bitstream-vera
 ttf-dejavu
 ttf-freefont
 ttf-hack
@@ -1526,12 +1505,12 @@ xextproto
 xf86-input-libinput
 xf86-input-mouse
 xf86dgaproto
-xf86driproto
 xf86vidmodeproto
 xfsprogs
 xineramaproto
 xkeyboard-config
 xloadimage
+xmlsec
 xmlto
 xorg-appres
 xorg-bdftopcf
@@ -1546,12 +1525,10 @@ xorg-mkfontdir
 xorg-mkfontscale
 xorg-server
 xorg-server-common
-xorg-server-devel
 xorg-server-xwayland
 xorg-sessreg
 xorg-setxkbmap
 xorg-smproxy
-xorg-util-macros
 xorg-x11perf
 xorg-xauth
 xorg-xbacklight

@@ -57,7 +57,7 @@ install(){
 		echo -e "\033[31mERR! File $1 doesn't exsist!\033[0m"
 		exit 2
 	else
-		pacman -S - < $1
+		sudo pacman -S - < $1
 	fi
 }
 reinstall(){

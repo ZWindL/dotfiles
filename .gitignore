@@ -1,0 +1,4 @@
+*~
+nvim/.config/nvim/plugged/*
+vim/.vim/autoload/*
+vim/.vim/plugged/*

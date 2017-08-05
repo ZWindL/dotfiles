@@ -31,7 +31,8 @@ DISABLE_AUTO_UPDATE="true"
  ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
- COMPLETION_WAITING_DOTS="true"
+# 这一行会让 shell 吃掉上一行内容慎用
+# COMPLETION_WAITING_DOTS="true"
 
 # Uncomment the following line if you want to disable marking untracked files
 # under VCS as dirty. This makes repository status check for large repositories
@@ -50,7 +51,7 @@ DISABLE_AUTO_UPDATE="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(adb command-not-found compleat cp emoji man git colored-man-pages colorize archlinux copyfile copydir encode64 fancy-ctrl-z git-prompt nmap vi-mode)
+plugins=(adb cp emoji man git colored-man-pages colorize archlinux copyfile copydir encode64 nmap vi-mode)
 
 # User configuration
 
