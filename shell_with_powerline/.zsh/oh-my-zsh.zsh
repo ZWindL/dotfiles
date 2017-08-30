@@ -51,7 +51,8 @@ DISABLE_AUTO_UPDATE="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(adb cp emoji man git colored-man-pages colorize archlinux copyfile copydir encode64 nmap vi-mode)
+#plugins=(adb cp emoji man git colored-man-pages colorize archlinux copyfile copydir encode64 nmap vi-mode)
+plugins=(adb cp emoji man git colorize archlinux copyfile copydir encode64 nmap vi-mode)
 
 # User configuration
 

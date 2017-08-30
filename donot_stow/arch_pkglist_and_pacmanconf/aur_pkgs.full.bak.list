@@ -1,5 +1,4 @@
 acpi_call-dkms
-alacritty-git
 aliedit
 bash-git-prompt
 bingrep
@@ -22,7 +21,7 @@ oneko
 peerflix
 pip2pkgbuild
 python-enum-compat
-python-flask-socketio-git
+python-flask-git
 python-gdbgui
 python-pygdbmi
 python-pypugjs
@@ -34,4 +33,5 @@ tmate
 ttf-fantasque-sans
 usbprog
 xpenguins
+yacy
 ycm-generator-git

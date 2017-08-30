@@ -1,3 +1,3 @@
-set editor = gvim
-set my_name = "Laser Phone"
+set editor = vim
+set my_name = "zwindl"
 set imap_user = lizefeng1996@hotmail.com

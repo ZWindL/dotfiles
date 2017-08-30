@@ -1,5 +1,6 @@
 [options]
 font = Fantasque Sans Mono 10
+#font = Fira Code 10
 browser = firefox-nightly
 clickable_url = true
 fullscreen = false

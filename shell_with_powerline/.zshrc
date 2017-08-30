@@ -1,4 +1,4 @@
-. ~/.zsh/envs.zsh
+#. ~/.zsh/envs.zsh
 . ~/.zsh/oh-my-zsh.zsh
 
 #[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
@@ -34,3 +34,13 @@ source /usr/share/pinyin-completion/shell/pinyin-comp.zsh
 #fortune | cowsay -f $(find /usr/share/cows -type f | shuf -n 1)
 fortune | cowthink -f $(find /usr/share/cows -type f | shuf -n 1)
 #fortune | ponysay
+
+# Enable Ctrl-x-e to edit command line
+autoload -U edit-command-line
+# Emacs style
+zle -N edit-command-line
+bindkey '^xe' edit-command-line
+bindkey '^x^e' edit-command-line
+# Vi style:
+# zle -N edit-command-line
+# bindkey -M vicmd v edit-command-line

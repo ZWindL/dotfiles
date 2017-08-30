@@ -1,5 +1,4 @@
 acpi_call-dkms
-alacritty-git
 aliedit
 bash-git-prompt
 bingrep
@@ -28,4 +27,5 @@ tmate
 ttf-fantasque-sans
 usbprog
 xpenguins
+yacy
 ycm-generator-git
