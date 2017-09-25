@@ -26,6 +26,7 @@ bindkey -e
 . ~/.zsh/functions.zsh
 . ~/.zsh/completions.zsh
 . ~/.zsh/grml.zsh
+. ~/.zsh/more_color.zsh
 
 #按照拼音补全路径
 source /usr/share/pinyin-completion/shell/pinyin-comp.zsh
