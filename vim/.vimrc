@@ -38,6 +38,7 @@ call plug#begin()
 		Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
 	"Plug 'jeaye/color_coded', { 'do': function('BuildColorCoded') }
 	Plug 'jeaye/color_coded'
+	"Plug 'bbchung/clighter8'
 	"Plug 'rdnetto/YCM-Generator'
 	
 	""lint tool
@@ -153,6 +154,7 @@ source ~/.vim/plugconfs/easymotion.vim
 "source ~/.vim/plugconfs/powerline.vim
 source ~/.vim/plugconfs/ale.vim
 source ~/.vim/plugconfs/highlightedyank.vim
+"source ~/.vim/plugconfs/cligher8.vim
 
 """"""""""""""""""""""""""""""""""""""""""""""""""
 "My Own options
