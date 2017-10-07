@@ -1,5 +1,5 @@
+0ad
 acpi
-acpid
 adobe-source-han-sans-cn-fonts
 adobe-source-han-sans-jp-fonts
 adobe-source-han-sans-kr-fonts
@@ -9,7 +9,6 @@ adobe-source-han-serif-cn-fonts
 adobe-source-han-serif-jp-fonts
 adobe-source-han-serif-tw-fonts
 akonadi-calendar-tools
-akregator
 alacritty-git
 alsa-firmware
 alsa-plugins
@@ -41,6 +40,7 @@ axel
 bash
 bash-completion
 bbswitch-dkms
+bear
 besttrace
 bind-tools
 binutils
@@ -52,8 +52,10 @@ bmon
 breeze
 breeze-gtk
 breeze-kde4
+bsd-games
 bumblebee
 bzip2
+cairo
 calc
 calcurse
 calibre
@@ -62,6 +64,7 @@ ccrypt
 celt
 cgdb
 chromium
+clamav
 clamz
 clang-tools-extra
 cmake
@@ -74,6 +77,8 @@ cpupower
 cryptsetup
 cscope
 ctags
+darkhttpd
+ddnet
 device-mapper
 dex
 dhclient
@@ -142,6 +147,7 @@ ghc
 gimp
 gimp-help-zh_cn
 git
+git-annex
 glhack
 glib2-docs
 glibc
@@ -154,6 +160,7 @@ gparted
 gptfdisk
 grantlee
 graphviz
+grc
 grep
 gst-libav
 gst-plugins-good
@@ -163,6 +170,7 @@ gvim
 gwenview
 gzip
 hddtemp
+hledger-web
 htop
 i3blocks
 i3lock
@@ -198,6 +206,7 @@ kdbg
 kde-dev-utils
 kde-gtk-config
 kde-l10n-zh_cn
+kde-syndication
 kdeconnect
 kdegraphics-mobipocket
 kdegraphics-thumbnailers
@@ -208,7 +217,6 @@ kdevelop
 kdialog
 keditbookmarks
 keepassx2
-keybase
 kfind
 kgamma5
 kgpg
@@ -223,6 +231,7 @@ kmenuedit
 kmines
 kmscon
 kolourpaint
+kompare
 konsole
 konversation
 kpatience
@@ -280,6 +289,7 @@ mdadm
 meld
 mesa
 milou
+minetest
 mobile-broadband-provider-info
 mosh
 mpv
@@ -293,6 +303,7 @@ ncurses5-compat-libs
 neovim
 netctl
 netdata
+netease-cloud-music
 netease-musicbox-git
 nethack
 network-manager-applet
@@ -374,6 +385,7 @@ pygmentize
 python-dbus
 python-jedi
 python-jieba
+python-libclang
 python-lxml
 python-markdown
 python-neovim
@@ -404,6 +416,7 @@ redshift
 reiserfsprogs
 riot-desktop
 ripgrep
+rkhunter
 rlwrap
 rsync
 ruby
@@ -420,13 +433,13 @@ sed
 shadow
 shadowsocks
 shadowsocks-libev
-shadowsocks-qt5
 shellcheck
 simple-obfs
 simplescreenrecorder
 sipcalc
 sl
 slack-desktop
+smartmontools
 spectacle
 spotify
 srain-git
@@ -445,7 +458,6 @@ systemsettings
 taglib-extras
 tar
 task
-teeworlds-ddnet
 telegram-desktop-systemqt
 terminator
 termite
@@ -457,6 +469,7 @@ texlive-latexextra
 thunderbird
 thunderbird-i18n-zh-cn
 tidy
+tintin
 tk
 tlp
 tmux
@@ -477,6 +490,7 @@ ttf-ubuntu-font-family
 tuntox
 typescript
 unetbootin
+unhide
 unrar
 unzip
 usbutils
@@ -490,11 +504,9 @@ vim-fcitx
 virtualbox
 virtualbox-host-dkms
 visual-studio-code
-vitetris
 vte3-ng
 vulkan-intel
 vulscan
-vuze
 wavpack
 webstorm
 webstorm-jre

@@ -335,3 +335,7 @@ nmap <F6>k :cp<CR>
 " http://blog.jobbole.com/103343/
 "
 " 加密设置 vim -x /path/to/your/file
+
+"" 命令补全的时候忽略大小写
+set ignorecase
+set smartcase

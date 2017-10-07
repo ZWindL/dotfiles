@@ -46,6 +46,13 @@ call plug#begin()
 		Plug 'leafgarland/typescript-vim'
 		"Plug 'HerringtonDarkholme/yats.vim'
 
+	"" C++ language
+	"completion
+	"Plug 'zchee/deoplete-clang'
+	"Plug 'Rip-Rip/clang_complete'
+	"highlighting
+	Plug 'arakashic/chromatica.nvim'
+
 	
 	""lint tool
 	""Plug 'scrooloose/syntastic'
@@ -142,6 +149,7 @@ source ~/.config/nvim/plugconfs/undotree.vim
 source ~/.config/nvim/plugconfs/vim_gas.vim
 source ~/.config/nvim/plugconfs/highlightedyank.vim
 source ~/.config/nvim/plugconfs/language_client.vim
+source ~/.config/nvim/plugconfs/chromatica.vim
 
 """"""""""""""""""""""""""""""""""""""""""""""""""
 "My Own options
@@ -267,3 +275,7 @@ set fileencodings=utf-8,gbk
 nmap <F6> :cw<CR>
 nmap <F6>j :cn<CR>
 nmap <F6>k :cp<CR>
+
+"" command line completion ignore case
+set ignorecase
+set smartcase
