@@ -23,6 +23,7 @@ akonadi-contacts
 akonadi-mime
 akonadi-notes
 akonadi-search
+akregator
 alacritty-git
 alsa-firmware
 alsa-lib
@@ -32,6 +33,7 @@ alsa-utils
 alsaplayer
 amarok
 amule
+analitza
 android-tools
 apache
 apm
@@ -70,6 +72,7 @@ automake
 avahi
 awesome
 axel
+babeltrace
 babl
 baloo
 baloo-widgets
@@ -92,6 +95,7 @@ bmon
 boost
 boost-libs
 botan1.10
+bower
 breeze
 breeze-gtk
 breeze-icons
@@ -115,12 +119,14 @@ calcurse
 calendarsupport
 calibre
 cantarell-fonts
+cantor
 ccal
 ccrypt
 cdparanoia
 celt
 celt0.5.1
 ceph
+ceph-libs
 cgdb
 chmlib
 chromaprint
@@ -132,7 +138,6 @@ clang
 clang-tools-extra
 clucene
 cmake
-cmark
 cmatrix
 composer
 compositeproto
@@ -143,6 +148,7 @@ coreutils
 cowsay
 cpupower
 cracklib
+cryfs
 crypto++
 cryptsetup
 cscope
@@ -194,6 +200,7 @@ efibootmgr
 efivar
 electron
 elfutils
+encfs
 enchant
 enet
 epplet-base
@@ -210,7 +217,6 @@ faad2
 fakeroot
 farstream
 fbv
-fcgi
 fcitx
 fcitx-cloudpinyin
 fcitx-googlepinyin
@@ -227,6 +233,8 @@ ffmpeg
 ffmpeg2.8
 ffmpegthumbs
 fftw
+figlet
+figlet-fonts
 file
 filesystem
 filezilla
@@ -343,6 +351,7 @@ harfbuzz-icu
 haskell-adjunctions
 haskell-aeson
 haskell-aeson-compat
+haskell-aeson-pretty
 haskell-ansi-terminal
 haskell-ansi-wl-pprint
 haskell-appar
@@ -373,7 +382,7 @@ haskell-cereal
 haskell-cipher-aes
 haskell-clientsession
 haskell-clock
-haskell-cmark
+haskell-cmark-gfm
 haskell-cmdargs
 haskell-comonad
 haskell-concurrent-output
@@ -417,15 +426,14 @@ haskell-email-validate
 haskell-entropy
 haskell-esqueleto
 haskell-exceptions
-haskell-extensible-exceptions
 haskell-fast-logger
 haskell-fdo-notify
 haskell-feed
 haskell-file-embed
-haskell-filemanip
 haskell-fingertree
 haskell-foundation
 haskell-free
+haskell-glob
 haskell-haddock-library
 haskell-hashable
 haskell-hashtables
@@ -597,16 +605,15 @@ haskell-zip-archive
 haskell-zlib
 hddtemp
 hdparm
+heaptrack
 hicolor-icon-theme
+hiredis
 hledger
 hledger-web
 hspell
 htop
 http-parser
 hunspell
-hunspell-en
-hunspell-en_GB
-hunspell-en_US
 hwids
 hyphen
 i3blocks
@@ -640,6 +647,7 @@ jasper
 java-environment-common
 java-rhino
 java-runtime-common
+jave
 jbig2dec
 jdk
 jemalloc
@@ -683,7 +691,6 @@ kcontacts
 kcoreaddons
 kcrash
 kdav
-kdbg
 kdbusaddons
 kde-cli-tools
 kde-dev-utils
@@ -706,7 +713,7 @@ kdepim-runtime
 kdeplasma-addons
 kdesu
 kdevelop
-kdevplatform
+kdiagram
 kdialog
 kdnssd
 kdoctools
@@ -735,6 +742,7 @@ kinfocenter
 kinit
 kio
 kio-extras
+kirigami2
 kitemmodels
 kitemviews
 kjieba
@@ -743,6 +751,7 @@ kjs
 kjsembed
 kldap
 kleopatra
+kmail-account-wizard
 kmailtransport
 kmbox
 kmenuedit
@@ -757,6 +766,7 @@ knotifyconfig
 kolourpaint
 kompare
 konsole
+kontact
 kontactinterface
 konversation
 kpackage
@@ -880,11 +890,13 @@ libgnome-keyring
 libgooglepinyin
 libgpg-error
 libgphoto2
+libgravatar
 libgudev
 libical
 libice
 libid3tag
 libidn
+libidn2
 libiec61883
 libieee1284
 libimobiledevice
@@ -938,6 +950,7 @@ libmygpo-qt
 libndp
 libnetfilter_acct
 libnetfilter_conntrack
+libnetfilter_queue
 libnewt
 libnfnetlink
 libnfs
@@ -963,6 +976,7 @@ libpgm
 libpipeline
 libplist
 libpng
+libpng12
 libproxy
 libpsl
 libpulse
@@ -980,6 +994,7 @@ librime
 librsvg
 libsamplerate
 libsasl
+libsass
 libseccomp
 libsecret
 libshout
@@ -1007,7 +1022,6 @@ libthai
 libtheora
 libtiff
 libtiger
-libtinfo
 libtirpc
 libtommath
 libtool
@@ -1018,6 +1032,7 @@ libunistring
 libunrar
 libunwind
 libupnp
+liburcu
 libusb
 libusb-compat
 libusbmuxd
@@ -1053,7 +1068,6 @@ libxdg-basedir
 libxdmcp
 libxext
 libxfixes
-libxfont
 libxfont2
 libxft
 libxi
@@ -1097,7 +1111,9 @@ logrotate
 lostfiles
 loudmouth
 lpsolve
+lsb-release
 lsof
+lttng-ust
 lua
 lua-lgi
 lua51
@@ -1122,6 +1138,9 @@ media-player-info
 meld
 mercurial
 mesa
+meson
+messagelib
+metapixel
 milou
 mime-types
 minetest
@@ -1166,8 +1185,9 @@ network-manager-applet
 networkmanager
 networkmanager-openvpn
 networkmanager-qt
-newsbeuter
+newsboat
 nftables
+ninja
 nm-connection-editor
 nmap
 nodejs
@@ -1251,6 +1271,7 @@ perl-try-tiny
 perl-uri
 perl-www-robotrules
 perl-xml-parser
+pgadmin4
 phonon-qt4
 phonon-qt4-gstreamer
 phonon-qt4-vlc
@@ -1263,6 +1284,8 @@ php-cgi
 php-fpm
 php-gd
 php-mcrypt
+php-pgsql
+phppgadmin
 physfs
 pidgin
 pidgin-otr
@@ -1281,6 +1304,7 @@ plasma-mediacenter
 plasma-nm
 plasma-pa
 plasma-sdk
+plasma-vault
 plasma-wayland-session
 plasma-workspace
 plasma-workspace-wallpapers
@@ -1298,6 +1322,8 @@ poppler-glib
 poppler-qt5
 popt
 portaudio
+postgresql
+postgresql-docs
 postgresql-libs
 potrace
 powerdevil
@@ -1319,6 +1345,7 @@ proxychains-ng
 psmisc
 pulseaudio
 pulseaudio-alsa
+pulseaudio-bluetooth
 pulseaudio-gconf
 purpose
 putty
@@ -1335,6 +1362,7 @@ python
 python-appdirs
 python-asn1crypto
 python-astroid
+python-async-timeout
 python-babel
 python-beautifulsoup4
 python-cairo
@@ -1344,6 +1372,7 @@ python-click
 python-configobj
 python-crypto
 python-cryptography
+python-cx_freeze
 python-dbus
 python-dbus-common
 python-decorator
@@ -1362,6 +1391,7 @@ python-itsdangerous
 python-jedi
 python-jieba
 python-jinja
+python-jsonschema
 python-lazy-object-proxy
 python-libclang
 python-lxml
@@ -1369,6 +1399,7 @@ python-markdown
 python-markupsafe
 python-mccabe
 python-msgpack
+python-multidict
 python-neovim
 python-packaging
 python-parso
@@ -1377,6 +1408,7 @@ python-ply
 python-powerline
 python-prompt_toolkit
 python-psutil
+python-psycopg2
 python-pycodestyle
 python-pycparser
 python-pyelftools
@@ -1386,10 +1418,14 @@ python-pygments
 python-pylint
 python-pyparsing
 python-pypeg2
+python-pyqt5
 python-pystemmer
 python-pytz
+python-raven
+python-redis
 python-requests
 python-setuptools
+python-sip
 python-six
 python-snowballstemmer
 python-socketio
@@ -1407,16 +1443,22 @@ python-werkzeug
 python-whoosh
 python-wrapt
 python-xdg
+python-yarl
 python2
 python2-appdirs
 python2-apsw
+python2-asn1crypto
 python2-astroid
 python2-backports
 python2-backports.functools_lru_cache
 python2-cairo
+python2-cffi
 python2-chardet
+python2-cheroot
+python2-cherrypy
 python2-configparser
 python2-crypto
+python2-cryptography
 python2-cssselect
 python2-cssutils
 python2-dateutil
@@ -1432,9 +1474,13 @@ python2-greenlet
 python2-hglib
 python2-html5-parser
 python2-html5lib
+python2-idna
+python2-ipaddress
 python2-isort
+python2-jinja
 python2-lazy-object-proxy
 python2-lxml
+python2-markupsafe
 python2-mccabe
 python2-mechanize
 python2-msgpack
@@ -1443,22 +1489,31 @@ python2-netifaces
 python2-notify
 python2-olefile
 python2-packaging
+python2-pecan
 python2-pillow
 python2-pip
+python2-ply
+python2-portend
+python2-prettytable
 python2-psutil
+python2-pycparser
 python2-pygments
 python2-pylint
+python2-pyopenssl
 python2-pyparsing
 python2-pyqt5
+python2-pytz
 python2-regex
 python2-setuptools
 python2-singledispatch
 python2-sip
 python2-six
+python2-tempora
 python2-trollius
 python2-unidecode
 python2-unrardll
 python2-webencodings
+python2-werkzeug
 python2-wrapt
 python3-aur
 python3-memoizedb
@@ -1471,6 +1526,7 @@ qemu
 qemu-launcher
 qgpgme
 qjson
+qqc2-desktop-style
 qrencode
 qt4
 qt5-3d
@@ -1505,11 +1561,11 @@ re2
 readline
 recode
 recordproto
+redis
 redland
 redshift
 reiserfsprogs
 renderproto
-rfkill
 rhash
 riot-desktop
 riot-web
@@ -1526,6 +1582,7 @@ rustup
 s-nail
 sandbox
 sane
+sassc
 sbc
 scapy3k
 schroedinger
@@ -1576,7 +1633,6 @@ spectacle
 speex
 speexdsp
 spice
-spotify
 sqlcipher
 sqlite
 srain-git
@@ -1626,9 +1682,11 @@ thunderbird
 thunderbird-i18n-zh-cn
 tidy
 tintin
+tinyxml2
 tk
 tlp
 tmux
+toilet
 tor
 tor-browser
 torsocks
@@ -1652,7 +1710,7 @@ typescript
 tzdata
 uchardet
 udisks2
-udns
+uglify-js
 unetbootin
 unhide
 unibilium
@@ -1664,6 +1722,7 @@ usbredir
 usbutils
 user-manager
 util-linux
+v2ray
 v4l-utils
 valgrind
 vamp-plugin-sdk
@@ -1680,6 +1739,7 @@ virtualbox
 virtualbox-host-dkms
 virtualgl
 visual-studio-code
+vitetris
 vlc
 volume_key
 vte-common
@@ -1687,6 +1747,7 @@ vte3-ng
 vulkan-icd-loader
 vulkan-intel
 vulscan
+w3m
 wavpack
 wayland
 wayland-protocols
@@ -1793,7 +1854,6 @@ xorg-xwud
 xproto
 xscreensaver-arch-logo
 xsel
-xsp
 xvidcore
 xz
 yajl
@@ -1802,6 +1862,7 @@ yaml-cpp
 yaourt
 yarn
 ydcv
+yed
 zeromq
 zeronet
 zip

@@ -11,6 +11,7 @@ exec fcitx&
 #交换Capslock和Ctrl
 exec setxkbmap -option ctrl:swapcaps&
 exec i3
+#exec sway
 
 #session=${1:-awesome}
 

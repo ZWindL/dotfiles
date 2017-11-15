@@ -9,6 +9,7 @@ adobe-source-han-serif-cn-fonts
 adobe-source-han-serif-jp-fonts
 adobe-source-han-serif-tw-fonts
 akonadi-calendar-tools
+akregator
 alacritty-git
 alsa-firmware
 alsa-plugins
@@ -49,6 +50,7 @@ bleachbit
 bluedevil
 bluez-utils
 bmon
+bower
 breeze
 breeze-gtk
 breeze-kde4
@@ -59,6 +61,7 @@ cairo
 calc
 calcurse
 calibre
+cantor
 ccal
 ccrypt
 celt
@@ -74,6 +77,7 @@ compton-git
 coreutils
 cowsay
 cpupower
+cryfs
 cryptsetup
 cscope
 ctags
@@ -103,6 +107,7 @@ e2fsprogs
 ebtables
 efibootmgr
 electron
+encfs
 epplet-base
 eslint
 etckeeper
@@ -123,6 +128,8 @@ fcitx-table-extra
 fcitx-table-other
 feh
 ffmpegthumbs
+figlet
+figlet-fonts
 file
 filesystem
 filezilla
@@ -170,6 +177,8 @@ gvim
 gwenview
 gzip
 hddtemp
+heaptrack
+hiredis
 hledger-web
 htop
 i3blocks
@@ -186,6 +195,7 @@ iproute2
 iputils
 isatapd
 java-rhino
+jave
 jdk
 jemalloc
 jfsutils
@@ -202,7 +212,6 @@ kcharselect
 kchmviewer
 kcm-fcitx
 kcolorchooser
-kdbg
 kde-dev-utils
 kde-gtk-config
 kde-l10n-zh_cn
@@ -233,6 +242,7 @@ kmscon
 kolourpaint
 kompare
 konsole
+kontact
 konversation
 kpatience
 krita
@@ -256,10 +266,10 @@ libkolabxml
 liblastfm
 libmariadbclient
 libmygpo-qt
+libnetfilter_queue
 libofa
 libreoffice-fresh
 libreoffice-fresh-zh-CN
-libtinfo
 libtool
 libunrar
 libvirt
@@ -288,6 +298,8 @@ maxima-ecl
 mdadm
 meld
 mesa
+meson
+metapixel
 milou
 minetest
 mobile-broadband-provider-info
@@ -309,7 +321,7 @@ nethack
 network-manager-applet
 networkmanager
 networkmanager-openvpn
-newsbeuter
+newsboat
 nftables
 nmap
 noto-fonts
@@ -337,6 +349,7 @@ pciutils
 pcmciautils
 pepper-flash
 perl
+pgadmin4
 phonon-qt4-gstreamer
 phonon-qt5-gstreamer
 php
@@ -345,6 +358,7 @@ php-cgi
 php-fpm
 php-gd
 php-mcrypt
+phppgadmin
 pidgin
 pidgin-otr
 pidgin-xmpp-receipts
@@ -356,6 +370,7 @@ plasma-mediacenter
 plasma-nm
 plasma-pa
 plasma-sdk
+plasma-vault
 plasma-wayland-session
 plasma-workspace
 plasma-workspace-wallpapers
@@ -364,6 +379,8 @@ polipo
 ponysay
 poppler-data
 poppler-glib
+postgresql
+postgresql-docs
 powerdevil
 powerline
 powerline-fonts
@@ -377,6 +394,7 @@ proxychains-ng
 psmisc
 pulseaudio
 pulseaudio-alsa
+pulseaudio-bluetooth
 putty
 pv
 pwgen
@@ -394,6 +412,7 @@ python-psutil
 python-pygit2
 python-pylint
 python-pystemmer
+python-redis
 python-sphinx
 python-unidecode
 python2-hglib
@@ -412,6 +431,7 @@ qtcreator
 qtox
 qtscriptgenerator
 quota-tools
+redis
 redshift
 reiserfsprogs
 riot-desktop
@@ -424,6 +444,7 @@ rustup
 s-nail
 sandbox
 sane
+sassc
 scapy3k
 screenfetch
 sdcv
@@ -441,7 +462,6 @@ sl
 slack-desktop
 smartmontools
 spectacle
-spotify
 srain-git
 sshfs
 stockfish
@@ -473,6 +493,7 @@ tintin
 tk
 tlp
 tmux
+toilet
 tor
 tor-browser
 torsocks
@@ -496,6 +517,7 @@ unzip
 usbutils
 user-manager
 util-linux
+v2ray
 valgrind
 vi
 vicious
@@ -504,9 +526,11 @@ vim-fcitx
 virtualbox
 virtualbox-host-dkms
 visual-studio-code
+vitetris
 vte3-ng
 vulkan-intel
 vulscan
+w3m
 wavpack
 webstorm
 webstorm-jre
@@ -572,11 +596,11 @@ xorg-xwininfo
 xorg-xwud
 xscreensaver-arch-logo
 xsel
-xsp
 yakuake
 yaourt
 yarn
 ydcv
+yed
 zeronet
 zip
 zsh

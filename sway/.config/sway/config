@@ -13,7 +13,8 @@
 set $mod Mod4
 # Your preferred terminal emulator
 #set $term urxvt
-set $term terminator
+#set $term terminator
+set $term termite
 # Your preferred application launcher
 set $menu dmenu_run
 

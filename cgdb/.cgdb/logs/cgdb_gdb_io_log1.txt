@@ -1,0 +1,240 @@
+2017-11-09 18:55:33 fork_util.cpp:237() INFO:Invoking program:
+
+2017-11-09 18:55:33 fork_util.cpp:239() INFO:  argv[0]=gdb 
+
+2017-11-09 18:55:33 fork_util.cpp:239() INFO:  argv[1]=--nw 
+
+2017-11-09 18:55:33 fork_util.cpp:239() INFO:  argv[2]=-ex 
+
+2017-11-09 18:55:33 fork_util.cpp:239() INFO:  argv[3]=set annotate 2 
+
+2017-11-09 18:55:33 fork_util.cpp:239() INFO:  argv[4]=-ex 
+
+2017-11-09 18:55:33 fork_util.cpp:239() INFO:  argv[5]=set height 0 
+
+2017-11-09 18:55:33 fork_util.cpp:239() INFO:  argv[6]=--annotate=2 
+
+2017-11-09 18:55:33 fork_util.cpp:239() INFO:  argv[7]=main 
+
+2017-11-09 18:55:33 io.cpp:136() DEBUG:GNU gdb (GDB) 8.0.1(\r)(\n)Copyright (C) 2017 Free Software Foundation, Inc.(\r)(\n)License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>(\r)(\n)This is free software: you are free to change and redistribute it.(\r)(\n)There is NO WARRANTY, to the extent permitted by law.  Type "show copying"(\r)(\n)and "show warranty" for details.(\r)(\n)This GDB was configured as "x86_64-pc-linux-gnu".(\r)(\n)Type "show configuration" for configuration details.(\r)(\n)
+
+2017-11-09 18:55:33 io.cpp:136() DEBUG:For bug reporting instructions, please see:(\r)(\n)<http://www.gnu.org/software/gdb/bugs/>.(\r)(\n)Find the GDB manual and other documentation resources online at:(\r)(\n)<http://www.gnu.org/software/gdb/documentation/>.(\r)(\n)For help, type "help".(\r)(\n)Type "apropos word" to search for commands related to "word"...(\r)(\n)
+
+2017-11-09 18:55:33 io.cpp:136() DEBUG:Reading symbols from main...
+
+2017-11-09 18:55:33 io.cpp:136() DEBUG:done.(\r)(\n)
+
+2017-11-09 18:55:33 io.cpp:136() DEBUG:(\r)(\n)(\032)(\032)pre-prompt(\r)(\n)(gdb) (\r)(\n)(\032)(\032)prompt(\r)(\n)
+
+2017-11-09 18:55:33 tgdb.cpp:591() DEBUG:server interpreter-exec mi "-data-disassemble -s 0 -e 0 -- 4"(\n)
+
+2017-11-09 18:55:33 io.cpp:136() DEBUG:(\r)(\n)(\032)(\032)post-prompt(\r)(\n)
+
+2017-11-09 18:55:33 io.cpp:136() DEBUG:^done,asm_insns=[](\r)(\n)
+
+2017-11-09 18:55:33 io.cpp:136() DEBUG:(\r)(\n)(\032)(\032)pre-prompt(\r)(\n)(gdb) (\r)(\n)(\032)(\032)prompt(\r)(\n)
+
+2017-11-09 18:55:33 commands.cpp:405() INFO:disassemble supports s mode
+
+2017-11-09 18:55:33 tgdb.cpp:591() DEBUG:server interpreter-exec mi "-break-info"(\n)
+
+2017-11-09 18:55:33 io.cpp:136() DEBUG:(\r)(\n)(\032)(\032)post-prompt(\r)(\n)
+
+2017-11-09 18:55:33 io.cpp:136() DEBUG:~"\n"(\r)(\n)~"\032\032breakpoints-table-end\n"(\r)(\n)^done,BreakpointTable={nr_rows="0",nr_cols="6",hdr=[{width="7",alignment="-1",col_name="number",colhdr="Num"},{width="14",alignment="-1",col_name="type",colhdr="Type"},{width="4",alignment="-1",col_name="disp",colhdr="Disp"},{width="3",alignment="-1",col_name="enabled",colhdr="Enb"},{width="10",alignment="-1",col_name="addr",colhdr="Address"},{width="40",alignment="2",col_name="what",colhdr="What"}],body=[]}(\r)(\n)
+
+2017-11-09 18:55:33 io.cpp:136() DEBUG:(\r)(\n)(\032)(\032)pre-prompt(\r)(\n)(gdb) (\r)(\n)(\032)(\032)prompt(\r)(\n)
+
+2017-11-09 18:55:33 tgdb.cpp:591() DEBUG:server interpreter-exec mi "-stack-info-frame"(\n)
+
+2017-11-09 18:55:33 io.cpp:136() DEBUG:(\r)(\n)(\032)(\032)post-prompt(\r)(\n)
+
+2017-11-09 18:55:33 io.cpp:136() DEBUG:^error,msg="No registers."(\r)(\n)
+
+2017-11-09 18:55:33 io.cpp:136() DEBUG:(\r)(\n)(\032)(\032)pre-prompt(\r)(\n)(gdb) (\r)(\n)(\032)(\032)prompt(\r)(\n)
+
+2017-11-09 18:55:33 tgdb.cpp:591() DEBUG:server interpreter-exec mi "-file-list-exec-source-file"(\n)
+
+2017-11-09 18:55:33 io.cpp:136() DEBUG:(\r)(\n)(\032)(\032)post-prompt(\r)(\n)
+
+2017-11-09 18:55:33 io.cpp:136() DEBUG:^done,line="1",file="main.c",fullname="/home/zwindl/test/homework/data_structure/stack/test/main.c",macro-info="0"(\r)(\n)
+
+2017-11-09 18:55:33 io.cpp:136() DEBUG:(\r)(\n)(\032)(\032)pre-prompt(\r)(\n)(gdb) (\r)(\n)(\032)(\032)prompt(\r)(\n)
+
+2017-11-09 18:55:33 tgdb.cpp:591() DEBUG:server interpreter-exec mi "-inferior-tty-set /dev/pts/4"(\n)
+
+2017-11-09 18:55:33 io.cpp:136() DEBUG:(\r)(\n)(\032)(\032)post-prompt(\r)(\n)
+
+2017-11-09 18:55:33 io.cpp:136() DEBUG:^done(\r)(\n)
+
+2017-11-09 18:55:33 io.cpp:136() DEBUG:(\r)(\n)(\032)(\032)pre-prompt(\r)(\n)(gdb) (\r)(\n)(\032)(\032)prompt(\r)(\n)
+
+2017-11-09 18:55:34 tgdb.cpp:591() DEBUG:T(\n)
+
+2017-11-09 18:55:34 io.cpp:136() DEBUG:(\r)(\n)(\032)(\032)post-prompt(\r)(\n)(\r)(\n)(\032)(\032)error-begin(\r)(\n)Undefined command: "T".  Try "help".(\r)(\n)(\r)(\n)(\032)(\032)error(\r)(\n)(\r)(\n)(\032)(\032)pre-prompt(\r)(\n)(gdb) (\r)(\n)(\032)(\032)prompt(\r)(\n)
+
+2017-11-09 18:55:36 tgdb.cpp:591() DEBUG:help T(\n)
+
+2017-11-09 18:55:36 io.cpp:136() DEBUG:(\r)(\n)(\032)(\032)post-prompt(\r)(\n)
+
+2017-11-09 18:55:36 io.cpp:136() DEBUG:(\r)(\n)(\032)(\032)error-begin(\r)(\n)Undefined command: "T".  Try "help".(\r)(\n)(\r)(\n)(\032)(\032)error(\r)(\n)
+
+2017-11-09 18:55:36 io.cpp:136() DEBUG:(\r)(\n)(\032)(\032)pre-prompt(\r)(\n)(gdb) (\r)(\n)(\032)(\032)prompt(\r)(\n)
+
+2017-11-09 18:55:37 tgdb.cpp:591() DEBUG:server interpreter-exec mi "complete T"(\n)
+
+2017-11-09 18:55:37 io.cpp:136() DEBUG:(\r)(\n)(\032)(\032)post-prompt(\r)(\n)
+
+2017-11-09 18:55:37 io.cpp:136() DEBUG:&"complete T\n"(\r)(\n)
+
+2017-11-09 18:55:37 io.cpp:136() DEBUG:^done(\r)(\n)
+
+2017-11-09 18:55:37 io.cpp:136() DEBUG:(\r)(\n)(\032)(\032)pre-prompt(\r)(\n)(gdb) (\r)(\n)(\032)(\032)prompt(\r)(\n)
+
+2017-11-09 18:55:38 tgdb.cpp:591() DEBUG:server interpreter-exec mi "complete T"(\n)
+
+2017-11-09 18:55:38 io.cpp:136() DEBUG:(\r)(\n)(\032)(\032)post-prompt(\r)(\n)
+
+2017-11-09 18:55:38 io.cpp:136() DEBUG:&"complete T\n"(\r)(\n)
+
+2017-11-09 18:55:38 io.cpp:136() DEBUG:^done(\r)(\n)
+
+2017-11-09 18:55:38 io.cpp:136() DEBUG:(\r)(\n)(\032)(\032)pre-prompt(\r)(\n)(gdb) (\r)(\n)(\032)(\032)prompt(\r)(\n)
+
+2017-11-09 18:55:38 tgdb.cpp:591() DEBUG:server interpreter-exec mi "complete T"(\n)
+
+2017-11-09 18:55:38 io.cpp:136() DEBUG:(\r)(\n)(\032)(\032)post-prompt(\r)(\n)
+
+2017-11-09 18:55:38 io.cpp:136() DEBUG:&"complete T\n"(\r)(\n)
+
+2017-11-09 18:55:38 io.cpp:136() DEBUG:^done(\r)(\n)
+
+2017-11-09 18:55:38 io.cpp:136() DEBUG:(\r)(\n)(\032)(\032)pre-prompt(\r)(\n)(gdb) (\r)(\n)(\032)(\032)prompt(\r)(\n)
+
+2017-11-09 18:55:48 tgdb.cpp:591() DEBUG:server interpreter-exec mi "complete star"(\n)
+
+2017-11-09 18:55:48 io.cpp:136() DEBUG:(\r)(\n)(\032)(\032)post-prompt(\r)(\n)
+
+2017-11-09 18:55:48 io.cpp:136() DEBUG:&"complete star\n"(\r)(\n)
+
+2017-11-09 18:55:48 io.cpp:136() DEBUG:~"start\n"(\r)(\n)^done(\r)(\n)
+
+2017-11-09 18:55:48 io.cpp:136() DEBUG:(\r)(\n)(\032)(\032)pre-prompt(\r)(\n)(gdb) (\r)(\n)(\032)(\032)prompt(\r)(\n)
+
+2017-11-09 18:55:49 tgdb.cpp:591() DEBUG:start (\n)
+
+2017-11-09 18:55:49 io.cpp:136() DEBUG:(\r)(\n)(\032)(\032)post-prompt(\r)(\n)
+
+2017-11-09 18:55:49 io.cpp:136() DEBUG:Temporary breakpoint 1 at 0x6e2: file main.c, line 4.(\r)(\n)(\r)(\n)(\032)(\032)breakpoints-invalid(\r)(\n)
+
+2017-11-09 18:55:49 io.cpp:136() DEBUG:Starting program: /home/zwindl/test/homework/data_structure/stack/test/main (\r)(\n)
+
+2017-11-09 18:55:49 io.cpp:136() DEBUG:(\r)(\n)(\032)(\032)starting(\r)(\n)
+
+2017-11-09 18:55:49 io.cpp:136() DEBUG:(\r)(\n)(\032)(\032)frames-invalid(\r)(\n)
+
+2017-11-09 18:55:49 io.cpp:136() DEBUG:(\r)(\n)(\032)(\032)breakpoints-invalid(\r)(\n)
+
+2017-11-09 18:55:49 io.cpp:136() DEBUG:(\r)(\n)(\032)(\032)breakpoint 1(\r)(\n)(\r)(\n)
+
+2017-11-09 18:55:49 io.cpp:136() DEBUG:Temporary breakpoint 1, (\r)(\n)(\032)(\032)frame-begin 0 0x5555555546e2(\r)(\n)(\r)(\n)(\032)(\032)frame-function-name(\r)(\n)main(\r)(\n)(\032)(\032)frame-args(\r)(\n)
+
+2017-11-09 18:55:49 io.cpp:136() DEBUG: ()(\r)(\n)(\032)(\032)frame-source-begin(\r)(\n) at (\r)(\n)(\032)(\032)frame-source-file(\r)(\n)main.c(\r)(\n)(\032)(\032)frame-source-file-end(\r)(\n):(\r)(\n)(\032)(\032)frame-source-line(\r)(\n)4(\r)(\n)(\032)(\032)frame-source-end(\r)(\n)(\r)(\n)(\r)(\n)(\032)(\032)source /home/zwindl/test/homework/data_structure/stack/test/main.c:4:35:beg:0x5555555546e2(\r)(\n)(\r)(\n)(\032)(\032)frame-end(\r)(\n)(\r)(\n)(\032)(\032)stopped(\r)(\n)(\r)(\n)(\032)(\032)breakpoints-invalid(\r)(\n)
+
+2017-11-09 18:55:49 io.cpp:136() DEBUG:(\r)(\n)(\032)(\032)pre-prompt(\r)(\n)(gdb) (\r)(\n)(\032)(\032)prompt(\r)(\n)
+
+2017-11-09 18:55:49 tgdb.cpp:591() DEBUG:server interpreter-exec mi "-stack-info-frame"(\n)
+
+2017-11-09 18:55:49 io.cpp:136() DEBUG:(\r)(\n)(\032)(\032)post-prompt(\r)(\n)
+
+2017-11-09 18:55:49 io.cpp:136() DEBUG:~"\n"(\r)(\n)
+
+2017-11-09 18:55:49 io.cpp:136() DEBUG:~"\032\032frame-begin 0 0x5555555546e2\n"(\r)(\n)~"\n"(\r)(\n)
+
+2017-11-09 18:55:49 io.cpp:136() DEBUG:~"\032\032frame-address\n"(\r)(\n)
+
+2017-11-09 18:55:49 io.cpp:136() DEBUG:~"\n"(\r)(\n)
+
+2017-11-09 18:55:49 io.cpp:136() DEBUG:~"\032\032frame-address-end\n"(\r)(\n)~"\n"(\r)(\n)
+
+2017-11-09 18:55:49 io.cpp:136() DEBUG:~"\032\032frame-function-name\n"(\r)(\n)~"\n"(\r)(\n)
+
+2017-11-09 18:55:49 io.cpp:136() DEBUG:~"\032\032frame-args\n"(\r)(\n)~"\n"(\r)(\n)
+
+2017-11-09 18:55:49 io.cpp:136() DEBUG:~"\032\032frame-source-begin\n"(\r)(\n)~"\n"(\r)(\n)~"\032\032frame-source-file\n"(\r)(\n)
+
+2017-11-09 18:55:49 io.cpp:136() DEBUG:~"\n"(\r)(\n)
+
+2017-11-09 18:55:49 io.cpp:136() DEBUG:~"\032\032frame-source-file-end\n"(\r)(\n)~"\n"(\r)(\n)
+
+2017-11-09 18:55:49 io.cpp:136() DEBUG:~"\032\032frame-source-line\n"(\r)(\n)~"\n"(\r)(\n)
+
+2017-11-09 18:55:49 io.cpp:136() DEBUG:~"\032\032frame-source-end\n"(\r)(\n)~"\n"(\r)(\n)
+
+2017-11-09 18:55:49 io.cpp:136() DEBUG:~"\032\032frame-end\n"(\r)(\n)^done,frame={level="0",addr="0x00005555555546e2",func="main",file="main.c",fullname="/home/zwindl/test/homework/data_structure/stack/test/main.c",line="4"}(\r)(\n)
+
+2017-11-09 18:55:49 io.cpp:136() DEBUG:(\r)(\n)(\032)(\032)pre-prompt(\r)(\n)(gdb) (\r)(\n)(\032)(\032)prompt(\r)(\n)
+
+2017-11-09 18:55:49 tgdb.cpp:591() DEBUG:server interpreter-exec mi "-break-info"(\n)
+
+2017-11-09 18:55:49 io.cpp:136() DEBUG:(\r)(\n)(\032)(\032)post-prompt(\r)(\n)
+
+2017-11-09 18:55:49 io.cpp:136() DEBUG:~"\n"(\r)(\n)~"\032\032breakpoints-table-end\n"(\r)(\n)
+
+2017-11-09 18:55:49 io.cpp:136() DEBUG:^done,BreakpointTable={nr_rows="0",nr_cols="6",hdr=[{width="7",alignment="-1",col_name="number",colhdr="Num"},{width="14",alignment="-1",col_name="type",colhdr="Type"},{width="4",alignment="-1",col_name="disp",colhdr="Disp"},{width="3",alignment="-1",col_name="enabled",colhdr="Enb"},{width="10",alignment="-1",col_name="addr",colhdr="Address"},{width="40",alignment="2",col_name="what",colhdr="What"}],body=[]}(\r)(\n)
+
+2017-11-09 18:55:49 io.cpp:136() DEBUG:(\r)(\n)(\032)(\032)pre-prompt(\r)(\n)(gdb) (\r)(\n)(\032)(\032)prompt(\r)(\n)
+
+2017-11-09 18:55:58 tgdb.cpp:591() DEBUG:server interpreter-exec mi "complete /qui"(\n)
+
+2017-11-09 18:55:58 io.cpp:136() DEBUG:(\r)(\n)(\032)(\032)post-prompt(\r)(\n)
+
+2017-11-09 18:55:58 io.cpp:136() DEBUG:&"complete /qui\n"(\r)(\n)^done(\r)(\n)
+
+2017-11-09 18:55:58 io.cpp:136() DEBUG:(\r)(\n)(\032)(\032)pre-prompt(\r)(\n)(gdb) (\r)(\n)(\032)(\032)prompt(\r)(\n)
+
+2017-11-09 18:55:59 tgdb.cpp:591() DEBUG:server interpreter-exec mi "complete /qui"(\n)
+
+2017-11-09 18:55:59 io.cpp:136() DEBUG:(\r)(\n)(\032)(\032)post-prompt(\r)(\n)
+
+2017-11-09 18:55:59 io.cpp:136() DEBUG:&"complete /qui\n"(\r)(\n)^done(\r)(\n)
+
+2017-11-09 18:55:59 io.cpp:136() DEBUG:(\r)(\n)(\032)(\032)pre-prompt(\r)(\n)(gdb) (\r)(\n)(\032)(\032)prompt(\r)(\n)
+
+2017-11-09 18:55:59 tgdb.cpp:591() DEBUG:server interpreter-exec mi "complete /qui"(\n)
+
+2017-11-09 18:55:59 io.cpp:136() DEBUG:(\r)(\n)(\032)(\032)post-prompt(\r)(\n)
+
+2017-11-09 18:55:59 io.cpp:136() DEBUG:&"complete /qui\n"(\r)(\n)^done(\r)(\n)
+
+2017-11-09 18:55:59 io.cpp:136() DEBUG:(\r)(\n)(\032)(\032)pre-prompt(\r)(\n)(gdb) (\r)(\n)(\032)(\032)prompt(\r)(\n)
+
+2017-11-09 18:56:01 tgdb.cpp:591() DEBUG:/help(\n)
+
+2017-11-09 18:56:01 io.cpp:136() DEBUG:(\r)(\n)(\032)(\032)post-prompt(\r)(\n)(\r)(\n)(\032)(\032)error-begin(\r)(\n)Undefined command: "".  Try "help".(\r)(\n)(\r)(\n)(\032)(\032)error(\r)(\n)
+
+2017-11-09 18:56:01 io.cpp:136() DEBUG:(\r)(\n)(\032)(\032)pre-prompt(\r)(\n)(gdb) (\r)(\n)(\032)(\032)prompt(\r)(\n)
+
+2017-11-09 18:56:02 tgdb.cpp:591() DEBUG:exit(\n)
+
+2017-11-09 18:56:02 io.cpp:136() DEBUG:(\r)(\n)(\032)(\032)post-prompt(\r)(\n)
+
+2017-11-09 18:56:02 io.cpp:136() DEBUG:(\r)(\n)(\032)(\032)error-begin(\r)(\n)Undefined command: "exit".  Try "help".(\r)(\n)(\r)(\n)(\032)(\032)error(\r)(\n)
+
+2017-11-09 18:56:02 io.cpp:136() DEBUG:(\r)(\n)(\032)(\032)pre-prompt(\r)(\n)(gdb) (\r)(\n)(\032)(\032)prompt(\r)(\n)
+
+2017-11-09 18:56:03 tgdb.cpp:591() DEBUG:quit(\n)
+
+2017-11-09 18:56:03 io.cpp:136() DEBUG:(\r)(\n)(\032)(\032)post-prompt(\r)(\n)
+
+2017-11-09 18:56:03 io.cpp:136() DEBUG:(\r)(\n)(\032)(\032)pre-query(\r)(\n)A debugging session is active.(\r)(\n)(\r)(\n)(\t)Inferior 1 [process 17676] will be killed.(\r)(\n)(\r)(\n)Quit anyway? (y or n) (\r)(\n)(\032)(\032)query(\r)(\n)
+
+2017-11-09 18:56:03 tgdb.cpp:591() DEBUG:y(\n)
+
+2017-11-09 18:56:03 io.cpp:136() DEBUG:(\r)(\n)(\032)(\032)post-query(\r)(\n)
+
+2017-11-09 18:56:03 io.cpp:136() DEBUG:(\r)(\n)(\032)(\032)frames-invalid(\r)(\n)
+
+2017-11-09 18:56:03 tgdb.cpp:739() INFO:read EOF from GDB, closing down
+
+2017-11-09 18:56:03 tgdb.cpp:461() INFO:Closing logfile.
+

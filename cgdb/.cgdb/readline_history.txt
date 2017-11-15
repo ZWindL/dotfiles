@@ -201,3 +201,266 @@ exit
 exit
 quit
 y
+exit
+quit
+start
+s
+p stk
+s
+p des_stack 
+s
+p des_stack 
+s
+p STACK_INIT_SIZE
+echo STACK_INIT_SIZE
+ls
+s
+p des_stack->bottom 
+p des_stack
+s
+p des_stack->stack_size 
+s
+p des_stack->stack_size 
+s
+p des_stack -> element_count 
+s
+p stk->top
+p stk->bottom 
+p stk -> element_count 
+p stk -> stack_size 
+p stk
+quit
+y
+info registers 
+start 
+info stack 
+bt
+s
+bt
+bt 1
+bt
+frame 1
+info registers 
+bt
+frame 0
+s
+p stk
+quit
+y
+start
+s
+quit
+y
+start
+s
+p str_count 
+s
+p c
+p and_char_count at_char_count 
+p and_char_count
+p at_char_count 
+s
+1
+quit
+3
+23
+3421
+324
+1342
+34
+234
+2342134
+2
+342134
+23
+4
+23423
+4
+23
+432
+423
+start
+restart
+start
+y
+s
+fhsfjdfsadfkdsaf
+quit
+quit
+quit
+quit
+quit
+quit
+y
+start 
+s
+abc&cba@
+quit
+quit
+quit
+quit
+quit
+\n
+quit
+quit
+quit
+quit
+quit
+quit
+quit
+quit
+quit
+quit
+s
+jdlfkjlsdjf
+fjklsdjf
+quit
+y
+start
+s
+adb&cdb@
+quit
+quit
+quit
+quit
+quit
+y
+start < userinput 
+s
+p c
+s
+p stack
+p stack->top 
+p stack->bottom 
+p stack->element_count 
+s
+p stack->top 
+p stack->top 
+p stack->element_count 
+s
+p elem 
+s
+p elem 
+s
+p c
+s
+p c
+s
+exit
+quit
+y
+start < ./userinput 
+s
+p c
+exit
+y
+quit
+y
+run < userinput 
+bt
+restart 
+restart 0
+quit
+y
+run < ./userinput 
+s
+n
+s
+p c
+s
+p c
+quit
+y
+run < userinput 
+s
+p input
+s
+p index
+s
+bt
+s
+p stk
+p stk->bottom 
+p (char*)stk->bottom 
+s
+p stack->element_count 
+s
+s
+run
+n
+n
+p src_str 
+p index 
+p c
+quit
+y
+start 
+s
+abc
+quit
+quit
+y
+start 
+s
+s
+a
+quit
+quit
+quit
+quit
+quit
+quit
+quit
+quit
+quit
+quit
+quit
+y
+start
+s
+f
+quit
+quit
+quit
+quit
+quit
+quit
+y
+start 
+s
+j
+quit
+quit
+quit
+quit
+quit
+y
+quit
+start 
+s
+f
+quit
+quit
+quit
+quit
+quit
+quit
+y
+start 
+s
+exit
+quit
+y
+start 
+s
+t
+quit
+quit
+y
+T
+help T
+start 
+/help
+exit
+quit
+y

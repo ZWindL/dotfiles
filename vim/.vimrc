@@ -43,7 +43,7 @@ call plug#begin()
 	
 	""lint tool
 	""Plug 'scrooloose/syntastic'
-	Plug 'w0rp/ale'
+	"Plug 'w0rp/ale'
 
 	""Assembly Hilight
 	Plug 'Shirk/vim-gas'

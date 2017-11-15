@@ -1,4 +1,1 @@
--I/usr/lib64/gcc/x86_64-pc-linux-gnu/7.2.0
--I/usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0
--I/usr/include/c++/7.2.0
--I/usr/lib/clang/5.0.0/include
+-isystem/usr/lib/clang/5.0.0/

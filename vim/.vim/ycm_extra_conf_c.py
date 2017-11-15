@@ -57,9 +57,13 @@ flags = [
 # relevant for c++ headers.
 # For a C project, you would set this to 'c' instead of 'c++'.
 '-x',
-'c++',
+'c',
 '-isystem',
 '../BoostParts',
+'-isystem',
+'/usr/include',
+'-isystem',
+'/usr/local/include',
 '-isystem',
 # This path will only work on OS X, but extra paths that don't exist are not
 # harmful
@@ -147,10 +151,10 @@ def FlagsForFile( filename, **kwargs ):
   # NOTE: This is just for YouCompleteMe; it's highly likely that your project
   # does NOT need to remove the stdlib flag. DO NOT USE THIS IN YOUR
   # ycm_extra_conf IF YOU'RE NOT 100% SURE YOU NEED IT.
-  try:
-    final_flags.remove( '-stdlib=libc++' )
-  except ValueError:
-    pass
+  ##try:
+  ##  final_flags.remove( '-stdlib=libc++' )
+  ##except ValueError:
+  ##  pass
 
   return {
     'flags': final_flags,

@@ -10,9 +10,12 @@ fortune-mod-hackers
 fortune-mod-matrix
 fortune-mod-vimtips
 fortune-mod-zh
+gns3-gui
+gns3-server
 hmcl
 i2pd-git
 i3-gaps-next-git
+icu52
 jp2a
 keybase-bin
 lua-cjson
@@ -24,7 +27,9 @@ mycli
 nheko-git
 ninvaders
 oneko
+otf-fantasque-sans-mono
 otf-fira-code
+packettracer
 peerflix
 phpstorm
 pip2pkgbuild
@@ -32,8 +37,8 @@ python-gdbgui
 rtv
 thinkgui
 tmate
-ttf-fantasque-sans
 usbprog
 xpenguins
+xsp
 yacy
 ycm-generator-git
