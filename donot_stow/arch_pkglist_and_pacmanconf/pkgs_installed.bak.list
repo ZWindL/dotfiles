@@ -1,5 +1,6 @@
 0ad
 acpi
+acpi_call-dkms
 adobe-source-han-sans-cn-fonts
 adobe-source-han-sans-jp-fonts
 adobe-source-han-sans-kr-fonts
@@ -27,7 +28,6 @@ argyllcms
 aria2-fast
 ark
 arm-none-eabi-gcc
-asciidoc
 asciinema
 asp
 aspell-en
@@ -43,8 +43,8 @@ bash-completion
 bbswitch-dkms
 bear
 besttrace
-bind-tools
 binutils
+binwalk
 bison
 bleachbit
 bluedevil
@@ -65,7 +65,6 @@ cantor
 ccal
 ccrypt
 celt
-cgdb
 chromium
 clamav
 clamz
@@ -90,9 +89,9 @@ dhcpcd
 dialog
 dictd
 diffutils
+discord
 dkms
 dmenu
-dnsmasq
 dolphin
 dolphin-plugins
 dosbox
@@ -159,6 +158,8 @@ glhack
 glib2-docs
 glibc
 gnome-themes-standard
+gnu-netcat
+gnucash
 gnuchess
 go
 goldendict
@@ -258,6 +259,7 @@ kwalletmanager
 kwayland-integration
 kwin
 less
+lib32-glibc
 libavc1394
 libdbusmenu-gtk3
 libfprint
@@ -312,6 +314,7 @@ namcap
 nano
 ncdu
 ncurses5-compat-libs
+neofetch
 neovim
 netctl
 netdata
@@ -357,7 +360,6 @@ php-apache
 php-cgi
 php-fpm
 php-gd
-php-mcrypt
 phppgadmin
 pidgin
 pidgin-otr
@@ -424,13 +426,15 @@ python2-unidecode
 python3-aur
 qbittorrent
 qemu
-qemu-launcher
+qmmp
 qt5-3d
 qt5-imageformats
 qtcreator
 qtox
 qtscriptgenerator
 quota-tools
+radare2
+recordmydesktop
 redis
 redshift
 reiserfsprogs
@@ -440,6 +444,7 @@ rkhunter
 rlwrap
 rsync
 ruby
+ruby-pg
 rustup
 s-nail
 sandbox
@@ -462,6 +467,8 @@ sl
 slack-desktop
 smartmontools
 spectacle
+spice-gtk3
+sqlmap
 srain-git
 sshfs
 stockfish
@@ -510,6 +517,7 @@ ttf-monaco
 ttf-ubuntu-font-family
 tuntox
 typescript
+unbound
 unetbootin
 unhide
 unrar
@@ -538,6 +546,7 @@ weechat
 wget
 which
 whois
+wire-desktop
 wireguard-dkms
 wireguard-tools
 wireshark-qt

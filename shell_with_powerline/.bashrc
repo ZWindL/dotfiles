@@ -25,3 +25,9 @@ fi
 
 #拼音补全路径
 source /usr/share/pinyin-completion/shell/pinyin-comp.bash
+
+## k-blur
+if [[ $(ps --no-header -p $PPID -o comm) =~ yakuake|konsole ]]; then
+    for wid in $(xdotool search --pid $PPID); do
+        xprop -f _KDE_NET_WM_BLUR_BEHIND_REGION 32c -set _KDE_NET_WM_BLUR_BEHIND_REGION 0 -id $wid; done
+fi

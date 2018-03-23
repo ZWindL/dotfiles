@@ -62,6 +62,8 @@ call plug#begin()
 	"" ColorSchem
 	Plug 'tomasr/molokai'
 	Plug 'altercation/vim-colors-solarized'
+	Plug 'rmnv/vim-simple-colors'
+	Plug 'flazz/vim-colorschemes'
 	"" Change to xx.h/xx.c type :A
 	Plug 'vim-scripts/a.vim'
 
@@ -110,8 +112,6 @@ call plug#begin()
 	" 使用过程中会出现莫名奇妙的 bug 暂停使用一段时间
 	" 已经确定括号自动配对失效是因为这个插件
 	"Plug 'idxuanjun/bx_vimim_dict'
-	" 主题配色方案
-	Plug 'flazz/vim-colorschemes'
 
 	"交互执行命令
 	Plug 'Shougo/vimproc.vim', {'do' : 'make'}
@@ -152,7 +152,7 @@ source ~/.vim/plugconfs/vimwiki.vim
 source ~/.vim/plugconfs/vimnotes.vim
 source ~/.vim/plugconfs/easymotion.vim
 "source ~/.vim/plugconfs/powerline.vim
-source ~/.vim/plugconfs/ale.vim
+"source ~/.vim/plugconfs/ale.vim
 source ~/.vim/plugconfs/highlightedyank.vim
 "source ~/.vim/plugconfs/cligher8.vim
 
@@ -226,14 +226,17 @@ set formatoptions-=t
 
 " 设置 256 色
 set t_Co=256
-colorscheme elflord
+"colorscheme elflord
 if has("gui_running")
+    colorscheme rmnv
+    "colorscheme Dev_Delight
+    "colorscheme PapayaWhip
 	"colorscheme desert
 	"colorscheme elflord
 	"colorscheme koehler
 	"colorscheme darkblue
 	"colorscheme molokai
-	colorscheme solarized
+	"colorscheme solarized
 	"colorscheme twilighted
 endif
 
@@ -339,3 +342,6 @@ nmap <F6>k :cp<CR>
 "" 命令补全的时候忽略大小写
 set ignorecase
 set smartcase
+
+""自动关闭输入法
+autocmd InsertLeave * silent! !fcitx5-remote -c

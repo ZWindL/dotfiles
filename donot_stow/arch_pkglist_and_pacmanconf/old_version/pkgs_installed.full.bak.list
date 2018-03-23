@@ -1138,6 +1138,7 @@ media-player-info
 meld
 mercurial
 mesa
+meson
 messagelib
 metapixel
 milou
@@ -1186,6 +1187,7 @@ networkmanager-openvpn
 networkmanager-qt
 newsboat
 nftables
+ninja
 nm-connection-editor
 nmap
 nodejs

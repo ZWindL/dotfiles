@@ -1,0 +1,7 @@
+{
+        "initializationOptions": {
+                "cacheDirectory": "/tmp/cquery",
+		"resourceDirectory": "~/.config/nvim/plugged/cquery/clang_resource_dir"
+        }
+}
+

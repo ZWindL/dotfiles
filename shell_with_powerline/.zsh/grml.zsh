@@ -78,7 +78,7 @@ setopt interactivecomments
 #zstyle ':completion:*' expand prefix suffix
 
 ## another different completer setting: expand shell aliases
-zstyle ':completion:*' completer _expand_alias _complete _approximate
+zstyle ':completion:*' completer _expand_alias _complete _correct _approximate
 
 ## to have more convenient account completion, specify your logins:
 #my_accounts=(
