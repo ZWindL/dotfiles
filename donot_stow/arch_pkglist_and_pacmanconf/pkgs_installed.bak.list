@@ -36,6 +36,7 @@ audiocd-kio
 aurvote
 autoconf
 automake
+autopep8
 awesome
 axel
 baka-mplayer
@@ -65,6 +66,7 @@ calibre
 cantor
 cataclysm-dda-ncurses
 ccal
+ccls-git
 ccrypt
 celt
 chromium
@@ -108,6 +110,10 @@ e2fsprogs
 ebtables
 efibootmgr
 electron
+emacs
+emacs-evil
+emacs-python-mode
+emacs-undo-tree
 encfs
 epplet-base
 eslint
@@ -212,6 +218,7 @@ kcharselect
 kchmviewer
 kcm-fcitx5-git
 kcolorchooser
+kdbg
 kde-dev-utils
 kde-gtk-config
 kde-l10n-zh_cn
@@ -346,6 +353,7 @@ oh-my-zsh-git
 okteta
 okular
 openvpn
+otf-fira-code
 oxygen
 p7zip
 pacman
@@ -372,7 +380,7 @@ pidgin-otr
 pidgin-xmpp-receipts
 pinfo
 pinyin-completion
-pkg-config
+pkgconf
 plasma-desktop
 plasma-mediacenter
 plasma-nm
@@ -421,6 +429,7 @@ python-pygit2
 python-pylint
 python-pystemmer
 python-redis
+python-rope
 python-sphinx
 python-unidecode
 python2-hglib
@@ -614,7 +623,6 @@ xorg-xwud
 xscreensaver-arch-logo
 xsel
 yakuake
-yaourt
 yarn
 ydcv
 yed

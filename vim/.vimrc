@@ -1,7 +1,7 @@
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "			For Vim-plug 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-call plug#begin()
+call plug#begin('~/.local/share/vim/plugged')
 
 	"""""""""""""""
 	" 安装函数
@@ -27,19 +27,30 @@ call plug#begin()
 	"" 前端必备插件 
 	Plug 'mattn/emmet-vim'
 		""TypeScript
-		"hilight
+		"highlight
 		Plug 'leafgarland/typescript-vim'
 		"Plug 'HerringtonDarkholme/yats.vim'
 
+	""Lang server
+	"Plug 'prabirshrestha/async.vim'
+    "Plug 'prabirshrestha/vim-lsp'
+    "Plug 'prabirshrestha/asyncomplete.vim'
+    "Plug 'prabirshrestha/asyncomplete-lsp.vim'
+    Plug 'autozimu/LanguageClient-neovim', {
+    \ 'branch': 'next',
+    \ 'do': 'make release',
+    \ }
+    Plug 'junegunn/fzf'
+    Plug 'Shougo/deoplete.nvim'
+        Plug 'roxma/nvim-yarp'
+        Plug 'roxma/vim-hug-neovim-rpc'
+
 	""C family
-	"Plug 'maralla/completor.vim'
 	"Plug 'Valloric/YouCompleteMe', { 'do': function('BuildYCM') }
-	Plug 'Valloric/YouCompleteMe'
-		Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
+	"Plug 'Valloric/YouCompleteMe'
+		"Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
 	"Plug 'jeaye/color_coded', { 'do': function('BuildColorCoded') }
 	Plug 'jeaye/color_coded'
-	"Plug 'bbchung/clighter8'
-	"Plug 'rdnetto/YCM-Generator'
 	
 	""lint tool
 	""Plug 'scrooloose/syntastic'
@@ -131,10 +142,11 @@ call plug#end()
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " 插件的选项
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-source ~/.vim/plugconfs/ycm.vim
-"source ~/.vim/plugconfs/completor.vim
+"""source ~/.vim/plugconfs/vim-lsp.vim
+"""source ~/.vim/plugconfs/asyncomplete.vim
+source ~/.vim/plugconfs/deoplete.vim
+source ~/.vim/plugconfs/language_client.vim
 source ~/.vim/plugconfs/ultisnips.vim
-source ~/.vim/plugconfs/syntastic.vim
 source ~/.vim/plugconfs/emmet.vim
 source ~/.vim/plugconfs/color_coded.vim
 source ~/.vim/plugconfs/ctrlp.vim
@@ -154,7 +166,6 @@ source ~/.vim/plugconfs/easymotion.vim
 "source ~/.vim/plugconfs/powerline.vim
 "source ~/.vim/plugconfs/ale.vim
 source ~/.vim/plugconfs/highlightedyank.vim
-"source ~/.vim/plugconfs/cligher8.vim
 
 """"""""""""""""""""""""""""""""""""""""""""""""""
 "My Own options

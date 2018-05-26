@@ -1,7 +1,9 @@
 2048.c-git
 adms-git
 asciiflow2-git
+aurman
 bash-git-prompt
+bash-language-server-bin
 bcloud-git
 bingrep
 biosdisk-git
@@ -23,7 +25,6 @@ fortune-mod-hackers
 fortune-mod-matrix
 fortune-mod-vimtips
 fortune-mod-zh
-fstar-bin
 ghdl
 grc
 hmcl
@@ -49,7 +50,6 @@ nheko-git
 ninvaders
 oneko
 otf-fantasque-sans-mono
-otf-fira-code
 pacaur
 pcaudiolib-git
 peerflix
@@ -57,14 +57,15 @@ phpstorm
 phpstorm-jre
 pip2pkgbuild
 plasma5-applets-weather-widget-git
+pydocstyle
 python-backports.csv
 python-cli_helpers
 python-flask-compress
 python-flask-git
 python-gdbgui
+python-json-rpc
+python-language-server
 python-pygdbmi
-python-pymysql
-python-tabulate
 python2-potr-git
 python3-kitchen
 qemu-launcher

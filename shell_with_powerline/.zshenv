@@ -9,7 +9,8 @@ export TERM=xterm-256color
 
 fpath+=~/.zfunc
 
-export RUST_SRC_PATH=/home/zwindl/.vim/srcs/rust/beta/src
+#fuck this line!!!!!!!!
+#export RUST_SRC_PATH=/home/zwindl/.vim/srcs/rust/beta/src
 
 #for rustup
 export CARGO_HOME=~/.cargo

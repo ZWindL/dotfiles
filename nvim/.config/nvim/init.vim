@@ -1,43 +1,38 @@
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "			For Vim-plug 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-call plug#begin()
+call plug#begin('~/.local/share/nvim/plugged')
 
 	"""""""""""""""
 	" 安装函数
 	"""""""""""""""
-	function! BuildColorCoded(info)
-		if a:info.status == 'installed' || a:info.status == 'updated' || a:info.force
-			!mkdir build
-			!cd build && cmake .. && make && make install
-		endif
-	endfunction
-
+	"function! BuildLangClient(info)
+	"    !nvim +UpdateRemotePlugins +qa
+	"    if a:info.status == 'installed' || a:info.status == 'updated'
+	"        !bash install.sh
+    "endfunction
 	" run PlugUpgrade to update vim-plug itself
 	"" Rust
 	Plug 'rust-lang/rust.vim'
 
 	"" completer
-	Plug 'autozimu/LanguageClient-neovim', { 'do': ':UpdateRemotePlugins' }
+	Plug 'autozimu/LanguageClient-neovim', { 
+	    \ 'branch': 'next',
+	    \ 'do': 'make release',
+        \}
+    Plug 'junegunn/fzf'
 	Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-	Plug 'roxma/nvim-completion-manager'
+	"" Ocaml completer
+	Plug 'reasonml-editor/vim-reason-plus'
 
 	"" Showing function signature and inline doc.
 	Plug 'Shougo/echodoc.vim'
 
 	Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
-    ""typescript
-    Plug 'mhartington/nvim-typescript'
-    ""javascript
-    Plug 'carlitux/deoplete-ternjs'
-    ""python
-    Plug 'zchee/deoplete-jedi'
-    ""rust
-    "Plug 'racer-rust/vim-racer'
     ""PHP
-    Plug 'lvht/phpcd.vim', { 'for': 'php', 'do': 'composer install' }
+    "Plug 'lvht/phpcd.vim', { 'for': 'php', 'do': 'composer install' }
     ""vim
-    Plug 'Shougo/neco-vim'
+    "Plug 'Shougo/neco-vim'
 
 	"" 前端必备插件 
 	Plug 'mattn/emmet-vim'
@@ -51,12 +46,12 @@ call plug#begin()
 	"Plug 'zchee/deoplete-clang'
 	"Plug 'Rip-Rip/clang_complete'
 	"highlighting
-	Plug 'arakashic/chromatica.nvim'
+	"Plug 'arakashic/chromatica.nvim'
 
 	
 	""lint tool
 	""Plug 'scrooloose/syntastic'
-	Plug 'w0rp/ale'
+	"Plug 'w0rp/ale'
 
 	""Assembly Hilight
 	Plug 'Shirk/vim-gas'
@@ -132,9 +127,7 @@ call plug#end()
 " 插件的选项
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 source ~/.config/nvim/plugconfs/deoplete.vim
-"source ~/.config/nvim/plugconfs/vim-racer.vim
 source ~/.config/nvim/plugconfs/airline.vim
-source ~/.config/nvim/plugconfs/ale.vim
 source ~/.config/nvim/plugconfs/ctrlp.vim
 source ~/.config/nvim/plugconfs/easymotion.vim
 source ~/.config/nvim/plugconfs/emmet.vim
@@ -149,7 +142,6 @@ source ~/.config/nvim/plugconfs/undotree.vim
 source ~/.config/nvim/plugconfs/vim_gas.vim
 source ~/.config/nvim/plugconfs/highlightedyank.vim
 source ~/.config/nvim/plugconfs/language_client.vim
-source ~/.config/nvim/plugconfs/chromatica.vim
 
 """"""""""""""""""""""""""""""""""""""""""""""""""
 "My Own options
