@@ -1,0 +1,1 @@
+/home/zwindl/.config/fisherman/z/functions/__z.fish

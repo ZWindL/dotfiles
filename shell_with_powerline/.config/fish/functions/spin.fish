@@ -1,0 +1,1 @@
+/home/zwindl/.config/fisherman/spin/spin.fish

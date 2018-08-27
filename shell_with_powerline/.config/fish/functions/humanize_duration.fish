@@ -1,0 +1,1 @@
+/home/zwindl/.config/fisherman/humanize_duration/humanize_duration.fish

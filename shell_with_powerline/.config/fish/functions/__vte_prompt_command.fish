@@ -1,0 +1,1 @@
+/home/zwindl/.config/fisherman/vte/functions/__vte_prompt_command.fish

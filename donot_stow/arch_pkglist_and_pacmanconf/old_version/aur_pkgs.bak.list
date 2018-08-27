@@ -1,6 +1,5 @@
-2048.c-git
-asciiflow2-git
 bash-git-prompt
+bash-language-server-bin
 bcloud-git
 bingrep
 biosdisk-git
@@ -22,9 +21,7 @@ fortune-mod-hackers
 fortune-mod-matrix
 fortune-mod-vimtips
 fortune-mod-zh
-fstar-bin
 ghdl
-grc
 hmcl
 i2pd-git
 i3-gaps-next-git
@@ -42,7 +39,6 @@ nheko-git
 ninvaders
 oneko
 otf-fantasque-sans-mono
-otf-fira-code
 pacaur
 peerflix
 phpstorm

@@ -57,7 +57,7 @@ install(){
 		echo -e "\033[31mERR! File $1 doesn't exsist!\033[0m"
 		exit 2
 	else
-		sudo pacman -S - < $1
+		sudo pacman -S --needed - < $1
 	fi
 }
 reinstall(){
@@ -76,7 +76,8 @@ reinstall(){
 			install $LIST_FILE
 			;;
 		"AUR" )
-			echo -e "\033[32mComming soon...\033[0m"
+		    pikaur -S -a --noedit --nodiff --needed < $LIST_FILE
+			#echo -e "\033[32mComming soon...\033[0m"
 			;;
 		"*" )
 			install $LIST_FILE

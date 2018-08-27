@@ -1,0 +1,1 @@
+/home/zwindl/.config/fisherman/bass/functions/bass.fish

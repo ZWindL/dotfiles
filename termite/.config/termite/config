@@ -12,7 +12,9 @@ geometry=850x500
 [colors]
 #foreground = #ededdd
 foreground = #e0e0d7
-background = rgba(0, 0, 0, 0.9)
+#background = rgba(0, 0, 0, 0.7)
+background = rgba(31, 34, 39, 0.62)
+#1f2227
 
 #foreground = #dcdccc
 #background = rgb(63, 63, 63)

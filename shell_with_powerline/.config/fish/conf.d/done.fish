@@ -1,0 +1,1 @@
+/home/zwindl/.config/fisherman/done/conf.d/done.fish

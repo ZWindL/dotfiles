@@ -1,0 +1,1 @@
+/home/zwindl/.config/fisherman/getopts/getopts.fish

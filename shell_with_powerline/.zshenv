@@ -2,11 +2,14 @@
 # for OH-MY-ZSH
 # Path to your oh-my-zsh installation.
 export ZSH=/usr/share/oh-my-zsh/
-#export ZSH=$HOME/.oh-my-zsh
+
+#hidpi
+export QT_AUTO_SCREEN_SCALE_FACTOR=1
 
 #256 colors
 export TERM=xterm-256color
 
+export TERMINAL=termite
 fpath+=~/.zfunc
 
 #fuck this line!!!!!!!!
@@ -16,6 +19,8 @@ fpath+=~/.zfunc
 export CARGO_HOME=~/.cargo
 export RUSTUP_HOME=~/.rustup
 export PATH="${PATH}":$CARGO_HOME/bin
+export RUSTUP_DIST_SERVER="https://mirrors.ustc.edu.cn/rust-static"
+export RUSTUP_UPDATE_ROOT="https://mirrors.ustc.edu.cn/rust-static/rustup"
 
 #for sdcv dictionary
 export STARDICT_DATA_DIR=/home/zwindl/Downloads/dicts
@@ -39,3 +44,6 @@ export ARCHFLAGS="-arch x86_64"
 
 # ssh
 export SSH_KEY_PATH="~/.ssh/dsa_id"
+
+#fzf
+export FZF_CTRL_T_OPTS="--preview '(highlight -O ansi -l {} 2> /dev/null || cat {} || tree -C {}) 2> /dev/null | head -200'"

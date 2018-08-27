@@ -1,6 +1,3 @@
-##############################
-###### From Grml-zsh #########
-##############################
 ## ZLE tweaks ##
 
 # use the vi navigation keys (hjkl) besides cursor keys in menu completion
@@ -78,7 +75,7 @@ setopt interactivecomments
 #zstyle ':completion:*' expand prefix suffix
 
 ## another different completer setting: expand shell aliases
-zstyle ':completion:*' completer _expand_alias _complete _correct _approximate
+#zstyle ':completion:*' completer _expand_alias _complete _correct _approximate
 
 ## to have more convenient account completion, specify your logins:
 #my_accounts=(

@@ -12,3 +12,11 @@ transfer_one_time() {
 	cat $tmpfile;
 	rm -rf $tmpfile
 }
+
+#fzf
+fzf-history-widget-accept() {
+  fzf-history-widget
+  zle accept-line
+}
+zle     -N     fzf-history-widget-accept
+bindkey '^X^R' fzf-history-widget-accept
