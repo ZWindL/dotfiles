@@ -33,7 +33,10 @@ call plug#begin('~/.local/share/vim/plugged')
     Plug 'prabirshrestha/vim-lsp'
     Plug 'prabirshrestha/asyncomplete.vim'
     Plug 'prabirshrestha/asyncomplete-lsp.vim'
-    Plug 'junegunn/fzf'
+    "Plug 'junegunn/fzf'
+    Plug 'lotabout/skim', { 'dir': '~/.skim', 'do': './install' }
+
+    Plug 'wakatime/vim-wakatime'
 
 	""C family
 	"Plug 'Valloric/YouCompleteMe', { 'do': function('BuildYCM') }
@@ -51,7 +54,7 @@ call plug#begin('~/.local/share/vim/plugged')
 	"" TagBar
 	Plug 'majutsushi/tagbar'
 	"Plug 'Yggdroot/indentLine'	"代码块可视化插件	只适用于使用空格缩进的文件中
-	"Plug 'nathanaelkane/vim-indent-guides'	"代码可视化插件
+	Plug 'nathanaelkane/vim-indent-guides'	"代码可视化插件
 	"补全 python 其实已经包含于 YCM 中
 	"Plug 'davidhalter/jedi'
 	"" 代码地图
@@ -64,6 +67,8 @@ call plug#begin('~/.local/share/vim/plugged')
 	"" Change to xx.h/xx.c type :A
 	Plug 'vim-scripts/a.vim'
 
+    Plug 'tpope/vim-fugitive'
+
 	"" SQL
 	Plug 'vim-scripts/dbext.vim'
 
@@ -74,6 +79,10 @@ call plug#begin('~/.local/share/vim/plugged')
 	"" MarkDown 插件
 	"Plug 'godlygeek/tabular'
 	"Plug 'plasticboy/vim-markdown'
+	
+	Plug 'chrisbra/csv.vim'
+
+	Plug 'Shougo/denite.nvim'
 
 	""为了帅！
 	Plug 'vim-airline/vim-airline'
@@ -81,7 +90,7 @@ call plug#begin('~/.local/share/vim/plugged')
 	"Plug 'bling/vim-bufferline'
 	Plug 'terryma/vim-multiple-cursors'
 	""彩色括号配对
-	Plug 'kien/rainbow_parentheses.vim'
+	Plug 'luochen1990/rainbow'
 
 	"" 文件模糊匹配查找
 	Plug 'kien/ctrlp.vim'
@@ -116,6 +125,8 @@ call plug#begin('~/.local/share/vim/plugged')
 	"个人笔记管理
 	Plug 'vimwiki/vimwiki'
 	Plug 'xolox/vim-notes' | Plug 'xolox/vim-misc'
+
+	Plug 'chrisbra/SudoEdit.vim'
 
 	""显示复制内容
 	Plug 'machakann/vim-highlightedyank'	
@@ -152,3 +163,4 @@ source ~/.vim/plugconfs/easymotion.vim
 "source ~/.vim/plugconfs/powerline.vim
 source ~/.vim/plugconfs/highlightedyank.vim
 "source ~/.vim/plugconfs/echodoc.vim
+source ~/.vim/plugconfs/rainbow.vim

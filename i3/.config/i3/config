@@ -176,7 +176,7 @@ bar {
 			background $bg_color
 		}
         status_command i3status
-        i3bar_command i3bar -t
+        #i3bar_command i3bar -t
 }
 
 #######################################################################
@@ -192,14 +192,15 @@ exec i3-config-wizard
 
 exec /usr/bin/compton --config /home/zwindl/.config/i3/compton.conf
 #exec compiz --replace
-exec_always --no-startup-id feh --bg-fill /usr/share/sway/Sway_Wallpaper_Blue_1366x768.png
+#exec_always --no-startup-id feh --bg-fill /usr/share/sway/Sway_Wallpaper_Blue_1366x768.png
+exec_always --no-startup-id feh --bg-fill /usr/share/wallpapers/Autumn/contents/images/1920x1080.jpg
 #output * bg /usr/share/sway/Sway_Wallpaper_Blue_1366x768.png
 gaps inner 5
 gaps outer 5
 smart_gaps on
 smart_borders on
 
-new_window none
+default_border none
 #for_window [class=(?i)termite] border pixel 3
 
 for_window [window_role="pop-up"] floating enable

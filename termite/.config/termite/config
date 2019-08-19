@@ -3,11 +3,12 @@ font = Fantasque Sans Mono 10
 #font = Fira Code 10
 browser = firefox-nightly
 clickable_url = true
-fullscreen = false
+allow_bold = true
+hyperlinks = true
 mouse_autohide = true
 scroll_on_keystroke = true
-#geometry=130x38
-geometry=850x500
+#geometry=850x500
+size_hints = true
 
 [colors]
 #foreground = #ededdd

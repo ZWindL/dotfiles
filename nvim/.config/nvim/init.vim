@@ -11,13 +11,17 @@ set so=5
 
 "定义快捷键的前缀，即<Leader>
 "NOTE:当前 leader 距离 Enter 太近
-let mapleader = "\\"
+"let mapleader = "\\"
+let mapleader = "`"
 
 set nocompatible
 " 显示相对行号的同时显示当前行号
 set nu
 set rnu
 "set nuw=5
+
+"set wildoptions=pum
+"set pumblend=20
 
 ""折行缩进
 set breakindent
@@ -47,9 +51,18 @@ set expandtab
 tnoremap <C-A> <C-\><C-N>
 
 " 设置 256 色
-set t_Co=256
+"set t_Co=256
+" 更丰富的颜色
+set termguicolors
+
 " 主题颜色
-colorscheme elflord
+"colorscheme CandyPaper
+"colorscheme Chasing_Logic
+"colorscheme cake
+colorscheme candyman
+"colorscheme colorful
+set background=dark
+highlight Normal guibg=NONE ctermbg=None
 
 " vim 自身命令行模式智能补全
 set wildmenu
@@ -116,6 +129,9 @@ else
   set autoindent		" always set autoindenting on
 endif "has("autocmd")
 
+"" for coc.nvim's hover time
+set updatetime=100
+
 "" 兼容 GBK 编码
 set fileencodings=utf-8,gbk
 
@@ -127,3 +143,17 @@ nmap <F6>k :cp<CR>
 "" command line completion ignore case
 set ignorecase
 set smartcase
+
+" set shell
+set shell=/bin/sh
+
+"" for jsonc file
+autocmd FileType json syntax match Comment +\/\/.\+$+
+
+" Allow saving of files as sudo when I forgot to start vim using sudo.
+cmap w!! w !sudo tee > /dev/null %
+
+"" histogram-based diff
+if has('nvim-0.3.2') || has("patch-8.1.0360")
+    set diffopt=filler,internal,algorithm:histogram,indent-heuristic
+endif

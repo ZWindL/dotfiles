@@ -12,6 +12,9 @@ export TERM=xterm-256color
 export TERMINAL=termite
 fpath+=~/.zfunc
 
+#for go
+export GOPATH=~/.local/go
+
 #fuck this line!!!!!!!!
 #export RUST_SRC_PATH=/home/zwindl/.vim/srcs/rust/beta/src
 
@@ -21,6 +24,9 @@ export RUSTUP_HOME=~/.rustup
 export PATH="${PATH}":$CARGO_HOME/bin
 export RUSTUP_DIST_SERVER="https://mirrors.ustc.edu.cn/rust-static"
 export RUSTUP_UPDATE_ROOT="https://mirrors.ustc.edu.cn/rust-static/rustup"
+
+#for php
+export PATH="${PATH}":/home/zwindl/.config/composer/vendor/bin
 
 #for sdcv dictionary
 export STARDICT_DATA_DIR=/home/zwindl/Downloads/dicts

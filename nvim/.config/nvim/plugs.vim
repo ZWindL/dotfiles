@@ -12,35 +12,42 @@ call plug#begin('~/.local/share/nvim/plugged')
 	"" Rust
 	Plug 'rust-lang/rust.vim'
 
+	""coc.nvim
+    Plug 'neoclide/coc.nvim', {'do': { -> coc#util#install()}}
+
 	"" completer
-	Plug 'autozimu/LanguageClient-neovim', { 
-	    \ 'branch': 'next',
-	    \ 'do': 'make release',
-        \}
-    Plug 'junegunn/fzf'
-	"Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+	"Plug 'autozimu/LanguageClient-neovim', { 
+		"\ 'branch': 'next',
+		"\ 'do': 'make release',
+        "\}
+    Plug 'lotabout/skim', { 'dir': '~/.skim', 'do': './install' }
 	
-    Plug 'ncm2/ncm2' | Plug 'roxma/nvim-yarp'
-    Plug 'ncm2/ncm2-github'
-    Plug 'ncm2/ncm2-path'
-    Plug 'ncm2/ncm2-bufword'
-    Plug 'ncm2/ncm2-ultisnips'
-    Plug 'ncm2/ncm2-rst-subscope'
-    Plug 'filipekiss/ncm2-look.vim'
+    "Plug 'ncm2/ncm2'
+    "Plug 'roxma/nvim-yarp'
+    "Plug 'ncm2/ncm2-github'
+    "Plug 'ncm2/ncm2-path'
+    "Plug 'ncm2/ncm2-bufword'
+    "Plug 'ncm2/ncm2-ultisnips'
+    "Plug 'ncm2/ncm2-rst-subscope'
+    "Plug 'filipekiss/ncm2-look.vim'
+
+    Plug 'tpope/vim-fugitive'
+
+    Plug 'wakatime/vim-wakatime'
 
 	"highlighting
-	Plug 'arakashic/chromatica.nvim'
+	"Plug 'pierremoreau/chromatica.nvim', {
+                "\ 'branch' : 'allow_relative_isystem',
+                "\}
 
 	"" Ocaml completer
 	Plug 'reasonml-editor/vim-reason-plus'
 
 	"" Showing function signature and inline doc.
-	"Plug 'Shougo/echodoc.vim'
+	Plug 'Shougo/echodoc.vim'
+	Plug 'Shougo/context_filetype.vim'
 
-    "Plug 'Shougo/deoppet.nvim', { 'do': ':UpdateRemotePlugins' }
-	"Plug 'Shougo/neosnippet.vim'
-	"Plug 'Shougo/neosnippet-snippets'
-    "Plug 'honza/vim-snippets'
+
 	Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
 	"
     ""PHP
@@ -64,10 +71,14 @@ call plug#begin('~/.local/share/nvim/plugged')
 	"" TagBar
 	Plug 'majutsushi/tagbar'
 	"Plug 'Yggdroot/indentLine'	"代码块可视化插件	只适用于使用空格缩进的文件中
-	"Plug 'nathanaelkane/vim-indent-guides'	"代码可视化插件
+	Plug 'nathanaelkane/vim-indent-guides'	"代码可视化插件
 	"" ColorSchem
 	Plug 'tomasr/molokai'
 	Plug 'altercation/vim-colors-solarized'
+
+	Plug 'chrisbra/csv.vim'
+
+    Plug 'Shougo/denite.nvim'
 
 	"" Web Dev
 	"Plug 'https://github.com/gorodinskiy/vim-coloresque.git'
@@ -78,7 +89,7 @@ call plug#begin('~/.local/share/nvim/plugged')
 	"Plug 'bling/vim-bufferline'
 	Plug 'terryma/vim-multiple-cursors'
 	""彩色括号配对
-	Plug 'kien/rainbow_parentheses.vim'
+	Plug 'luochen1990/rainbow'
 
 	"" 文件模糊匹配查找
 	Plug 'kien/ctrlp.vim'
@@ -106,10 +117,17 @@ call plug#begin('~/.local/share/nvim/plugged')
 	""显示复制内容
 	Plug 'machakann/vim-highlightedyank'	
 
+	Plug 'chrisbra/SudoEdit.vim'
+
 	""toml support
     Plug 'cespare/vim-toml'
     ""平滑滚动
     Plug 'yuttie/comfortable-motion.vim'
+
+    Plug 'mcchrish/nnn.vim'
+
+    Plug 'dhruvasagar/vim-table-mode'
+    Plug 'gyim/vim-boxdraw'
 call plug#end()
 "未来会用到的
 "https://github.com/rafaelndev/deoplete-laravel-plugin
@@ -133,7 +151,10 @@ source ~/.config/nvim/plugconfs/ultisnips.vim
 source ~/.config/nvim/plugconfs/undotree.vim
 source ~/.config/nvim/plugconfs/vim_gas.vim
 source ~/.config/nvim/plugconfs/highlightedyank.vim
-source ~/.config/nvim/plugconfs/language_client.vim
-source ~/.config/nvim/plugconfs/ncm2.vim
-source ~/.config/nvim/plugconfs/chromatica.vim
-"source ~/.config/nvim/plugconfs/echodoc.vim
+"source ~/.config/nvim/plugconfs/language_client.vim
+"source ~/.config/nvim/plugconfs/ncm2.vim
+"source ~/.config/nvim/plugconfs/chromatica.vim
+source ~/.config/nvim/plugconfs/echodoc.vim
+source ~/.config/nvim/plugconfs/rainbow.vim
+source ~/.config/nvim/plugconfs/table.vim
+source ~/.config/nvim/plugconfs/coc.vim

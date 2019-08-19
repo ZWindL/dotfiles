@@ -47,8 +47,8 @@ DISABLE_UNTRACKED_FILES_DIRTY="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-#plugins=(adb cp emoji man git colored-man-pages colorize archlinux copyfile copydir encode64 nmap vi-mode)
-plugins=(adb cp emoji man git colored-man-pages colorize archlinux copyfile copydir encode64 nmap vi-mode)
+#plugins=(cp emoji man git colored-man-pages colorize archlinux copyfile copydir encode64 nmap vi-mode)
+plugins=(cp emoji man git colored-man-pages colorize archlinux copyfile copydir encode64 nmap vi-mode)
 
 ZSH_CACHE_DIR=$HOME/.oh-my-zsh-cache
 if [[ ! -d $ZSH_CACHE_DIR ]]; then

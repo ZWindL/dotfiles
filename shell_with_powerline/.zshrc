@@ -47,8 +47,12 @@ bindkey '^x^e' edit-command-line
 # zle -N edit-command-line
 # bindkey -M vicmd v edit-command-line
 
-. /usr/share/fzf/key-bindings.zsh
-. /usr/share/fzf/completion.zsh
+#. /usr/share/fzf/key-bindings.zsh
+#. /usr/share/fzf/completion.zsh
+. /usr/share/skim/key-bindings.zsh
+. /usr/share/skim/completion.zsh
 
 # OPAM configuration
 . /home/zwindl/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
+
+source /home/zwindl/.config/broot/launcher/bash/br
