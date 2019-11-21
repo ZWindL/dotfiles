@@ -22,8 +22,9 @@ export GOPATH=~/.local/go
 export CARGO_HOME=~/.cargo
 export RUSTUP_HOME=~/.rustup
 export PATH="${PATH}":$CARGO_HOME/bin
-export RUSTUP_DIST_SERVER="https://mirrors.ustc.edu.cn/rust-static"
-export RUSTUP_UPDATE_ROOT="https://mirrors.ustc.edu.cn/rust-static/rustup"
+#export RUSTUP_DIST_SERVER="https://mirrors.ustc.edu.cn/rust-static"
+#export RUSTUP_UPDATE_ROOT="https://mirrors.ustc.edu.cn/rust-static/rustup"
+export RUSTUP_DIST_SERVER=https://mirrors.tuna.tsinghua.edu.cn/rustup
 
 #for php
 export PATH="${PATH}":/home/zwindl/.config/composer/vendor/bin

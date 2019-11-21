@@ -14,6 +14,7 @@ call plug#begin('~/.local/share/nvim/plugged')
 
 	""coc.nvim
     Plug 'neoclide/coc.nvim', {'do': { -> coc#util#install()}}
+    Plug 'jackguo380/vim-lsp-cxx-highlight'
 
 	"" completer
 	"Plug 'autozimu/LanguageClient-neovim', { 
@@ -128,6 +129,7 @@ call plug#begin('~/.local/share/nvim/plugged')
 
     Plug 'dhruvasagar/vim-table-mode'
     Plug 'gyim/vim-boxdraw'
+    Plug 'glacambre/firenvim', { 'do': function('firenvim#install') }
 call plug#end()
 "未来会用到的
 "https://github.com/rafaelndev/deoplete-laravel-plugin
@@ -158,3 +160,4 @@ source ~/.config/nvim/plugconfs/echodoc.vim
 source ~/.config/nvim/plugconfs/rainbow.vim
 source ~/.config/nvim/plugconfs/table.vim
 source ~/.config/nvim/plugconfs/coc.vim
+source ~/.config/nvim/plugconfs/firenvim.vim

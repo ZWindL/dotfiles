@@ -11,8 +11,8 @@ set so=5
 
 "定义快捷键的前缀，即<Leader>
 "NOTE:当前 leader 距离 Enter 太近
-"let mapleader = "\\"
-let mapleader = "`"
+let mapleader = "\\"
+"let mapleader = "`"
 
 set nocompatible
 " 显示相对行号的同时显示当前行号
@@ -29,6 +29,9 @@ set breakindent
 " 虚拟行也能使用 jk 来上下移动
 noremap <silent> <expr> j (v:count == 0 ? 'gj' : 'j')
 noremap <silent> <expr> k (v:count == 0 ? 'gk' : 'k')
+
+" close buffer
+noremap <Leader>ct :bd<CR>
 
 set ci
 set ai

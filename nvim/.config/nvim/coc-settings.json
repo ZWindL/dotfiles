@@ -19,8 +19,9 @@
                     "directory": "/tmp/ccls"
                 },
                 "clang": {
-                    "resourceDir": "/usr/lib/clang/8.0.1/"
-                }
+                    "resourceDir": "/usr/lib/clang/9.0.0/"
+                },
+                "highlight": { "lsRanges" : true }
             }
         },
         //"bash": {
