@@ -13,7 +13,8 @@ call plug#begin('~/.local/share/nvim/plugged')
 	Plug 'rust-lang/rust.vim'
 
 	""coc.nvim
-    Plug 'neoclide/coc.nvim', {'do': { -> coc#util#install()}}
+    Plug 'neoclide/coc.nvim', {'branch': 'release'}
+    "Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}
     Plug 'jackguo380/vim-lsp-cxx-highlight'
 
 	"" completer

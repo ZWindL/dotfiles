@@ -48,7 +48,7 @@ DISABLE_UNTRACKED_FILES_DIRTY="true"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 #plugins=(cp emoji man git colored-man-pages colorize archlinux copyfile copydir encode64 nmap vi-mode)
-plugins=(cp emoji man git colored-man-pages colorize archlinux copyfile copydir encode64 nmap vi-mode)
+plugins=(cp emoji man colorize archlinux copyfile copydir encode64 nmap vi-mode)
 
 ZSH_CACHE_DIR=$HOME/.oh-my-zsh-cache
 if [[ ! -d $ZSH_CACHE_DIR ]]; then
