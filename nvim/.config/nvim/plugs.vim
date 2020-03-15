@@ -9,6 +9,8 @@ call plug#begin('~/.local/share/nvim/plugged')
 	"        !bash install.sh
     "endfunction
 	" run PlugUpgrade to update vim-plug itself
+	Plug 'vifm/vifm.vim'
+	Plug 'ryanoasis/vim-devicons'
 	"" Rust
 	Plug 'rust-lang/rust.vim'
 
@@ -130,7 +132,9 @@ call plug#begin('~/.local/share/nvim/plugged')
 
     Plug 'dhruvasagar/vim-table-mode'
     Plug 'gyim/vim-boxdraw'
-    Plug 'glacambre/firenvim', { 'do': function('firenvim#install') }
+    "Plug 'glacambre/firenvim', { 'do': function('firenvim#install') }
+    Plug 'voldikss/vim-floaterm'
+    Plug 'liuchengxu/vim-clap', { 'do': ':Clap install-binary' }
 call plug#end()
 "未来会用到的
 "https://github.com/rafaelndev/deoplete-laravel-plugin
@@ -162,3 +166,4 @@ source ~/.config/nvim/plugconfs/rainbow.vim
 source ~/.config/nvim/plugconfs/table.vim
 source ~/.config/nvim/plugconfs/coc.vim
 source ~/.config/nvim/plugconfs/firenvim.vim
+source ~/.config/nvim/plugconfs/clap.vim

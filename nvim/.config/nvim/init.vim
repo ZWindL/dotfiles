@@ -148,13 +148,13 @@ set ignorecase
 set smartcase
 
 " set shell
-set shell=/bin/sh
+set shell=/bin/zsh
 
 "" for jsonc file
 autocmd FileType json syntax match Comment +\/\/.\+$+
 
 " Allow saving of files as sudo when I forgot to start vim using sudo.
-cmap w!! w !sudo tee > /dev/null %
+"cmap w!! w !sudo tee > /dev/null %
 
 "" histogram-based diff
 if has('nvim-0.3.2') || has("patch-8.1.0360")

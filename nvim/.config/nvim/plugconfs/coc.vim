@@ -15,6 +15,7 @@ let g:coc_global_extensions = [
             \'coc-pairs',
             \'coc-vetur',
             \'coc-rls',
+            \'coc-phpls',
             \]
 
 set shortmess+=c

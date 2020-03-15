@@ -9,10 +9,12 @@ SETUVAR __fish_classic_git_prompt_initialized:\x1d
 SETUVAR __fish_init_1_50_0:\x1d
 SETUVAR __fish_init_2_39_8:\x1d
 SETUVAR __fish_init_2_3_0:\x1d
+SETUVAR __fish_initialized:3100
 SETUVAR _fish_abbr__2D_2D_:rm\x20rm\x20\x2dI
 SETUVAR _fish_abbr_gg:git\x20gui\x20citool
 SETUVAR _fish_abbr_rm:rm\x20\x2di
 SETUVAR fish_color_autosuggestion:3BA3D0
+SETUVAR fish_color_cancel:\x2dr
 SETUVAR fish_color_command:0772A1
 SETUVAR fish_color_comment:FFE100
 SETUVAR fish_color_cwd:green
@@ -22,6 +24,7 @@ SETUVAR fish_color_error:EC3B86
 SETUVAR fish_color_escape:cyan
 SETUVAR fish_color_history_current:cyan
 SETUVAR fish_color_host:\x2do\x1ecyan
+SETUVAR fish_color_host_remote:yellow
 SETUVAR fish_color_match:cyan
 SETUVAR fish_color_normal:normal
 SETUVAR fish_color_operator:cyan
