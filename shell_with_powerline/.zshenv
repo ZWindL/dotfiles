@@ -13,7 +13,8 @@ export TERMINAL=termite
 fpath+=~/.zfunc
 
 #for go
-export GOPATH=~/.local/go
+export GOPATH=~/project/golang
+export PATH="${PATH}":$GOPATH/bin
 
 #fuck this line!!!!!!!!
 #export RUST_SRC_PATH=/home/zwindl/.vim/srcs/rust/beta/src

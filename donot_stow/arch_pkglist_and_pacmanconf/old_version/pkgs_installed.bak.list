@@ -40,6 +40,7 @@ autoconf
 automake
 autopep8
 axel
+baidunetdisk-bin
 bash
 bash-completion
 bat
@@ -157,7 +158,6 @@ flex
 foremost
 fortune-mod
 fprintd
-fractal
 freeciv
 freeglut
 freetype2-demos
@@ -203,6 +203,7 @@ gzip
 hddtemp
 heaptrack
 hexer
+hexyl
 highlight
 hiredis
 htop
@@ -459,7 +460,6 @@ prettyping
 privoxy
 procps-ng
 progress
-proxychains-ng
 psmisc
 pstoedit
 pulseaudio
@@ -471,6 +471,7 @@ pwgen
 pycharm-professional
 pydb
 pygmentize
+python-arrow
 python-coverage
 python-dbus
 python-jieba
@@ -486,10 +487,12 @@ python-opengl
 python-pip
 python-psutil
 python-pycodestyle
+python-pyfiglet
 python-pyflakes
 python-pygit2
 python-pylint
 python-pyqt5
+python-pysocks
 python-pystemmer
 python-pytest
 python-pyx
@@ -509,9 +512,13 @@ python3-aur
 qbittorrent
 qemu
 qt5-3d
+qt5-charts
 qt5-connectivity
+qt5-datavis3d
 qt5-imageformats
 qt5-networkauth
+qt5-remoteobjects
+qt5-scxml
 qt5-serialport
 qt5-translations
 qt5-websockets
@@ -527,9 +534,11 @@ recordmydesktop
 redis
 redshift
 reiserfsprogs
+remacs
 ripgrep
 rkhunter
 rlwrap
+rng-tools
 rssguard
 rsync
 rtv
@@ -641,6 +650,7 @@ vitetris
 vkd3d
 vlc
 vmware-workstation
+vnote-git
 vokoscreen-git
 vte3
 vulkan-intel

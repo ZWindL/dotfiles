@@ -81,6 +81,7 @@ autopep8
 avahi
 axel
 babl
+baidunetdisk-bin
 baloo
 baloo-widgets
 bash
@@ -182,6 +183,7 @@ curl
 cython
 darcs
 darkhttpd
+dav1d
 db
 dbus
 dbus-broker
@@ -289,7 +291,6 @@ fontconfig
 foremost
 fortune-mod
 fprintd
-fractal
 frameworkintegration
 freealut
 freecell-solver
@@ -428,6 +429,7 @@ haskell-conduit
 haskell-cryptohash
 haskell-cryptonite
 haskell-data-ordlist
+haskell-diff
 haskell-digest
 haskell-dlist
 haskell-erf
@@ -479,6 +481,7 @@ hddtemp
 hdparm
 heaptrack
 hexer
+hexyl
 hicolor-icon-theme
 highlight
 hiredis
@@ -532,6 +535,7 @@ jave
 jbig2dec
 jemalloc
 jfsutils
+jitterentropy
 jp2a
 jq
 jre
@@ -974,7 +978,6 @@ libgphoto2
 libgravatar
 libgudev
 libgusb
-libhandy
 libheif
 libibus
 libical
@@ -1074,6 +1077,7 @@ libomxil-bellagio
 liborcus
 libotf
 libotr
+libp11
 libpackagekit-glib
 libpagemaker
 libpaper
@@ -1083,6 +1087,7 @@ libpeas
 libpgm
 libphonenumber
 libpipeline
+libplacebo
 libplist
 libpng
 libpng12
@@ -1378,6 +1383,7 @@ openssh
 openssl
 openssl-1.0
 openvpn
+opera-ffmpeg-codecs
 optipng
 opus
 opusfile
@@ -1524,7 +1530,6 @@ progress
 progsreiserfs
 protobuf
 protobuf-c
-proxychains-ng
 psmisc
 pstoedit
 pulseaudio
@@ -1543,12 +1548,14 @@ pygobject2-devel
 pygtk
 pyqt5-common
 pyqtwebengine-common
+pyside2
 python
 python-aiohttp
 python-alembic
 python-apipkg
 python-appdirs
 python-argparse
+python-arrow
 python-asn1crypto
 python-astroid
 python-async-timeout
@@ -1682,6 +1689,7 @@ python-pycryptodome
 python-pycryptodomex
 python-pydot
 python-pyelftools
+python-pyfiglet
 python-pyflakes
 python-pygit2
 python-pygments
@@ -1695,6 +1703,7 @@ python-pyperclip
 python-pyqt5
 python-pyqtwebengine
 python-pyrsistent
+python-pysocks
 python-pystemmer
 python-pytest
 python-pytoml
@@ -1710,6 +1719,7 @@ python-rope
 python-ruamel-yaml
 python-send2trash
 python-setuptools
+python-shiboken2
 python-simplejson
 python-sip-pyqt5
 python-six
@@ -1760,6 +1770,7 @@ python2
 python2-appdirs
 python2-apsw
 python2-astroid
+python2-attrs
 python2-backports
 python2-backports.functools_lru_cache
 python2-beautifulsoup4
@@ -1768,6 +1779,7 @@ python2-cairo
 python2-chardet
 python2-colorama
 python2-configparser
+python2-contextlib2
 python2-css-parser
 python2-cssselect
 python2-dateutil
@@ -1788,6 +1800,7 @@ python2-html2text
 python2-html5-parser
 python2-html5lib
 python2-idna
+python2-importlib-metadata
 python2-ipaddress
 python2-isort
 python2-lazy-object-proxy
@@ -1799,6 +1812,7 @@ python2-mechanize
 python2-msgpack
 python2-netifaces
 python2-packaging
+python2-pathlib2
 python2-pep517
 python2-pillow
 python2-pip
@@ -1813,6 +1827,7 @@ python2-pytoml
 python2-regex
 python2-requests
 python2-retrying
+python2-scandir
 python2-setuptools
 python2-singledispatch
 python2-sip-pyqt5
@@ -1823,6 +1838,7 @@ python2-unrardll
 python2-urllib3
 python2-webencodings
 python2-wrapt
+python2-zipp
 python3-aur
 python3-memoizedb
 python3-xcgf
@@ -1838,7 +1854,9 @@ qrencode
 qt-gstreamer
 qt5-3d
 qt5-base
+qt5-charts
 qt5-connectivity
+qt5-datavis3d
 qt5-declarative
 qt5-graphicaleffects
 qt5-imageformats
@@ -1847,7 +1865,9 @@ qt5-multimedia
 qt5-networkauth
 qt5-quickcontrols
 qt5-quickcontrols2
+qt5-remoteobjects
 qt5-script
+qt5-scxml
 qt5-sensors
 qt5-serialport
 qt5-speech
@@ -1882,11 +1902,13 @@ redland
 redshift
 reflector
 reiserfsprogs
+remacs
 rest
 rhash
 ripgrep
 rkhunter
 rlwrap
+rng-tools
 rpcbind
 rpmextract
 rssguard
@@ -1939,6 +1961,7 @@ shadowsocks-libev
 shadowsocks-libev-qrcode
 shared-mime-info
 shellcheck
+shiboken2
 signon-kwallet-extension
 signon-plugin-oauth2
 signon-ui
@@ -2096,6 +2119,7 @@ vkd3d
 vlc
 vmware-keymaps
 vmware-workstation
+vnote-git
 vokoscreen-git
 volume_key
 vte-common
@@ -2233,6 +2257,7 @@ zathura
 zathura-djvu
 zathura-pdf-mupdf
 zathura-ps
+zbar
 zenity
 zeromq
 zeronet
