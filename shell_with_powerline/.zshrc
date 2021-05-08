@@ -7,8 +7,10 @@ fi
 . ~/.zsh/oh-my-zsh.zsh
 ## For termite
 . /etc/profile.d/vte.sh
+
 # For PowerLine
-. /usr/lib/python3.8/site-packages/powerline/bindings/zsh/powerline.zsh
+. /usr/lib/python3.9/site-packages/powerline/bindings/zsh/powerline.zsh
+
 #zsh 高亮
 #. /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # auto suggestion
@@ -55,11 +57,11 @@ bindkey '^x^e' edit-command-line
 # OPAM configuration
 . /home/zwindl/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
 
-. /home/zwindl/.config/broot/launcher/bash/br
-. /usr/share/zsh/site-functions/git-flow-completion.zsh
+#. /home/zwindl/.config/broot/launcher/bash/br
+#. /usr/share/zsh/site-functions/git-flow-completion.zsh
 
 ### Added by Zplugin's installer
-source "$HOME/.zplugin/bin/zplugin.zsh"
+source "$HOME/.zinit/bin/zplugin.zsh"
 autoload -Uz _zplugin
 (( ${+_comps} )) && _comps[zplugin]=_zplugin
 ### End of Zplugin installer's chunk

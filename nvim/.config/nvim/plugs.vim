@@ -18,8 +18,9 @@ call plug#begin('~/.local/share/nvim/plugged')
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     "Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}
     Plug 'jackguo380/vim-lsp-cxx-highlight'
-
-	"" completer
+    " Function, method, variable, outlines
+    Plug 'liuchengxu/vista.vim'
+    "" completer
 	"Plug 'autozimu/LanguageClient-neovim', { 
 		"\ 'branch': 'next',
 		"\ 'do': 'make release',
@@ -165,5 +166,6 @@ source ~/.config/nvim/plugconfs/echodoc.vim
 source ~/.config/nvim/plugconfs/rainbow.vim
 source ~/.config/nvim/plugconfs/table.vim
 source ~/.config/nvim/plugconfs/coc.vim
+source ~/.config/nvim/plugconfs/vista.vim
 source ~/.config/nvim/plugconfs/firenvim.vim
 source ~/.config/nvim/plugconfs/clap.vim

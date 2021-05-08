@@ -5,6 +5,7 @@ export ZSH=/usr/share/oh-my-zsh/
 
 #hidpi
 export QT_AUTO_SCREEN_SCALE_FACTOR=1
+export PLASMA_USE_QT_SCALING=1
 
 #256 colors
 export TERM=xterm-256color
@@ -13,8 +14,9 @@ export TERMINAL=termite
 fpath+=~/.zfunc
 
 #for go
-export GOPATH=~/project/golang
+export GOPATH=~/.golang
 export PATH="${PATH}":$GOPATH/bin
+export GO111MODULE=on
 
 #fuck this line!!!!!!!!
 #export RUST_SRC_PATH=/home/zwindl/.vim/srcs/rust/beta/src
@@ -33,7 +35,7 @@ export PATH="${PATH}":/home/zwindl/.config/composer/vendor/bin
 #for sdcv dictionary
 export STARDICT_DATA_DIR=/home/zwindl/Downloads/dicts
 
-export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment

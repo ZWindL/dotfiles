@@ -15,7 +15,10 @@ let g:coc_global_extensions = [
             \'coc-pairs',
             \'coc-vetur',
             \'coc-rls',
+            \'coc-go',
             \'coc-phpls',
+            \'coc-vimlsp',
+            \'coc-tabnine',
             \]
 
 set shortmess+=c
@@ -130,3 +133,6 @@ nmap <F2>       <Plug>(coc-rename)
 nmap cl         <Plug>(coc-codelens-action)
 nmap <F3>       <Plug>(coc-fix-current)
 nmap gh         :call CocActionAsync('doHover')<CR>
+
+" auto add missing imports when saving golang source files
+autocmd BufWritePre *.go :silent call CocAction('runCommand', 'editor.action.organizeImport')

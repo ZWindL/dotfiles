@@ -5,5 +5,5 @@
 	editor = vim
 [merge]
 	tool = vimdiff
-[gui]
-	recentrepo = /home/zwindl/projects/cpp
+[credential]
+	helper = store

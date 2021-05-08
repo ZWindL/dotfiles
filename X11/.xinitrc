@@ -1,15 +1,16 @@
 #for NVIDIA optimus
-xrandr --setprovideroutputsource modesetting NVIDIA-0
-xrandr --auto
-
+#xrandr --setprovideroutputsource modesetting NVIDIA-0
+#xrandr --auto
+#
 export LANG=zh_CN.UTF-8
-export GTK_IM_MODULE=fcitx
-export QT_IM_MODULE=fcitx
-export XMODIFIERS="@im=fcitx"
-exec fcitx&
+export GTK_IM_MODULE=fcitx5
+export QT_IM_MODULE=fcitx5
+export XMODIFIERS="@im=fcitx5"
+exec fcitx5&
 
 #交换Capslock和Ctrl
 exec setxkbmap -option ctrl:swapcaps&
+#exec xmonad
 exec i3
 #exec sway
 
