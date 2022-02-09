@@ -27,7 +27,10 @@ export RUSTUP_HOME=~/.rustup
 export PATH="${PATH}":$CARGO_HOME/bin
 #export RUSTUP_DIST_SERVER="https://mirrors.ustc.edu.cn/rust-static"
 #export RUSTUP_UPDATE_ROOT="https://mirrors.ustc.edu.cn/rust-static/rustup"
-export RUSTUP_DIST_SERVER=https://mirrors.tuna.tsinghua.edu.cn/rustup
+#export RUSTUP_DIST_SERVER=https://mirrors.tuna.tsinghua.edu.cn/rustup
+#export RUSTUP_UPDATE_ROOT=https://mirrors.tuna.tsinghua.edu.cn/rustup/rustup
+export RUSTUP_DIST_SERVER=
+export RUSTUP_UPDATE_ROOT=
 
 #for php
 export PATH="${PATH}":/home/zwindl/.config/composer/vendor/bin
@@ -47,7 +50,7 @@ export MANPATH="/usr/local/man:$MANPATH"
 # else
 #   export EDITOR='gvim'
 # fi
-export EDITOR='vim'
+export EDITOR='nvim'
 
 # Compilation flags
 export ARCHFLAGS="-arch x86_64"

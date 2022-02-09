@@ -1,14 +1,19 @@
-zplugin ice wait lucid
-zplugin snippet OMZ::lib/git.zsh
+# Supports oh-my-zsh plugins and the like
+zplug 'zplug/zplug'
+zplug "plugins/git",   from:oh-my-zsh
+zplug "plugins/colored-man-pages/colored-man-pages",   from:oh-my-zsh
+zplug "zdharma-continuum/fast-syntax-highlighting"
+zplug "agkozak/zsh-z"
 
-zplugin ice wait atload"unalias grv" lucid
-zplugin snippet OMZ::plugins/git/git.plugin.zsh
+# Install plugins if there are plugins that have not been installed
+if ! zplug check --verbose; then
+    printf "Install? [y/N]: "
+    if read -q; then
+        echo; zplug install
+    fi
+fi
 
-zplugin ice wait lucid
-zplugin snippet OMZ::plugins/colored-man-pages/colored-man-pages.plugin.zsh
+zplug
 
-zplugin ice wait atinit"zpcompinit" lucid
-zplugin light zdharma/fast-syntax-highlighting
-
-zplugin ice wait atinit"zpcompinit" lucid
-zplugin load agkozak/zsh-z
+# zplug load --verbose
+zplug load
