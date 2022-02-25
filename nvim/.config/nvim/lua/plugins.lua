@@ -70,9 +70,21 @@ require('packer').startup(function()
 	use 'majutsushi/tagbar'
 	-- use 'Yggdroot/indentLine'	"代码块可视化插件	只适用于使用空格缩进的文件中
 	use 'nathanaelkane/vim-indent-guides'	-- 代码可视化插件
-	-- ColorSchem
-	use 'tomasr/molokai'
-	use 'altercation/vim-colors-solarized'
+
+	-- ColorSchems
+	-- use 'tomasr/molokai'
+	-- use 'altercation/vim-colors-solarized'
+	use {
+	    'ful1e5/onedark.nvim',
+	    config = [[ require("onedark").setup({ highlight_linenumber = true }) ]]
+	} 
+	-- use{'tjdevries/colorbuddy.nvim', requires = 'klooj/noogies', config = [[require('colorbuddy').colorscheme('noogies') require("noogies").seeThrough()]]}
+	-- use {
+	--     'Th3Whit3Wolf/onebuddy',
+	--     requires = {{'tjdevries/colorbuddy.vim'}},
+	--     config = [[ require('colorbuddy').colorscheme('onebuddy') ]]
+    -- }
+    -- use { 'Th3Whit3Wolf/one-nvim' }
 
 	use 'chrisbra/csv.vim'
 

@@ -19,6 +19,7 @@ let g:coc_global_extensions = [
             \'coc-phpls',
             \'coc-vimlsp',
             \'coc-tabnine',
+            \'coc-lua',
             \]
 
 set shortmess+=c

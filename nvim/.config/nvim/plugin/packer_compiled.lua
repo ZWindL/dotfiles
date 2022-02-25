@@ -124,11 +124,6 @@ _G.packer_plugins = {
     path = "/home/zwindl/.local/share/nvim/site/pack/packer/start/emmet-vim",
     url = "https://github.com/mattn/emmet-vim"
   },
-  molokai = {
-    loaded = true,
-    path = "/home/zwindl/.local/share/nvim/site/pack/packer/start/molokai",
-    url = "https://github.com/tomasr/molokai"
-  },
   nerdcommenter = {
     loaded = true,
     path = "/home/zwindl/.local/share/nvim/site/pack/packer/start/nerdcommenter",
@@ -155,6 +150,7 @@ _G.packer_plugins = {
     url = "https://github.com/neovim/nvim-lspconfig"
   },
   ["nvim-treesitter"] = {
+    config = { "\27LJ\2\n4\0\0\3\0\2\0\0046\0\0\0'\2\1\0B\0\2\1K\0\1\0\25plugconfs.treesitter\frequire\0" },
     loaded = true,
     path = "/home/zwindl/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
@@ -163,6 +159,12 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/zwindl/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
     url = "https://github.com/kyazdani42/nvim-web-devicons"
+  },
+  ["onedark.nvim"] = {
+    config = { ' require("onedark").setup({ highlight_linenumber = true }) ' },
+    loaded = true,
+    path = "/home/zwindl/.local/share/nvim/site/pack/packer/start/onedark.nvim",
+    url = "https://github.com/ful1e5/onedark.nvim"
   },
   ["packer.nvim"] = {
     loaded = true,
@@ -238,11 +240,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/zwindl/.local/share/nvim/site/pack/packer/start/vim-clap",
     url = "https://github.com/liuchengxu/vim-clap"
-  },
-  ["vim-colors-solarized"] = {
-    loaded = true,
-    path = "/home/zwindl/.local/share/nvim/site/pack/packer/start/vim-colors-solarized",
-    url = "https://github.com/altercation/vim-colors-solarized"
   },
   ["vim-colorschemes"] = {
     loaded = true,
@@ -347,6 +344,14 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
+-- Config for: onedark.nvim
+time([[Config for onedark.nvim]], true)
+ require("onedark").setup({ highlight_linenumber = true }) 
+time([[Config for onedark.nvim]], false)
+-- Config for: nvim-treesitter
+time([[Config for nvim-treesitter]], true)
+try_loadstring("\27LJ\2\n4\0\0\3\0\2\0\0046\0\0\0'\2\1\0B\0\2\1K\0\1\0\25plugconfs.treesitter\frequire\0", "config", "nvim-treesitter")
+time([[Config for nvim-treesitter]], false)
 if should_profile then save_profiles() end
 
 end)

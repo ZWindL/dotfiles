@@ -56,7 +56,7 @@ g.mapleader = "\\"
 -- colorscheme Chasing_Logic
 -- colorscheme cake
 -- colorscheme colorful
-pcall(cmd, 'colorscheme candyman')
+-- pcall(cmd, 'colorscheme candyman')
 -- set background=dark
 -- highlight Normal guibg=NONE ctermbg=None
 
