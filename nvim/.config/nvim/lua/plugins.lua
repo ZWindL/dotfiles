@@ -46,7 +46,7 @@ require('packer').startup(function()
 	use 'Shougo/context_filetype.vim'
 
 
-	use {'SirVer/ultisnips', requires ={'honza/vim-snippets'}}
+	use {'SirVer/ultisnips', requires = {{'honza/vim-snippets'}}}
 	-- 
     --PHP
     -- use 'lvht/phpcd.vim', { 'for': 'php', 'do': 'composer install' }
@@ -129,14 +129,19 @@ require('packer').startup(function()
     -- use 'glacambre/firenvim', { 'do': function('firenvim#install') }
     use 'voldikss/vim-floaterm'
     use {'liuchengxu/vim-clap', run = ':Clap install-binary'}
-    use {'nvim-telescope/telescope.nvim', requires = {'nvim-lua/plenary.nvim'}}
+    use {'nvim-telescope/telescope.nvim', requires = {{'nvim-lua/plenary.nvim'}}}
+    -- treesitter
+    use { 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate', config = function () require 'plugconfs.treesitter' end }
 end)
 
 -- raw comands
 -- TODO: migrate all .vim configurations to lua, and use the `config`
 -- function provided by packer
+-- TODO: config telescope.nvim
+-- TODO: config easymotion
+-- TODO: https://github.com/nvim-treesitter/nvim-treesitter
+-- TODO: checkout Maskray's config as a reference
 vim.api.nvim_exec([[
-    "source ~/.config/nvim/plugconfs/deoplete.vim
     source ~/.config/nvim/plugconfs/airline.vim
     source ~/.config/nvim/plugconfs/ctrlp.vim
     source ~/.config/nvim/plugconfs/easymotion.vim
