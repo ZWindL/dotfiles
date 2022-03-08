@@ -24,7 +24,7 @@ require("packer").startup(function()
         config = get_config("trouble"),
         cmd = {"Trouble", "TroubleToggle"}
     }
-    use {"RRethy/vim-illuminate", event = "CursorHold"}
+    -- use {"RRethy/vim-illuminate", event = "CursorHold"}
     ---------------------------------------------------------------- completer --------------------------------------------------------------------------------
     use {
         "hrsh7th/nvim-cmp",
@@ -73,7 +73,7 @@ require("packer").startup(function()
     use {"nvim-telescope/telescope-fzf-native.nvim", run = "make"}
     use {"sudormrfbin/cheatsheet.nvim", config = get_config("cheatsheet")}
     ---- telescope plugins ends
-
+    use {"numToStr/Comment.nvim", config = get_config("comment")}
     use {"numToStr/Navigator.nvim", config = get_config("navigator")}
     use {"ggandor/lightspeed.nvim", event = "BufReadPre"}
     use {"windwp/nvim-autopairs", config = get_config("autopairs")}
@@ -197,9 +197,10 @@ require("packer").startup(function()
     ---------------------------------------------------------------- Misc -------------------------------------------------------------------------
     use {"dhruvasagar/vim-table-mode", config = get_config("vim-table")}
     use "wakatime/vim-wakatime"
-    use "scrooloose/nerdcommenter"
-    use "wellle/targets.vim"
     use "tpope/vim-surround"
+    use "wellle/targets.vim"
+    -- TODO use {"echasnovski/mini.nvim", config = get_config("mini")}
+    -- TODO https://github.com/glepnir/dashboard-nvim
 
 end)
 
