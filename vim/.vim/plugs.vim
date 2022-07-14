@@ -43,7 +43,7 @@ call plug#begin('~/.local/share/vim/plugged')
 	"Plug 'Valloric/YouCompleteMe'
 		"Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
 	"Plug 'jeaye/color_coded', { 'do': function('BuildColorCoded') }
-	Plug 'jeaye/color_coded'
+	"Plug 'jeaye/color_coded'
 
 	""Assembly Hilight
 	Plug 'Shirk/vim-gas'
