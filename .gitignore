@@ -9,3 +9,5 @@ weechat/.weechat/sec.conf
 weechat/.weechat/scripts/*
 weechat/.weechat/python/*
 weechat/.weechat/matrix/*
+
+.luarc.json

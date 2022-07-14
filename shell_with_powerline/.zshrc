@@ -60,3 +60,6 @@ bindkey '^x^e' edit-command-line
 
 . ~/.zplug/init.zsh
 . ~/.zsh/plugs.zsh
+
+# zoxied install
+eval "$(zoxide init zsh)"

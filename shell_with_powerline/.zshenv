@@ -60,3 +60,6 @@ export SSH_KEY_PATH="~/.ssh/dsa_id"
 
 #fzf
 export FZF_CTRL_T_OPTS="--preview '(highlight -O ansi -l {} 2> /dev/null || cat {} || tree -C {}) 2> /dev/null | head -200'"
+
+# neovide multigride feature
+export NEOVIDE_MULTIGRID=1
