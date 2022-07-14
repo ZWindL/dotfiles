@@ -19,12 +19,12 @@ local autocmds = {
             "TextYankPost", "*",
             "silent! lua vim.highlight.on_yank({timeout=200})"
         }
-    },
-    lsp_hi = {
-        {"CursorHold", "*", "lua vim.lsp.buf.document_highlight()"},
-        {"CursorHoldI", "*", "lua vim.lsp.buf.document_highlight()"},
-        {"CursorMoved", "*", "lua vim.lsp.buf.clear_references()"}
     }
+    -- lsp_hi = {
+    --     {"CursorHold", "*", "lua vim.lsp.buf.document_highlight()"},
+    --     {"CursorHoldI", "*", "lua vim.lsp.buf.document_highlight()"},
+    --     {"CursorMoved", "*", "lua vim.lsp.buf.clear_references()"}
+    -- }
 }
 
 nvim_create_augroups(autocmds)

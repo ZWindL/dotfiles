@@ -10,7 +10,11 @@ require("packer").startup(function()
     -------------------------------------------------------------- lsp related --------------------------------------------------------------------------------
     use {"neovim/nvim-lspconfig", config = get_config("lspconfig")}
     use {"onsails/lspkind-nvim", requires = {"famiu/bufdelete.nvim"}}
-    use {"glepnir/lspsaga.nvim", config = get_config("lspsaga")}
+    use {
+        "glepnir/lspsaga.nvim",
+        branch = "main",
+        config = get_config("lspsaga")
+    }
     use {
         "nvim-treesitter/nvim-treesitter",
         run = ":TSUpdate",
@@ -24,6 +28,21 @@ require("packer").startup(function()
         config = get_config("trouble"),
         cmd = {"Trouble", "TroubleToggle"}
     }
+    use { -- NOTE: requires nvim 0.7
+        "narutoxy/dim.lua",
+        requires = {"nvim-treesitter/nvim-treesitter", "neovim/nvim-lspconfig"},
+        config = function()
+            require("dim").setup()
+        end
+    }
+    -- fold/unfold
+    use {"kevinhwang91/nvim-ufo", requires = "kevinhwang91/promise-async"}
+    -- use {
+    --     "j-hui/fidget.nvim",
+    --     config = function()
+    --         require"fidget".setup {}
+    --     end
+    -- }
     -- use {"RRethy/vim-illuminate", event = "CursorHold"}
     ---------------------------------------------------------------- completer --------------------------------------------------------------------------------
     use {
@@ -74,7 +93,7 @@ require("packer").startup(function()
     use {"sudormrfbin/cheatsheet.nvim", config = get_config("cheatsheet")}
     ---- telescope plugins ends
     use {"numToStr/Comment.nvim", config = get_config("comment")}
-    use {"numToStr/Navigator.nvim", config = get_config("navigator")}
+    -- use {"numToStr/Navigator.nvim", config = get_config("navigator")}
     use {"ggandor/lightspeed.nvim", event = "BufReadPre"}
     use {"windwp/nvim-autopairs", config = get_config("autopairs")}
     use "junegunn/vim-easy-align"
@@ -108,6 +127,7 @@ require("packer").startup(function()
     }
     -- gitsigns also provided this feature
     use {"f-person/git-blame.nvim", config = get_config("git-blame")}
+    use {"rhysd/git-messenger.vim"}
     use {
         "lewis6991/gitsigns.nvim",
         requires = {"nvim-lua/plenary.nvim"},
@@ -135,11 +155,14 @@ require("packer").startup(function()
     -- terminal
     use {
         "akinsho/toggleterm.nvim",
+        branch = "main",
         keys = {"<C-y>", "<leader>ft", "<leader>gt"},
         config = get_config("toggleterm")
     }
+    use "bfredl/nvim-luadev"
+    use "antoinemadec/FixCursorHold.nvim"
     ------------------------------------------------------------ ColorSchems ----------------------------------------------------------------------
-    use {"ful1e5/onedark.nvim", config = get_config("themes/onedark")}
+    use {"navarasu/onedark.nvim", config = get_config("themes/onedark")}
     -- use {
     --     "tjdevries/colorbuddy.nvim",
     --     requires = "klooj/noogies",
@@ -159,6 +182,7 @@ require("packer").startup(function()
     -- ui optimizations
     use "kyazdani42/nvim-web-devicons"
     use "ryanoasis/vim-devicons"
+    use "arkav/lualine-lsp-progress"
     use {
         "nvim-lualine/lualine.nvim",
         config = get_config("lualine"),
@@ -171,7 +195,7 @@ require("packer").startup(function()
     }
     use {"kyazdani42/nvim-tree.lua", config = get_config("nvim-tree")}
     use {
-        "akinsho/nvim-bufferline.lua",
+        "akinsho/bufferline.nvim",
         event = "BufReadPre",
         config = get_config("bufferline")
     }
@@ -182,7 +206,7 @@ require("packer").startup(function()
         config = get_config("neoscroll")
     }
     -- show marks on left side
-    use {"chentau/marks.nvim", config = get_config("marks")}
+    use {"chentoast/marks.nvim", config = get_config("marks")}
     -- outline
     use {
         "simrat39/symbols-outline.nvim",
@@ -198,6 +222,7 @@ require("packer").startup(function()
     use {"dhruvasagar/vim-table-mode", config = get_config("vim-table")}
     use "wakatime/vim-wakatime"
     use "tpope/vim-surround"
+    use "tpope/vim-repeat"
     use "wellle/targets.vim"
     -- TODO use {"echasnovski/mini.nvim", config = get_config("mini")}
     -- TODO https://github.com/glepnir/dashboard-nvim
