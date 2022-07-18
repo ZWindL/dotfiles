@@ -21,8 +21,12 @@ saga.init_lsp_saga({
         sign_priority = 20,
         virtual_text = true
     },
-    -- separator in finder
-    finder_separator = "  ",
+    -- finder icons
+    finder_icons = {
+      def = '  ',
+      ref = '諭 ',
+      link = '  ',
+    },
     max_preview_lines = 10,
     finder_action_keys = {
         open = "o",
