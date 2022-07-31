@@ -35,6 +35,10 @@ require("packer").startup(function()
             require("dim").setup()
         end
     }
+    use {
+        "https://git.sr.ht/~whynothugo/lsp_lines.nvim",
+        config = get_config("lsp-lines")
+    }
     -- fold/unfold
     use {"kevinhwang91/nvim-ufo", requires = "kevinhwang91/promise-async"}
     -- use {
