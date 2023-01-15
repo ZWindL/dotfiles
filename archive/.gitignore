@@ -1,0 +1,13 @@
+*~
+*.log
+nvim/.config/nvim/plugged/*
+vim/.vim/autoload/*
+vim/.vim/plugged/*
+
+weechat/.weechat/logs/*
+weechat/.weechat/sec.conf
+weechat/.weechat/scripts/*
+weechat/.weechat/python/*
+weechat/.weechat/matrix/*
+
+.luarc.json

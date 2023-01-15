@@ -1,0 +1,10 @@
+Host *
+    KexAlgorithms +diffie-hellman-group1-sha1
+ServerAliveInterval 30
+
+Host github.com
+  User git
+  ProxyCommand nc -X connect -x localhost:8123 %h %p
+
+Host direct.labs.play-with-docker.com
+  ProxyCommand nc -X connect -x localhost:8123 %h %p

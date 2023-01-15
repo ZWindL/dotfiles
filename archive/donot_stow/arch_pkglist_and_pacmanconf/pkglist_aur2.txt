@@ -1,0 +1,9 @@
+musikcube
+ocs-url
+oh-my-zsh-git
+olive-git
+phpstorm
+phpstorm-jre
+pipes.sh
+powerstat-git
+proxychains-ng-git

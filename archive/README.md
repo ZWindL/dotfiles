@@ -1,12 +1,12 @@
 #My dotfiles
 
-Switched to chezmoi to manage dotfiles now, see https://www.chezmoi.io/
+exec `stow $PACKAGE_NAME` to create the link of certain package's configure file.
 
-exec `pacman -Qqen > donot_touch/pkglist.txt` to make a list of installed packages.
+exec `pacman -Qqen > pkglist.txt` to make a list of installed packages.
 
 To install packages from the list backup, run:
 ```
-sudo pacman -S - < donot_touch/pkglist.txt
+sudo pacman -S - < pkglist.txt
 ```
 
 *To skip already installed packages, use `--needed`*
