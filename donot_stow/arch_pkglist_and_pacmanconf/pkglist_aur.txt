@@ -1,7 +1,0 @@
-mudlet
-rtfreader
-sourcetrail
-spectre-meltdown-checker
-ttf-fira-go
-vokoscreen-git
-yed
