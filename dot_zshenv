@@ -4,8 +4,8 @@
 export ZSH=/usr/share/oh-my-zsh/
 
 #hidpi
-export QT_AUTO_SCREEN_SCALE_FACTOR=1
-export PLASMA_USE_QT_SCALING=1
+#export QT_AUTO_SCREEN_SCALE_FACTOR=1
+#export PLASMA_USE_QT_SCALING=1
 
 #256 colors
 export TERM=xterm-256color
